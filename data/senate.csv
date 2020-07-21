@@ -1,0 +1,1505 @@
+year,state,state_po,state_fips,candidate,party,candidatevotes,totalvotes,percentvote
+1976,Arizona,AZ,4,Sam Steiger,republican,321236,741210,43.34
+1976,Arizona,AZ,4,Dennis DeConcini,democrat,400334,741210,54.01
+1976,California,CA,6,S. I. (Sam) Hayakawa,republican,3748973,7470586,50.18
+1976,California,CA,6,John V. Tunney,democrat,3502862,7470586,46.89
+1976,Connecticut,CT,9,"Lowell P. Weicker, Jr.",republican,785683,1361666,57.70
+1976,Connecticut,CT,9,Gloria Schaffer,democrat,561018,1361666,41.20
+1976,Delaware,DE,10,Thomas C. Maloney,democrat,98042,224795,43.61
+1976,Delaware,DE,10,"William V. Roth, Jr.",republican,125454,224795,55.81
+1976,Florida,FL,12,Lawton Chiles,democrat,1799518,2857534,62.97
+1976,Florida,FL,12,John Grady,republican,1057886,2857534,37.02
+1976,Hawaii,HI,15,Spark M. Matsunaga,democrat,162305,302092,53.73
+1976,Hawaii,HI,15,William Quinn,republican,122724,302092,40.62
+1976,Indiana,IN,18,Richard G. Lugar,republican,1275833,2161187,59.03
+1976,Indiana,IN,18,Vance Hartke,democrat,868522,2161187,40.19
+1976,Maine,ME,23,Robert A. G. Monks,republican,193489,486193,39.80
+1976,Maine,ME,23,Edmund S. Muskie,democrat,292704,486193,60.20
+1976,Maryland,MD,24,"J. Glenn Beall, Jr.",republican,530439,1365290,38.85
+1976,Maryland,MD,24,Paul S. Sarbanes,democrat,772101,1365290,56.55
+1976,Massachusetts,MA,25,Michael S. Robertson,republican,722641,2491255,29.01
+1976,Massachusetts,MA,25,Edward M. Kennedy,democrat,1726657,2491255,69.31
+1976,Michigan,MI,26,Marvin L. Esch,republican,1635087,3490412,46.85
+1976,Michigan,MI,26,"Donald W. Riegle, Jr.",democrat,1831031,3490412,52.46
+1976,Minnesota,MN,27,Jerry Brekke,republican,478602,1912020,25.03
+1976,Minnesota,MN,27,Hubert H. Humphrey,democrat,1290736,1912020,67.51
+1976,Mississippi,MS,28,John C. Stennis,democrat,554433,554433,100.00
+1976,Missouri,MO,29,John C. Danforth,republican,1090067,1914460,56.94
+1976,Missouri,MO,29,Warren E. Hearnes,democrat,813571,1914460,42.50
+1976,Montana,MT,30,Stanley C. Burger,republican,115213,321445,35.84
+1976,Montana,MT,30,John Melcher,democrat,206232,321445,64.16
+1976,Nebraska,NE,31,John Y. McCollister,republican,279284,593310,47.07
+1976,Nebraska,NE,31,Edward Zorinsky,democrat,313805,593310,52.89
+1976,Nevada,NV,32,David Towell,republican,63471,201899,31.44
+1976,Nevada,NV,32,Howard W. Cannon,democrat,127214,201899,63.01
+1976,New Jersey,NJ,34,"Harrison A. Williams, Jr.",democrat,1681140,2771390,60.66
+1976,New Jersey,NJ,34,David F. Norcross,republican,1054508,2771390,38.05
+1976,New Mexico,NM,35,Joseph M. Montoya,democrat,176382,413056,42.70
+1976,New Mexico,NM,35,"Harrison ""Jack"" Schmitt",republican,234681,413056,56.82
+1976,New York,NY,36,James L. Buckley,republican,2525139,6666875,37.88
+1976,New York,NY,36,Daniel Patrick Moynihan,democrat,3238511,6666875,48.58
+1976,North Dakota,ND,38,Robert Stroup,republican,103466,283062,36.55
+1976,North Dakota,ND,38,Quentin N. Burdick,democrat,175772,283062,62.10
+1976,Ohio,OH,39,Howard M. Metzenbaum,democrat,1941113,3920613,49.51
+1976,Ohio,OH,39,"Robert Taft, Jr.",republican,1823774,3920613,46.52
+1976,Pennsylvania,PA,42,H. John Heinz III,republican,2381891,4546353,52.39
+1976,Pennsylvania,PA,42,William J. Green,democrat,2126977,4546353,46.78
+1976,Rhode Island,RI,44,Richard P. Lorber,democrat,167665,398906,42.03
+1976,Rhode Island,RI,44,John H. Chafee,republican,230329,398906,57.74
+1976,Tennessee,TN,47,James R. Sasser,democrat,751180,1432046,52.46
+1976,Tennessee,TN,47,Bill Brock,republican,673231,1432046,47.01
+1976,Texas,TX,48,Alan Steelman,republican,1636370,3874230,42.24
+1976,Texas,TX,48,Lloyd Bentsen,democrat,2199956,3874230,56.78
+1976,Utah,UT,49,Orrin G. Hatch,republican,290221,522108,55.59
+1976,Utah,UT,49,Frank E. Moss,democrat,223948,522108,42.89
+1976,Vermont,VT,50,Robert T. Stafford,republican,94481,189060,49.97
+1976,Vermont,VT,50,Thomas P. Salmon,democrat,85682,189060,45.32
+1976,Virginia,VA,51,E. R. (Bud) Zumwalt,democrat,596009,1557500,38.27
+1976,Washington,WA,53,Henry M. Jackson,democrat,1071219,1491111,71.84
+1976,Washington,WA,53,George M. Brown,republican,361546,1491111,24.25
+1976,West Virginia,WV,54,Robert C. Byrd,democrat,566359,566359,100.00
+1976,Wisconsin,WI,55,William Proxmire,democrat,1396970,1935183,72.19
+1976,Wisconsin,WI,55,Stanley York,republican,521902,1935183,26.97
+1976,Wyoming,WY,56,Gale McGee,democrat,70558,155368,45.41
+1976,Wyoming,WY,56,Malcolm Wallop,republican,84810,155368,54.59
+1978,Alabama,AL,1,James D. Martin,republican,316170,729842,43.32
+1978,Alabama,AL,1,Donald Stewart,democrat,401852,729842,55.06
+1978,Alabama,AL,1,Howell Heflin,democrat,547054,582005,93.99
+1978,Alaska,AK,2,Donald Hobbs,democrat,29574,122741,24.09
+1978,Alaska,AK,2,Ted Stevens,republican,92783,122741,75.59
+1978,Arkansas,AR,5,David Pryor,democrat,395506,517138,76.48
+1978,Arkansas,AR,5,Tom Kelly,republican,84308,517138,16.30
+1978,Colorado,CO,8,Floyd K. Haskell,democrat,330148,819256,40.30
+1978,Colorado,CO,8,William L. Armstrong,republican,480801,819256,58.69
+1978,Delaware,DE,10,Joseph R. Biden Jr.,democrat,93930,162072,57.96
+1978,Delaware,DE,10,James H. Baxter Jr.,republican,66479,162072,41.02
+1978,Georgia,GA,13,John W. Stokes,republican,108808,645128,16.87
+1978,Georgia,GA,13,Sam Nunn,democrat,536320,645128,83.13
+1978,Idaho,ID,16,Dwight Jensen,democrat,89635,284047,31.56
+1978,Idaho,ID,16,James A. McClure,republican,194412,284047,68.44
+1978,Illinois,IL,17,Alex Smith,democrat,1448187,3184764,45.47
+1978,Illinois,IL,17,Charles H. Perey,republican,1698711,3184764,53.34
+1978,Iowa,IA,19,Roger W. Jepsen,republican,421598,824576,51.13
+1978,Iowa,IA,19,Dick Clark,democrat,395066,824576,47.91
+1978,Kansas,KS,20,Nancy Landon Kassebaum,republican,403354,748839,53.86
+1978,Kansas,KS,20,Bill Roy,democrat,317602,748839,42.41
+1978,Kentucky,KY,21,Walter D. Huddleston,democrat,290730,476783,60.98
+1978,Kentucky,KY,21,Louie Guenthner Jr. ,republican,175766,476783,36.86
+1978,Louisiana,LA,22,J. Bennett Johnston Jr. ,democrat,1,1,100.00
+1978,Maine,ME,23,William D. Hathaway,democrat,127327,375114,33.94
+1978,Maine,ME,23,William S. Cohen,republican,212294,375114,56.59
+1978,Massachusetts,MA,25,Paul E. Tsongas,democrat,1093283,1985700,55.06
+1978,Massachusetts,MA,25,Edward W. Brooke,republican,890584,1985700,44.85
+1978,Michigan,MI,26,Carl Levin,democrat,1484193,2846630,52.14
+1978,Michigan,MI,26,Robert P. Griffin,republican,1362165,2846630,47.85
+1978,Minnesota,MN,27,Bob Short,democrat,538675,1558376,34.57
+1978,Minnesota,MN,27,David Durenberger,republican,957908,1558376,61.47
+1978,Minnesota,MN,27,Wendell Anderson,democrat,638375,1580622,40.39
+1978,Minnesota,MN,27,Rudolph E. Boschwitz,republican,894092,1580622,56.57
+1978,Mississippi,MS,28,Maurice Dantin,democrat,187541,590236,31.77
+1978,Mississippi,MS,28,Thad Cochran,republican,267302,590236,45.29
+1978,Montana,MT,30,Max Baucus,democrat,160353,287942,55.69
+1978,Montana,MT,30,Larry Williams,republican,127589,287942,44.31
+1978,Nebraska,NE,31,Donald Eugene Shasten,republican,159706,493802,32.34
+1978,Nebraska,NE,31,James J. Exon,democrat,334096,493802,67.66
+1978,New Hampshire,NH,33,Gordon J. Humphrey,republican,133745,263760,50.71
+1978,New Hampshire,NH,33,Thomas J. McIntyre,democrat,127945,263760,48.51
+1978,New Jersey,NJ,34,Jeffrey Bell,republican,844200,1957515,43.13
+1978,New Jersey,NJ,34,Bill Bradley,democrat,1082960,1957515,55.32
+1978,New Mexico,NM,35,Toney Anaya,democrat,160045,343487,46.59
+1978,New Mexico,NM,35,Pete V. Domenici,republican,183442,343487,53.41
+1978,North Carolina,NC,37,Jesse Helms,republican,619151,1135814,54.51
+1978,North Carolina,NC,37,John Randolph Ingram,democrat,516663,1135814,45.49
+1978,Oklahoma,OK,40,Robert B. Kamm,republican,247857,754264,32.86
+1978,Oklahoma,OK,40,David Lyle Boren,democrat,493953,754264,65.49
+1978,Oregon,OR,41,Mark Hatfield,republican,550165,892518,61.64
+1978,Oregon,OR,41,Vern Cook,democrat,341616,892518,38.28
+1978,Rhode Island,RI,44,Claiborne Pell,democrat,229557,305618,75.11
+1978,Rhode Island,RI,44,James G. Reyonlds,republican,76061,305618,24.89
+1978,South Carolina,SC,45,Strom Thurmond,republican,351917,632063,55.68
+1978,South Carolina,SC,45,Charles D. Ravenel,democrat,280146,632063,44.32
+1978,South Dakota,SD,46,Don Barnett,democrat,84767,255599,33.16
+1978,South Dakota,SD,46,Larry Pressler,republican,170832,255599,66.84
+1978,Tennessee,TN,47,Howard H. Baker,republican,642644,1157094,55.54
+1978,Tennessee,TN,47,Jane Eskind,democrat,466228,1157094,40.29
+1978,Texas,TX,48,Robert Krueger,democrat,1139149,2312540,49.26
+1978,Texas,TX,48,John G. Tower,republican,1151376,2312540,49.79
+1978,Virginia,VA,51,Andrew P. Miller,democrat,608511,1222256,49.79
+1978,Virginia,VA,51,John William Warner,republican,613232,1222256,50.17
+1978,West Virginia,WV,54,Arch A. Moore Jr. ,republican,244317,493351,49.52
+1978,West Virginia,WV,54,Jennings Randolph,democrat,249034,493351,50.48
+1978,Wyoming,WY,56,Raymond B. Whitaker,democrat,82908,133364,62.17
+1978,Wyoming,WY,56,Alan Kooi Simpson,republican,50456,133364,37.83
+1980,Alabama,AL,1,Jim Folsom Jr.,democrat,610175,1296757,47.05
+1980,Alabama,AL,1,Jeremiah Denton,republican,650362,1296757,50.15
+1980,Alaska,AK,2,Clark S. Gruening,democrat,72007,156762,45.93
+1980,Alaska,AK,2,Frank H. Murkowski,republican,84159,156762,53.69
+1980,Arizona,AZ,4,Barry Goldwater,republican,432371,874238,49.46
+1980,Arizona,AZ,4,Bill Schulz,democrat,422972,874238,48.38
+1980,Arkansas,AR,5,Dale Bumpers,democrat,477905,808812,59.09
+1980,Arkansas,AR,5,Bill Clark,republican,330576,808812,40.87
+1980,California,CA,6,Paul Gann,republican,3091671,8324012,37.14
+1980,California,CA,6,Alan Cranston,democrat,4704098,8324012,56.51
+1980,Colorado,CO,8,Gary Hart,democrat,590501,1173142,50.33
+1980,Colorado,CO,8,Mary Estill Buchanan,republican,571295,1173142,48.70
+1980,Connecticut,CT,9,Christopher J. Dodd,democrat,763969,1356075,56.34
+1980,Connecticut,CT,9,James L. Buckley,republican,581884,1356075,42.91
+1980,Florida,FL,12,Bill Gunter,democrat,1705409,3528028,48.34
+1980,Florida,FL,12,Paula Hawkins,republican,1822460,3528028,51.66
+1980,Georgia,GA,13,Herman E. Talmadge,democrat,776143,1579829,49.13
+1980,Georgia,GA,13,Mack Mattingly,republican,803686,1579829,50.87
+1980,Hawaii,HI,15,Daniel K. Inouye,democrat,224485,288006,77.94
+1980,Hawaii,HI,15,Cooper Brown,republican,53068,288006,18.43
+1980,Idaho,ID,16,Steve Symms,republican,218701,439647,49.74
+1980,Idaho,ID,16,Frank Church,democrat,214439,439647,48.78
+1980,Illinois,IL,17,David C. O'Neal,republican,1946296,4580029,42.50
+1980,Illinois,IL,17,Alan J. Dixon,democrat,2565302,4580029,56.01
+1980,Indiana,IN,18,Birch Bayh,democrat,1015962,2198376,46.21
+1980,Indiana,IN,18,Dan Quayle,republican,1182414,2198376,53.79
+1980,Iowa,IA,19,Charles E. Grassley,republican,683014,1276986,53.49
+1980,Iowa,IA,19,John Culver,democrat,581545,1276986,45.54
+1980,Kansas,KS,20,Bob Dole,republican,598686,938957,63.76
+1980,Kansas,KS,20,John Simpson,democrat,340271,938957,36.24
+1980,Kentucky,KY,21,Wendell H. Ford,democrat,720891,1106920,65.13
+1980,Kentucky,KY,21,Mary Louise Foust,republican,386029,1106920,34.87
+1980,Louisiana,LA,22,Louis Woody Jenkins,democrat,325922,841013,38.75
+1980,Louisiana,LA,22,Russell B. Long,democrat,484770,841013,57.64
+1980,Louisiana,LA,22,Jerry C. Bardwell,republican,13739,841013,1.63
+1980,Louisiana,LA,22,Robert Max Ross,republican,10208,841013,1.21
+1980,Maryland,MD,24,Charles McC. Mathias Jr. ,republican,850970,1286088,66.17
+1980,Maryland,MD,24,Edward T. Conroy,democrat,435118,1286088,33.83
+1980,Missouri,MO,29,Gene McNary,republican,985399,2066965,47.67
+1980,Missouri,MO,29,Thomas F. Eagleton,democrat,1074859,2066965,52.00
+1980,Nevada,NV,32,Paul Laxalt,republican,144224,243273,59.28
+1980,Nevada,NV,32,Mary Gojack,democrat,92129,243273,37.87
+1980,New Hampshire,NH,33,Warren Rudman,republican,195559,375060,52.14
+1980,New Hampshire,NH,33,John A. Durkin,democrat,179455,375060,47.85
+1980,New York,NY,36,Alfonse M. D'Amato,republican,2272082,6014914,37.77
+1980,New York,NY,36,Elizabeth Holtzman,democrat,2618661,6014914,43.54
+1980,North Carolina,NC,37,Robert Morgan,democrat,887653,1797665,49.38
+1980,North Carolina,NC,37,John P. East,republican,898064,1797665,49.96
+1980,Ohio,OH,39,James E. Betts,republican,1137695,4027303,28.25
+1980,Ohio,OH,39,John Glenn,democrat,2770786,4027303,68.80
+1980,Oklahoma,OK,40,Don Nickles,republican,587252,1098294,53.47
+1980,Oklahoma,OK,40,Andy Coats,democrat,478283,1098294,43.55
+1980,Oregon,OR,41,Ted Kulongoski,democrat,501963,1140494,44.01
+1980,Oregon,OR,41,Bob Packwood,republican,594290,1140494,52.11
+1980,Pennsylvania,PA,42,Pete Flaherty,democrat,2122391,4418042,48.04
+1980,Pennsylvania,PA,42,Arlen Specter,republican,2230404,4418042,50.48
+1980,South Carolina,SC,45,Marshall Mays,republican,257946,870500,29.63
+1980,South Carolina,SC,45,Ernest Fritz Hollings,democrat,612554,870500,70.37
+1980,South Dakota,SD,46,James Abdnor,republican,190594,327478,58.20
+1980,South Dakota,SD,46,George McGovern,democrat,129018,327478,39.40
+1980,Utah,UT,49,Jake Garn,republican,437675,594298,73.65
+1980,Utah,UT,49,Dan Berman,democrat,151454,594298,25.48
+1980,Vermont,VT,50,Stewart M. Ledbetter,republican,101421,209124,48.50
+1980,Vermont,VT,50,Patrick J. Leahy,democrat,104176,209124,49.82
+1980,Washington,WA,53,Warren G. Magnuson,democrat,792052,1728369,45.83
+1980,Washington,WA,53,Slade Gorton,republican,936317,1728369,54.17
+1980,Wisconsin,WI,55,Robert W. Kasten Jr.,republican,1106311,2204202,50.19
+1980,Wisconsin,WI,55,Gaylord A. Nelson,democrat,1065487,2204202,48.34
+1982,Arizona,AZ,4,Dennis DeConcini,democrat,411970,723885,56.91
+1982,Arizona,AZ,4,Pete Dunn,republican,291749,723885,40.30
+1982,California,CA,6,"Edmund G. Brown, Jr.",democrat,3494968,7805450,44.78
+1982,California,CA,6,Pete Wilson,republican,4022565,7805450,51.54
+1982,Connecticut,CT,9,Anthony Toby Moffett,democrat,499146,1083508,46.07
+1982,Connecticut,CT,9,"Lowell P. Weicker, Jr.",republican,545987,1083508,50.39
+1982,Delaware,DE,10,David N. Levinson,democrat,84413,190960,44.20
+1982,Delaware,DE,10,"William V. Roth, Jr.",republican,105357,190960,55.17
+1982,Florida,FL,12,Van B. Poole,republican,1015330,2653419,38.26
+1982,Florida,FL,12,Lawton Chiles,democrat,1637667,2653419,61.72
+1982,Hawaii,HI,15,Spark Matsunaga,democrat,245386,306410,80.08
+1982,Hawaii,HI,15,Clarence J. Brown,republican,52071,306410,16.99
+1982,Indiana,IN,18,Floyd J. Fithian,democrat,828400,1817287,45.58
+1982,Indiana,IN,18,Richard G. Lugar,republican,978301,1817287,53.83
+1982,Maine,ME,23,David F. Emery,republican,179882,459715,39.13
+1982,Maine,ME,23,George J. Mitchell,democrat,279819,459715,60.87
+1982,Maryland,MD,24,Paul S. Sarbanes,democrat,707356,1114690,63.46
+1982,Maryland,MD,24,Lawrence J. Hogan,republican,407334,1114690,36.54
+1982,Massachusetts,MA,25,Ray Shamie,republican,784602,2050769,38.26
+1982,Massachusetts,MA,25,Edward M. Kennedy,democrat,1247084,2050769,60.81
+1982,Michigan,MI,26,"Donald W. Riegle, Jr.",democrat,1728793,2994334,57.74
+1982,Michigan,MI,26,Philip E. Ruppe,republican,1223288,2994334,40.85
+1982,Minnesota,MN,27,Mark Dayton,democrat,840401,1804675,46.57
+1982,Minnesota,MN,27,Dave Durenberger,republican,949207,1804675,52.60
+1982,Mississippi,MS,28,John C. Stennis,democrat,414099,645026,64.20
+1982,Mississippi,MS,28,Haley Barbour,republican,230927,645026,35.80
+1982,Missouri,MO,29,Harriett Woods,democrat,758629,1543521,49.15
+1982,Missouri,MO,29,John C. Danforth,republican,784876,1543521,50.85
+1982,Montana,MT,30,Larry Williams,republican,133789,321062,41.67
+1982,Montana,MT,30,John Melcher,democrat,174861,321062,54.46
+1982,Nebraska,NE,31,Edward Zorinsky,democrat,363350,545647,66.59
+1982,Nebraska,NE,31,Jim Keck,republican,155760,545647,28.55
+1982,Nevada,NV,32,Chic Hecht,republican,120377,235097,51.20
+1982,Nevada,NV,32,Howard Cannon,democrat,114720,235097,48.80
+1982,New Jersey,NJ,34,Millicent Fenwick,republican,1047626,2193945,47.75
+1982,New Jersey,NJ,34,Frank R. Lautenberg,democrat,1117549,2193945,50.94
+1982,New Mexico,NM,35,Harrison H. Schmitt,republican,187128,404810,46.23
+1982,New Mexico,NM,35,Jeff Bingaman,democrat,217682,404810,53.77
+1982,New York,NY,36,Florence M. Sullivan,republican,1415749,4967729,28.50
+1982,New York,NY,36,Daniel P. Moynihan,democrat,3089871,4967729,62.20
+1982,North Dakota,ND,38,Gene Knorr,republican,89304,262465,34.03
+1982,North Dakota,ND,38,Quentin N. Burdick,democrat,164873,262465,62.82
+1982,Ohio,OH,39,Paul E. Pfeifer,republican,1396790,3395463,41.14
+1982,Ohio,OH,39,Howard M. Metzenbaum,democrat,1923767,3395463,56.66
+1982,Pennsylvania,PA,42,Cyril H. Wecht,democrat,1412965,3604108,39.20
+1982,Pennsylvania,PA,42,John Heinz,republican,2136418,3604108,59.28
+1982,Rhode Island,RI,44,John H. Chafee,republican,175495,342778,51.20
+1982,Rhode Island,RI,44,Julius C. Michaelson,democrat,167283,342778,48.80
+1982,Tennessee,TN,47,Robin Beard,republican,479642,1259785,38.07
+1982,Tennessee,TN,47,Jim Sasser,democrat,780113,1259785,61.92
+1982,Texas,TX,48,Lloyd Bentsen,democrat,1818223,3103167,58.59
+1982,Texas,TX,48,Jim Collins,republican,1256759,3103167,40.50
+1982,Utah,UT,49,Orrin G. Hatch,republican,309332,530802,58.28
+1982,Utah,UT,49,Ted Wilson,democrat,219482,530802,41.35
+1982,Vermont,VT,50,Robert T. Stafford,republican,84449,168002,50.27
+1982,Vermont,VT,50,James A. Guest,democrat,79340,168002,47.23
+1982,Virginia,VA,51,"Paul S. Trible, Jr.",republican,724571,1415622,51.18
+1982,Virginia,VA,51,Richard J. (Dick) Davis,democrat,690839,1415622,48.80
+1982,Washington,WA,53,Doug Jewett,republican,332273,1368476,24.28
+1982,Washington,WA,53,Henry M. Jackson,democrat,943655,1368476,68.96
+1982,West Virginia,WV,54,Cleve Benedict,republican,173910,565314,30.76
+1982,West Virginia,WV,54,Robert C. Byrd,democrat,387170,565314,68.49
+1982,Wisconsin,WI,55,Scott McCallum,republican,527355,1544883,34.14
+1982,Wisconsin,WI,55,William Proxmire,democrat,983311,1544883,63.65
+1982,Wyoming,WY,56,Malcolm Wallop,republican,94725,167191,56.66
+1982,Wyoming,WY,56,Rodger McDaniel,democrat,72466,167191,43.34
+1984,Alabama,AL,1,Howell Heflin,democrat,860535,1371234,62.76
+1984,Alabama,AL,1,Albert Lee Smith,republican,498508,1371234,36.35
+1984,Alaska,AK,2,John E. Havelock,democrat,58804,206438,28.49
+1984,Alaska,AK,2,Ted Stevens,republican,146919,206438,71.17
+1984,Arkansas,AR,5,David Pryor,democrat,502341,875956,57.35
+1984,Arkansas,AR,5,Ed Bethune,republican,373615,875956,42.65
+1984,Colorado,CO,8,"William L. ""Bill"" Armstrong",republican,833821,1297809,64.25
+1984,Colorado,CO,8,Nancy Dick,democrat,449327,1297809,34.62
+1984,Delaware,DE,10,Joseph R. Biden Jr.,democrat,147831,245932,60.11
+1984,Delaware,DE,10,John M. Burris,republican,98101,245932,39.89
+1984,Georgia,GA,13,Mike Hicks,republican,337196,1681344,20.06
+1984,Georgia,GA,13,Sam Nunn,democrat,1344104,1681344,79.94
+1984,Idaho,ID,16,Peter M. Busch,democrat,105591,406168,26.00
+1984,Idaho,ID,16,James A. McClure,republican,293193,406168,72.19
+1984,Illinois,IL,17,Charles H. Percy,republican,2308039,4787335,48.21
+1984,Illinois,IL,17,Paul Simon,democrat,2397165,4787335,50.07
+1984,Iowa,IA,19,Roger W. Jepsen,republican,564381,1292700,43.66
+1984,Iowa,IA,19,Tom Harkin,democrat,716883,1292700,55.46
+1984,Kansas,KS,20,James R. Maher,democrat,211664,996729,21.24
+1984,Kansas,KS,20,Nancy Landon Kassebaum,republican,757402,996729,75.99
+1984,Kentucky,KY,21,Walter (Dee) Huddleston,democrat,639721,1292407,49.50
+1984,Kentucky,KY,21,Mitch McConnell,democrat,644990,1292407,49.91
+1984,Louisiana,LA,22,J. Bennett Johnston Jr.,democrat,1,1,100.00
+1984,Maine,ME,23,William S. Cohen,republican,404414,551406,73.34
+1984,Maine,ME,23,Elizabeth H. Mitchell,democrat,142626,551406,25.87
+1984,Massachusetts,MA,25,John F. Kerry,democrat,1393150,2530471,55.05
+1984,Massachusetts,MA,25,Raymond Shamie,republican,1136913,2530471,44.93
+1984,Michigan,MI,26,Carl Levin,democrat,1915831,3700938,51.77
+1984,Michigan,MI,26,Jack Lousma,republican,1745302,3700938,47.16
+1984,Minnesota,MN,27,Joan Anderson Growe,democrat,852844,2066143,41.28
+1984,Minnesota,MN,27,Rudy Boschwitz,republican,1199926,2066143,58.08
+1984,Mississippi,MS,28,William F. Winter,democrat,371926,952240,39.06
+1984,Mississippi,MS,28,Thad Cochran,republican,580314,952240,60.94
+1984,Montana,MT,30,Max Baucus,democrat,215704,379155,56.89
+1984,Montana,MT,30,Chuck Cozzens,republican,154308,379155,40.70
+1984,Nebraska,NE,31,J. J. Exon,democrat,332217,639668,51.94
+1984,Nebraska,NE,31,Nancy Hoch,republican,307147,639668,48.02
+1984,New Hampshire,NH,33,Norman E. D'Amours,democrat,157447,384369,40.96
+1984,New Hampshire,NH,33,Gordon J. Humphrey,republican,225828,384369,58.75
+1984,New Jersey,NJ,34,Bill Bradley,democrat,1986644,3096456,64.16
+1984,New Jersey,NJ,34,Mary V. Mochary,republican,1080100,3096456,34.88
+1984,New Mexico,NM,35,Pete V. Domenici,republican,361371,502634,71.90
+1984,New Mexico,NM,35,Judith A. Pratt,democrat,141253,502634,28.10
+1984,North Carolina,NC,37,Jesse Helms,republican,1156768,2239051,51.66
+1984,North Carolina,NC,37,James B. (Jim) Hunt Jr.,democrat,1070488,2239051,47.81
+1984,Oklahoma,OK,40,David Boren,democrat,906131,1197937,75.64
+1984,Oklahoma,OK,40,Will E. Bill Crozier,republican,280638,1197937,23.43
+1984,Oregon,OR,41,Mark O. Hatfield,republican,808152,1214735,66.53
+1984,Oregon,OR,41,Margie Hendriksen,democrat,406122,1214735,33.43
+1984,Rhode Island,RI,44,Barbara M. Leonard,republican,107545,393356,27.34
+1984,Rhode Island,RI,44,Claiborne deB. Pell,democrat,285811,393356,72.66
+1984,South Carolina,SC,45,Strom Thurmond,republican,644815,965130,66.81
+1984,South Carolina,SC,45,Melvin Purvis,democrat,306982,965130,31.81
+1984,South Dakota,SD,46,George V. Cunningham,democrat,80537,315713,25.51
+1984,South Dakota,SD,46,Larry Pressler,republican,235176,315713,74.49
+1984,Tennessee,TN,47,Victor Ashe,republican,557016,1648036,33.80
+1984,Tennessee,TN,47,Albert Gore Jr.,democrat,1000607,1648036,60.72
+1984,Texas,TX,48,Lloyd Doggett,democrat,2202557,5314178,41.45
+1984,Texas,TX,48,Phil Gramm,republican,3111348,5314178,58.55
+1984,Virginia,VA,51,"Edythe C. ""Edie"" Harrison",democrat,601142,2007487,29.95
+1984,Virginia,VA,51,John W. Warner,republican,1406194,2007487,70.05
+1984,West Virginia,WV,54,John R. Raese,republican,344680,722212,47.73
+1984,West Virginia,WV,54,Jay Rockefeller,democrat,374233,722212,51.82
+1984,Wyoming,WY,56,Victor A. Ryan,democrat,40525,186898,21.68
+1984,Wyoming,WY,56,Al Simpson,republican,146373,186898,78.32
+1986,Alabama,AL,1,Richard Shelby,democrat,609360,1211897,50.28
+1986,Alabama,AL,1,Jeremiah Denton,republican,602537,1211897,49.72
+1986,Alaska,AK,2,Frank H. Murkowski,republican,97674,180801,54.02
+1986,Alaska,AK,2,Glenn Olds,democrat,79727,180801,44.10
+1986,Arizona,AZ,4,Richard Kimball,democrat,340965,862921,39.51
+1986,Arizona,AZ,4,John McCain,republican,521850,862921,60.47
+1986,Arkansas,AR,5,Asa Hutchinson,republican,262313,695487,37.72
+1986,Arkansas,AR,5,Dale Bumpers,democrat,433122,695487,62.28
+1986,California,CA,6,Alan Cranston,democrat,3646672,7398462,49.29
+1986,California,CA,6,Ed Zschau,republican,3541804,7398462,47.87
+1986,Colorado,CO,8,Ken Kramer,republican,512994,1060765,48.36
+1986,Colorado,CO,8,Timothy E. Wirth,democrat,529449,1060765,49.91
+1986,Connecticut,CT,9,Roger W. Eddy,republican,340438,976933,34.85
+1986,Connecticut,CT,9,Christopher J. Dodd,democrat,632695,976933,64.76
+1986,Florida,FL,12,Paula Hawkins,republican,1552376,3429996,45.26
+1986,Florida,FL,12,Bob Graham,democrat,1877543,3429996,54.74
+1986,Georgia,GA,13,Mack Mattingly,republican,601241,1225008,49.08
+1986,Georgia,GA,13,Wyche Fowler Jr.,democrat,623707,1225008,50.91
+1986,Hawaii,HI,15,Frank Hutchinson,republican,86910,328797,26.43
+1986,Hawaii,HI,15,Daniel K. Inouye,democrat,241887,328797,73.57
+1986,Idaho,ID,16,Steve Symms,republican,196958,382024,51.56
+1986,Idaho,ID,16,John V. Evans,democrat,185066,382024,48.44
+1986,Illinois,IL,17,Alan J. Dixon,democrat,2033783,3122883,65.13
+1986,Illinois,IL,17,Judy Koehler,republican,1053734,3122883,33.74
+1986,Indiana,IN,18,Jill Lynette Long,democrat,595192,1545563,38.51
+1986,Indiana,IN,18,Dan Quayle,republican,936143,1545563,60.57
+1986,Iowa,IA,19,Charles E. Grassley,republican,588880,891762,66.04
+1986,Iowa,IA,19,John O. Roehrick,democrat,299406,891762,33.57
+1986,Kansas,KS,20,Bob Dole,republican,576902,823566,70.05
+1986,Kansas,KS,20,Guy MacDonald,democrat,246664,823566,29.95
+1986,Kentucky,KY,21,Jackson M. Andrews,republican,173330,677280,25.59
+1986,Kentucky,KY,21,Wendell H. Ford,democrat,503775,677280,74.38
+1986,Louisiana,LA,22,W. Henson Moore,republican,646311,1369897,47.18
+1986,Louisiana,LA,22,John B. Breaux,democrat,723586,1369897,52.82
+1986,Maryland,MD,24,Linda Chavez,republican,437411,1112637,39.31
+1986,Maryland,MD,24,Barbara A. Mikulski,democrat,675225,1112637,60.69
+1986,Missouri,MO,29,Christopher (Kit) Bond,republican,777612,1477327,52.64
+1986,Missouri,MO,29,Harriett Woods,democrat,699624,1477327,47.36
+1986,Nevada,NV,32,Jim Santini,republican,116606,261932,44.52
+1986,Nevada,NV,32,Harry Reid,democrat,130955,261932,50.00
+1986,New Hampshire,NH,33,Warren B. Rudman,republican,154090,244735,62.96
+1986,New Hampshire,NH,33,Endicott Peabody,democrat,79222,244735,32.37
+1986,New York,NY,36,Mark Green,democrat,1723216,4484859,38.42
+1986,New York,NY,36,Alfonse M. D'Amato,republican,2030260,4484859,45.27
+1986,North Carolina,NC,37,Terry Sanford,democrat,780967,1534848,50.88
+1986,North Carolina,NC,37,James T. (Jim) Broyhill,republican,753881,1534848,49.12
+1986,North Dakota,ND,38,Mark Andrews,republican,141812,289013,49.07
+1986,North Dakota,ND,38,Kent Conrad,democrat,143932,289013,49.80
+1986,Ohio,OH,39,John Glenn,democrat,1949208,3121189,62.45
+1986,Ohio,OH,39,Thomas N. Kindness,republican,1171893,3121189,37.55
+1986,Oklahoma,OK,40,Don Nickles,republican,493436,893666,55.21
+1986,Oklahoma,OK,40,James R. Jones,democrat,400230,893666,44.79
+1986,Oregon,OR,41,Bob Packwood,republican,656317,1042555,62.95
+1986,Oregon,OR,41,Rick Bauman,democrat,375735,1042555,36.04
+1986,Pennsylvania,PA,42,Bob Edgar,democrat,1448219,3378226,42.87
+1986,Pennsylvania,PA,42,Arlen Specter,republican,1906537,3378226,56.44
+1986,South Carolina,SC,45,Henry D. McMaster,republican,262886,737962,35.62
+1986,South Carolina,SC,45,Ernest Fritz Hollings,democrat,465500,737962,63.08
+1986,South Dakota,SD,46,Thomas A. Daschle,democrat,152657,295830,51.60
+1986,South Dakota,SD,46,James Abdnor,republican,143173,295830,48.40
+1986,Utah,UT,49,Craig S. Oliver,democrat,115523,435111,26.55
+1986,Utah,UT,49,"E. J. ""Jake"" Garn",republican,314608,435111,72.31
+1986,Vermont,VT,50,Dick Snelling,republican,67798,196532,34.50
+1986,Vermont,VT,50,Patrick Leahy,democrat,124123,196532,63.16
+1986,Washington,WA,53,Slade Gorton,republican,650931,1337367,48.67
+1986,Washington,WA,53,Brock Adams,democrat,677471,1337367,50.66
+1986,Wisconsin,WI,55,Edward R. Garvey,democrat,702963,1483174,47.40
+1986,Wisconsin,WI,55,Robert W. Kasten Jr.,republican,754573,1483174,50.88
+1988,Arizona,AZ,4,Keith DeGreen,republican,478060,1164539,41.05
+1988,Arizona,AZ,4,Dennis DeConcini,democrat,660403,1164539,56.71
+1988,California,CA,6,Pete Wilson,republican,5143409,9743598,52.79
+1988,California,CA,6,Leo McCarthy,democrat,4287253,9743598,44.00
+1988,Connecticut,CT,9,"Lowell P. Weicher, Jr.",republican,678454,1383526,49.04
+1988,Connecticut,CT,9,Joe Lieberman,democrat,688499,1383526,49.76
+1988,Delaware,DE,10,"William V. Roth, Jr.",republican,151115,243493,62.06
+1988,Delaware,DE,10,S. B. Woo,democrat,92378,243493,37.94
+1988,Florida,FL,12,Connie Mack,republican,2051071,4068209,50.42
+1988,Florida,FL,12,Buddy MacKay,democrat,2016553,4068209,49.57
+1988,Hawaii,HI,15,Spark Matsunaga,democrat,247941,323876,76.55
+1988,Hawaii,HI,15,Maria M. Hustace,republican,66987,323876,20.68
+1988,Indiana,IN,18,Jack Wickes,democrat,668778,2099303,31.86
+1988,Indiana,IN,18,Richard G. Lugar,republican,1430525,2099303,68.14
+1988,Maine,ME,23,George J. Mitchell,democrat,452581,556745,81.29
+1988,Maine,ME,23,Jasper S. Wyman,republican,104164,556745,18.71
+1988,Maryland,MD,24,Alan L. Keyes,republican,617537,1617065,38.19
+1988,Maryland,MD,24,Paul S. Sarbanes,democrat,999166,1617065,61.79
+1988,Massachusetts,MA,25,Edward M. Kennedy,democrat,1693344,2606225,64.97
+1988,Massachusetts,MA,25,Joseph D. Malone,republican,884267,2606225,33.93
+1988,Michigan,MI,26,Jim Dunn,republican,1348219,3505985,38.45
+1988,Michigan,MI,26,"Donald W. Riegle, Jr.",democrat,2116865,3505985,60.38
+1988,Minnesota,MN,27,Dave Durenberger,republican,1176210,2093953,56.17
+1988,Mississippi,MS,28,Trent Lott,republican,510380,946719,53.91
+1988,Mississippi,MS,28,Wayne Dowdy,democrat,436339,946719,46.09
+1988,Missouri,MO,29,John C. Danforth,republican,1407416,2078875,67.70
+1988,Missouri,MO,29,Jeremiah W. (Jay) Nixon,democrat,660045,2078875,31.75
+1988,Montana,MT,30,Conrad Burns,republican,189445,365254,51.87
+1988,Montana,MT,30,John Melcher,democrat,175809,365254,48.13
+1988,Nebraska,NE,31,Bob Kerrey,democrat,378717,667860,56.71
+1988,Nebraska,NE,31,Dave Karnes,republican,278250,667860,41.66
+1988,Nevada,NV,32,Chic Hecht,republican,161336,342407,47.12
+1988,Nevada,NV,32,Richard H. Bryan,democrat,175548,342407,51.27
+1988,New Jersey,NJ,34,Frank R. Lautenberg,democrat,1599905,2987634,53.55
+1988,New Jersey,NJ,34,Peter M. Dawkins,republican,1349937,2987634,45.18
+1988,New Mexico,NM,35,Jeff Bingaman,democrat,321983,508598,63.31
+1988,New Mexico,NM,35,Bill Valentine,republican,186579,508598,36.68
+1988,New York,NY,36,Robert R. McMillan,republican,1686558,6040980,27.92
+1988,New York,NY,36,Daniel Patrick Moynihan,democrat,3907178,6040980,64.68
+1988,North Dakota,ND,38,Quentin N. Burdick,democrat,171899,289170,59.45
+1988,North Dakota,ND,38,Earl Strinden,republican,112937,289170,39.06
+1988,Ohio,OH,39,Howard M. Metzenbaum,democrat,2480038,4352905,56.97
+1988,Ohio,OH,39,George V Voinovich,republican,1872716,4352905,43.02
+1988,Pennsylvania,PA,42,Joe Vignola,democrat,1416764,4366598,32.45
+1988,Pennsylvania,PA,42,John Heinz,republican,2901715,4366598,66.45
+1988,Rhode Island,RI,44,Richard A. Licht,democrat,180717,397990,45.41
+1988,Rhode Island,RI,44,John H. Chaffee,republican,217273,397990,54.59
+1988,Tennessee,TN,47,Jim Sasser,democrat,1020061,1567181,65.09
+1988,Tennessee,TN,47,Bill Andersen,republican,541033,1567181,34.52
+1988,Texas,TX,48,Lloyd Bentsen,democrat,3149806,5323606,59.17
+1988,Texas,TX,48,Beau Boulter,republican,2129228,5323606,40.00
+1988,Utah,UT,49,Brian H. Moss,democrat,203364,640702,31.74
+1988,Utah,UT,49,Orrin G. Hatch,republican,430089,640702,67.13
+1988,Vermont,VT,50,James M. Jeffords,republican,163183,240108,67.96
+1988,Vermont,VT,50,Bill Gray,democrat,71460,240108,29.76
+1988,Virginia,VA,51,Charles S. Robb,democrat,1474086,2068897,71.25
+1988,Virginia,VA,51,Maurice A. Dawkins,republican,593652,2068897,28.69
+1988,Washington,WA,53,Slade Gorton,republican,944359,1848542,51.09
+1988,Washington,WA,53,Mike Lowry,democrat,904183,1848542,48.91
+1988,West Virginia,WV,54,Robert C. Byrd,democrat,410983,634547,64.77
+1988,West Virginia,WV,54,M. Jay Wolfe,republican,223564,634547,35.23
+1988,Wisconsin,WI,55,Herbert H. Kohl,democrat,1128625,2168190,52.05
+1988,Wisconsin,WI,55,Susan Engeleiter,republican,1030440,2168190,47.53
+1988,Wyoming,WY,56,John P. Vinich,democrat,89821,180964,49.63
+1988,Wyoming,WY,56,Malcolm Wallop,republican,91143,180964,50.37
+1990,Alabama,AL,1,Howell Heflin,democrat,717814,1185154,60.57
+1990,Alabama,AL,1,Bill Cabaniss,republican,467190,1185154,39.42
+1990,Alaska,AK,2,Michael Beasley,democrat,61152,189957,32.19
+1990,Alaska,AK,2,Ted Stevens,republican,125806,189957,66.23
+1990,Arkansas,AR,5,David H. Pryor,democrat,493910,494735,99.83
+1990,Colorado,CO,8,Hank Brown,republican,569048,1022027,55.68
+1990,Colorado,CO,8,Josie Heath,democrat,425746,1022027,41.66
+1990,Delaware,DE,10,Joseph R. Biden Jr.,democrat,112918,180157,62.68
+1990,Delaware,DE,10,M. Jane Brady,republican,64554,180157,35.83
+1990,Georgia,GA,13,Sam Nunn,democrat,1033439,1033439,100.00
+1990,Hawaii,HI,15,Patricia F. Saiki,republican,155978,349666,44.61
+1990,Hawaii,HI,15,Daniel K. Akaka,democrat,188901,349666,54.02
+1990,Idaho,ID,16,Ron J. Twilegar,democrat,122295,315936,38.71
+1990,Idaho,ID,16,Larry E. Craig,republican,193641,315936,61.29
+1990,Illinois,IL,17,Paul Simon,democrat,2115377,3251005,65.07
+1990,Illinois,IL,17,Lynn Martin,republican,1135628,3251005,34.93
+1990,Indiana,IN,18,Baron P. Hill,democrat,696639,1502687,46.36
+1990,Indiana,IN,18,Dan Coats,republican,806048,1502687,53.64
+1990,Iowa,IA,19,Tom Harkin,democrat,535975,983933,54.47
+1990,Iowa,IA,19,Thomas J. Tauke,republican,446869,983933,45.42
+1990,Kansas,KS,20,Dick Williams,democrat,207491,786235,26.39
+1990,Kansas,KS,20,Nancy Landon Kassebaum,republican,578605,786235,73.59
+1990,Kentucky,KY,21,Mitch McConnell,republican,478034,916010,52.19
+1990,Kentucky,KY,21,G. Harvey Sloane,democrat,437976,916010,47.81
+1990,Louisiana,LA,22,J. Bennett Johnston,democrat,1,1,100.00
+1990,Maine,ME,23,William S. Cohen,republican,319167,520320,61.34
+1990,Maine,ME,23,Neil Rolde,democrat,201053,520320,38.64
+1990,Massachusetts,MA,25,John F. Kerry,democrat,1321712,2424579,54.51
+1990,Massachusetts,MA,25,Jim Rappaport,republican,992917,2424579,40.95
+1990,Michigan,MI,26,Carl Levin,democrat,1471753,2560494,57.48
+1990,Michigan,MI,26,Bill Schuette,republican,1055695,2560494,41.23
+1990,Minnesota,MN,27,Rudy Boschwitz,republican,864375,1808045,47.81
+1990,Minnesota,MN,27,Paul David Wellstone,democrat,911999,1808045,50.44
+1990,Mississippi,MS,28,Thad Cochran,republican,274244,274244,100.00
+1990,Montana,MT,30,Max Baucus,democrat,217563,319336,68.13
+1990,Montana,MT,30,Allen C. Kolstad,republican,93836,319336,29.38
+1990,Nebraska,NE,31,Hal Daub,republican,243013,593828,40.92
+1990,Nebraska,NE,31,J. James Exon,democrat,349779,593828,58.90
+1990,New Hampshire,NH,33,Robert C. Smith,republican,189792,291393,65.13
+1990,New Hampshire,NH,33,John A. Durkin,democrat,91299,291393,31.33
+1990,New Jersey,NJ,34,Christine Todd Whitman,republican,918874,1938454,47.40
+1990,New Jersey,NJ,34,Bill Bradley,democrat,977810,1938454,50.44
+1990,New Mexico,NM,35,Tom R. Benavides,democrat,110033,406938,27.04
+1990,New Mexico,NM,35,Pete V. Domenici,republican,296712,406938,72.91
+1990,North Carolina,NC,37,Harvey B. Gantt,democrat,981573,2069585,47.43
+1990,North Carolina,NC,37,Jesse Helms,republican,1087331,2069585,52.54
+1990,Oklahoma,OK,40,Stephen Jones,republican,148814,884498,16.82
+1990,Oklahoma,OK,40,David L. Boren,democrat,735684,884498,83.18
+1990,Oregon,OR,41,Mark O. Hatfield,republican,590095,1099255,53.68
+1990,Oregon,OR,41,Harry Lonsdale,democrat,507743,1099255,46.19
+1990,Rhode Island,RI,44,Claudine Schneider,republican,138947,364062,38.17
+1990,Rhode Island,RI,44,Claiborne Pell,democrat,225105,364062,61.83
+1990,South Carolina,SC,45,Strom Thurmond,republican,482032,750716,64.21
+1990,South Carolina,SC,45,Bob Cunningham,democrat,244112,750716,32.52
+1990,South Dakota,SD,46,Ted Muenster,democrat,116727,258976,45.07
+1990,South Dakota,SD,46,Larry Pressler,republican,135682,258976,52.39
+1990,Tennessee,TN,47,Albert Gore Jr.,democrat,530898,783922,67.72
+1990,Tennessee,TN,47,William R. Hawkins,republican,233703,783922,29.81
+1990,Texas,TX,48,Hugh Parmer,democrat,1429986,3822157,37.41
+1990,Texas,TX,48,Phil Gramm,republican,2302357,3822157,60.24
+1990,Virginia,VA,51,John Warner,republican,876782,1083690,80.91
+1990,West Virginia,WV,54,John D. Rockefeller IV,democrat,276234,404305,68.32
+1990,West Virginia,WV,54,John Yoder,republican,128071,404305,31.68
+1990,Wyoming,WY,56,Alan K. Simpson,republican,100784,157632,63.94
+1990,Wyoming,WY,56,Kathy Helling,democrat,56848,157632,36.06
+1992,Alabama,AL,1,Richard C. Shelby,democrat,1022698,1577799,64.82
+1992,Alabama,AL,1,Richard Sellers,republican,522015,1577799,33.09
+1992,Alaska,AK,2,Frank H. Murkowski,republican,127163,239714,53.05
+1992,Alaska,AK,2,Tony Smith,democrat,92065,239714,38.41
+1992,Arizona,AZ,4,Claire Sargent,democrat,436321,1382051,31.57
+1992,Arizona,AZ,4,John McCain,republican,771395,1382051,55.82
+1992,Arkansas,AR,5,Dale Bumpers,democrat,553635,920008,60.18
+1992,Arkansas,AR,5,Mike Huckabee,republican,366373,920008,39.82
+1992,California,CA,6,Dianne Feinstein,democrat,5853651,10782743,54.29
+1992,California,CA,6,Barbara Boxer,democrat,5173467,10799703,47.90
+1992,California,CA,6,John Seymour,republican,4093501,10782743,37.96
+1992,California,CA,6,Bruce Herschensohn,republican,4644182,10799703,43.00
+1992,Colorado,CO,8,Ben Nighthorse Campbell,democrat,803725,1552289,51.78
+1992,Colorado,CO,8,Terry Considine,republican,662893,1552289,42.70
+1992,Connecticut,CT,9,Brook Johnson,republican,572036,1500661,38.12
+1992,Connecticut,CT,9,Christopher J. Dodd,democrat,577662,1500661,38.49
+1992,Florida,FL,12,Bill Grant,republican,1716505,4962290,34.59
+1992,Florida,FL,12,Bob Graham,democrat,3245565,4962290,65.40
+1992,Georgia,GA,13,"Wyche Fowler, Jr.",democrat,618877,1253991,49.35
+1992,Georgia,GA,13,"Wyche Fowler, Jr.",democrat,1108416,2251587,49.23
+1992,Georgia,GA,13,Paul Coverdell,republican,1073282,2251587,47.67
+1992,Georgia,GA,13,Paul Coverdell,republican,635114,1253991,50.65
+1992,Hawaii,HI,15,Rick Reed,republican,97928,363662,26.93
+1992,Hawaii,HI,15,Daniel K. Inouye,democrat,208266,363662,57.27
+1992,Idaho,ID,16,Dirk Kempthorne,republican,270468,478504,56.52
+1992,Idaho,ID,16,Richard H. Stallings,democrat,208036,478504,43.48
+1992,Illinois,IL,17,Richard S. Williamson,republican,2126833,4939558,43.06
+1992,Illinois,IL,17,Carol Moseley-Braun,democrat,2631229,4939558,53.27
+1992,Indiana,IN,18,Joseph H. Hogsett,democrat,900148,2211426,40.70
+1992,Indiana,IN,18,Dan Coats,republican,1267972,2211426,57.34
+1992,Iowa,IA,19,Jean Lloyd-Jones,democrat,351561,1292494,27.20
+1992,Iowa,IA,19,Chuck Grassley,republican,899761,1292494,69.61
+1992,Kansas,KS,20,Bob Dole,republican,706246,1126447,62.70
+1992,Kansas,KS,20,Gloria O'Dell,democrat,349525,1126447,31.03
+1992,Kentucky,KY,21,David L. Williams,republican,476604,1330858,35.81
+1992,Kentucky,KY,21,Wendell H. Ford,democrat,836888,1330858,62.88
+1992,Louisiana,LA,22,John B. Breaux,democrat,1,1,100.00
+1992,Maryland,MD,24,Barbara A. Mikulski,democrat,1307610,1841298,71.02
+1992,Maryland,MD,24,Alan L. Keyes,republican,533688,1841298,28.98
+1992,Missouri,MO,29,Christopher S. Bond,republican,1221901,2354916,51.89
+1992,Missouri,MO,29,Geri Rothman-Serot,democrat,1057967,2354916,44.93
+1992,Nevada,NV,32,Demar Dahl,republican,199413,495887,40.21
+1992,Nevada,NV,32,Harry Reid,democrat,253150,495887,51.05
+1992,New Hampshire,NH,33,Judd Gregg,republican,249591,518170,48.17
+1992,New Hampshire,NH,33,John Rauh,democrat,234982,518170,45.35
+1992,New York,NY,36,Alfonse D'Amato,republican,2652822,7078805,37.48
+1992,New York,NY,36,Robert Abrams,democrat,2943001,7078805,41.57
+1992,North Carolina,NC,37,Terry Sanford,democrat,1194015,2577891,46.32
+1992,North Carolina,NC,37,Lauch Faircloth,republican,1297892,2577891,50.35
+1992,North Dakota,ND,38,Byron L. Dorgan,democrat,179347,303957,59.00
+1992,North Dakota,ND,38,Steve Sydness,republican,118162,303957,38.87
+1992,Ohio,OH,39,John Glenn,democrat,2444419,4793953,50.99
+1992,Ohio,OH,39,Michael DeWine,republican,2028300,4793953,42.31
+1992,Oklahoma,OK,40,Don Nickles,republican,757876,1294423,58.55
+1992,Oklahoma,OK,40,Steve Lewis,democrat,494350,1294423,38.19
+1992,Oregon,OR,41,Les AuCoin,democrat,639851,1376033,46.50
+1992,Oregon,OR,41,Bob Packwood,republican,717455,1376033,52.14
+1992,Pennsylvania,PA,42,Lynn Yeakel,democrat,2224966,4802410,46.33
+1992,Pennsylvania,PA,42,Arlen Specter,republican,2358125,4802410,49.10
+1992,South Carolina,SC,45,Tommy Hartnett,republican,554175,1180438,46.95
+1992,South Carolina,SC,45,Ernest F. Hollings,democrat,591030,1180438,50.07
+1992,South Dakota,SD,46,Thomas A. Daschle,democrat,217095,334495,64.90
+1992,South Dakota,SD,46,Charlene Haar,republican,108733,334495,32.51
+1992,Utah,UT,49,Robert F. Bennett,republican,420069,758479,55.38
+1992,Utah,UT,49,Wayne Owens,democrat,301228,758479,39.71
+1992,Vermont,VT,50,Patrick J. Leahy,democrat,154762,285739,54.16
+1992,Vermont,VT,50,James H. Douglas,republican,123854,285739,43.35
+1992,Washington,WA,53,Rod Chandler,republican,1020829,2218802,46.01
+1992,Washington,WA,53,Patty Murray,democrat,1197973,2218802,53.99
+1992,Wisconsin,WI,55,"Robert W. Kasten, Jr.",republican,1129599,2455124,46.01
+1992,Wisconsin,WI,55,Russell D. Feingold,democrat,1290662,2455124,52.57
+1994,Arizona,AZ,4,Sam Coppersmith,democrat,442510,1119060,39.54
+1994,Arizona,AZ,4,Jon Kyl,republican,600999,1119060,53.71
+1994,California,CA,6,Dianne Feinstein,democrat,3979152,8514089,46.74
+1994,California,CA,6,Michael Huffington,republican,3817025,8514089,44.83
+1994,Connecticut,CT,9,Jerry Labriola,republican,334833,1079664,31.01
+1994,Connecticut,CT,9,Joseph I. Lieberman,democrat,443793,1079664,41.10
+1994,Delaware,DE,10,"William V. Roth, Jr.",republican,111074,199000,55.82
+1994,Delaware,DE,10,Charles M. Oberly,democrat,84540,199000,42.48
+1994,Florida,FL,12,Connie Mack,republican,2895200,4106816,70.50
+1994,Florida,FL,12,Hugh E. Rodham,democrat,1210577,4106816,29.48
+1994,Hawaii,HI,15,Daniel K. Akaka,democrat,256189,356902,71.78
+1994,Hawaii,HI,15,Maria M. Hustace,republican,86320,356902,24.19
+1994,Indiana,IN,18,Richard G. Lugar,republican,1039625,1543568,67.35
+1994,Indiana,IN,18,James Jontz,democrat,470799,1543568,30.50
+1994,Maine,ME,23,Olympia J. Snowe,republican,308244,511733,60.24
+1994,Maine,ME,23,Thomas H. Andrews,democrat,186042,511733,36.36
+1994,Maryland,MD,24,William Brock,republican,559908,1369101,40.90
+1994,Maryland,MD,24,Paul S. Sarbanes,democrat,809125,1369101,59.10
+1994,Massachusetts,MA,25,W. Mitt Romney,republican,894000,2179945,41.01
+1994,Massachusetts,MA,25,Edward M. Kennedy,democrat,1265997,2179945,58.07
+1994,Michigan,MI,26,Spencer Abraham,republican,1578770,3043385,51.88
+1994,Michigan,MI,26,Bobb Carr,democrat,1300960,3043385,42.75
+1994,Minnesota,MN,27,Rod Grams,republican,869653,1772929,49.05
+1994,Mississippi,MS,28,Trent Lott,republican,418333,608085,68.80
+1994,Mississippi,MS,28,Ken Harper,democrat,189752,608085,31.20
+1994,Missouri,MO,29,Alan Wheat,democrat,633697,1775116,35.70
+1994,Missouri,MO,29,John Ashcroft,republican,1060149,1775116,59.72
+1994,Montana,MT,30,Jack Mudd,democrat,131845,350387,37.63
+1994,Montana,MT,30,Conrad R. Burns,republican,218542,350387,62.37
+1994,Nebraska,NE,31,Jan Stoney,republican,260668,579205,45.00
+1994,Nebraska,NE,31,J. Robert Kerrey,democrat,317297,579205,54.78
+1994,Nevada,NV,32,Hal Furman,republican,156020,380530,41.00
+1994,Nevada,NV,32,Richard H. Bryan,democrat,193804,380530,50.93
+1994,New Jersey,NJ,34,"Garabed ""Chuck"" Haytaian",republican,966244,2054887,47.02
+1994,New Jersey,NJ,34,Frank R. Lautenberg,democrat,1033487,2054887,50.29
+1994,New Mexico,NM,35,Colin R. McMillan,republican,213025,463196,45.99
+1994,New Mexico,NM,35,Jeff Bingaman,democrat,249989,463196,53.97
+1994,New York,NY,36,Daniel Patrick Moynihan,democrat,2528387,5328486,47.45
+1994,New York,NY,36,Bernadette Castro,republican,1711760,5328486,32.12
+1994,North Dakota,ND,38,Kent Conrad,democrat,137157,236547,57.98
+1994,North Dakota,ND,38,Ben Clayburgh,republican,99390,236547,42.02
+1994,Ohio,OH,39,Joel Hyatt,democrat,1348213,3436884,39.23
+1994,Ohio,OH,39,Mike DeWine,republican,1836556,3436884,53.44
+1994,Oklahoma,OK,40,Dave McCurdy,democrat,392488,982430,39.95
+1994,Oklahoma,OK,40,James M. Inhofe,republican,542390,982430,55.21
+1994,Pennsylvania,PA,42,Rick Santorum,republican,1735691,3513361,49.40
+1994,Pennsylvania,PA,42,Harris Wofford,democrat,1648481,3513361,46.92
+1994,Rhode Island,RI,44,Linda J. Kushner,democrat,122532,345388,35.48
+1994,Rhode Island,RI,44,John H. Chafee,republican,222856,345388,64.52
+1994,Tennessee,TN,47,Jim Sasser,democrat,623164,1480391,42.09
+1994,Tennessee,TN,47,Bill Frist,republican,834226,1480391,56.35
+1994,Tennessee,TN,47,Fred Thompson,republican,885998,1465862,60.44
+1994,Tennessee,TN,47,Jim Cooper,democrat,565930,1465862,38.61
+1994,Texas,TX,48,Richard Fisher,democrat,1639615,4279940,38.31
+1994,Texas,TX,48,Kay Bailey Hutchison,republican,2604218,4279940,60.85
+1994,Utah,UT,49,Orrin G. Hatch,republican,357297,519304,68.80
+1994,Utah,UT,49,Patrick A. Shea,democrat,146938,519304,28.30
+1994,Vermont,VT,50,James M. Jeffords,republican,106505,211672,50.32
+1994,Vermont,VT,50,Jan Backus,democrat,85868,211672,40.57
+1994,Virginia,VA,51,Charles S. Robb,democrat,938376,2057463,45.61
+1994,Virginia,VA,51,"Oliver L. ""Ollie"" North",republican,882213,2057463,42.88
+1994,Washington,WA,53,Slade Gorton,republican,947821,1700173,55.75
+1994,Washington,WA,53,Ron Sims,democrat,752352,1700173,44.25
+1994,West Virginia,WV,54,Robert C. Byrd,democrat,290495,420936,69.01
+1994,West Virginia,WV,54,Stan Klos,republican,130441,420936,30.99
+1994,Wisconsin,WI,55,Herb Kohl,democrat,912662,1565628,58.29
+1994,Wisconsin,WI,55,Robert T. Welch,republican,636989,1565628,40.69
+1994,Wyoming,WY,56,Craig Thomas,republican,118754,201710,58.87
+1994,Wyoming,WY,56,Mike Sullivan,democrat,79287,201710,39.31
+1996,Alabama,AL,1,Roger Bedford,democrat,681651,1499393,45.46
+1996,Alabama,AL,1,Jeff Sessions,republican,786436,1499393,52.45
+1996,Alaska,AK,2,Theresa Nangle Obermeyer,democrat,23977,231916,10.34
+1996,Alaska,AK,2,Ted Stevens,republican,177893,231916,76.71
+1996,Arkansas,AR,5,Winston Bryant,democrat,400241,846183,47.30
+1996,Arkansas,AR,5,Y. Tim Hutchinson,republican,445942,846183,52.70
+1996,Colorado,CO,8,Tom Strickland,democrat,667600,1459601,45.74
+1996,Colorado,CO,8,Wayne Allard,republican,750315,1459601,51.41
+1996,Delaware,DE,10,Raymond J. Clatworthy,republican,105088,275591,38.13
+1996,Delaware,DE,10,Joseph R. Biden Jr.,democrat,165465,275591,60.04
+1996,Georgia,GA,13,Guy W. Millner,republican,1073969,2259224,47.54
+1996,Georgia,GA,13,Max Cleland,democrat,1103993,2259224,48.87
+1996,Idaho,ID,16,Larry E. Craig,republican,283532,497233,57.02
+1996,Idaho,ID,16,Walt Minnick,democrat,198422,497233,39.91
+1996,Illinois,IL,17,Al Salvi,republican,1728824,4250722,40.67
+1996,Illinois,IL,17,Richard J. Durbin,democrat,2384028,4250722,56.09
+1996,Iowa,IA,19,Tom Harkin,democrat,634166,1224054,51.81
+1996,Iowa,IA,19,Jim Lightfoot,republican,571807,1224054,46.71
+1996,Kansas,KS,20,Sam Brownback,republican,574021,1064716,53.91
+1996,Kansas,KS,20,Pat Roberts,republican,652677,1052300,62.02
+1996,Kansas,KS,20,Jill Docking,democrat,461344,1064716,43.33
+1996,Kansas,KS,20,Sally Thompson,democrat,362380,1052300,34.44
+1996,Kentucky,KY,21,Mitch McConnell,republican,724794,1307046,55.45
+1996,Kentucky,KY,21,Steven L. Beshear,democrat,560012,1307046,42.85
+1996,Louisiana,LA,22,"Louis ""Woody"" Jenkins",republican,847157,1700102,49.83
+1996,Louisiana,LA,22,Mary L. Landrieu,democrat,852945,1700102,50.17
+1996,Maine,ME,23,Joseph E. Brennan,democrat,266226,606777,43.88
+1996,Maine,ME,23,Susan M. Collins,republican,298422,606777,49.18
+1996,Massachusetts,MA,25,John F. Kerry,democrat,1334135,2555942,52.20
+1996,Massachusetts,MA,25,William F. Weld,republican,1143120,2555942,44.72
+1996,Michigan,MI,26,Carl Levin,democrat,2195738,3762575,58.36
+1996,Michigan,MI,26,Ronna Romney,republican,1500106,3762575,39.87
+1996,Minnesota,MN,27,Rudy Boschwitz,republican,901194,2182905,41.28
+1996,Mississippi,MS,28,Thad Cochran,republican,624154,878662,71.03
+1996,Mississippi,MS,28,James W. (Bootie) Hunt,democrat,240647,878662,27.39
+1996,Montana,MT,30,Dennis Rehberg,republican,182111,407490,44.69
+1996,Montana,MT,30,Max Baucus,democrat,201935,407490,49.56
+1996,Nebraska,NE,31,Ben Nelson,democrat,281904,661837,42.59
+1996,Nebraska,NE,31,Chuck Hagel,republican,379933,661837,57.41
+1996,New Hampshire,NH,33,Bob Smith,republican,242257,491873,49.25
+1996,New Hampshire,NH,33,Dick Swett,democrat,227355,491873,46.22
+1996,New Jersey,NJ,34,Dick Zimmer,republican,1227351,2883466,42.57
+1996,New Jersey,NJ,34,Robert G. Torricelli,democrat,1519154,2883466,52.68
+1996,New Mexico,NM,35,Pete V. Domenici,republican,357171,551821,64.73
+1996,New Mexico,NM,35,Art Trujillo,democrat,164356,551821,29.78
+1996,North Carolina,NC,37,Jesse Helms,republican,1345833,2556456,52.64
+1996,North Carolina,NC,37,Harvey B. Gantt,democrat,1173875,2556456,45.92
+1996,Oklahoma,OK,40,James M. Inhofe,republican,670610,1183150,56.68
+1996,Oklahoma,OK,40,Jim Boren,democrat,474162,1183150,40.08
+1996,Oregon,OR,41,Tom Bruggere,democrat,624370,1360230,45.90
+1996,Oregon,OR,41,Gordon Smith,republican,677336,1360230,49.80
+1996,Rhode Island,RI,44,Jack Reed,democrat,230676,364371,63.31
+1996,Rhode Island,RI,44,Nancy J. Mayer,republican,127368,364371,34.96
+1996,South Carolina,SC,45,Strom Thurmond,republican,619859,1161231,53.38
+1996,South Carolina,SC,45,Elliot Springs Close,democrat,510951,1161231,44.00
+1996,South Dakota,SD,46,Larry Pressler,republican,157954,324487,48.68
+1996,South Dakota,SD,46,Tim Johnson,democrat,166533,324487,51.32
+1996,Tennessee,TN,47,Fred Thompson,republican,1091554,1778664,61.37
+1996,Tennessee,TN,47,Houston Gordon,democrat,654937,1778664,36.82
+1996,Texas,TX,48,Victor M. Morales,democrat,2428776,5527441,43.94
+1996,Texas,TX,48,Phil Gramm,republican,3027680,5527441,54.78
+1996,Virginia,VA,51,John W. Warner,republican,1235744,2354715,52.48
+1996,Virginia,VA,51,Mark R. Warner,democrat,1115982,2354715,47.39
+1996,West Virginia,WV,54,John D. Rockefeller IV,democrat,456526,595614,76.65
+1996,West Virginia,WV,54,Betty A. Burks,republican,139088,595614,23.35
+1996,Wyoming,WY,56,Michael B. Enzi,republican,114116,211077,54.06
+1996,Wyoming,WY,56,Kathy Karpan,democrat,89103,211077,42.21
+1998,Alabama,AL,1,Richard C. Shelby,republican,817973,1293405,63.24
+1998,Alabama,AL,1,Clayton Suddith,democrat,474568,1293405,36.69
+1998,Alaska,AK,2,Frank H. Murkowski,republican,165227,221807,74.49
+1998,Alaska,AK,2,"Joseph A. ""Joe"" Sonneman",democrat,43743,221807,19.72
+1998,Arizona,AZ,4,Ed Ranger,democrat,275224,1013280,27.16
+1998,Arizona,AZ,4,John McCain,republican,696577,1013280,68.74
+1998,Arkansas,AR,5,Fay Boozman,republican,295870,700831,42.22
+1998,Arkansas,AR,5,Blanche Lambert Lincoln,democrat,385878,700831,55.06
+1998,California,CA,6,Matt Fong,republican,3575078,8311905,43.01
+1998,California,CA,6,Barbara Boxer,democrat,4410056,8311905,53.06
+1998,Colorado,CO,8,Ben Nighthorse Campbell,republican,829370,1327235,62.49
+1998,Colorado,CO,8,Dottie Lamm,democrat,464754,1327235,35.02
+1998,Connecticut,CT,9,Gary Franks,republican,312177,964457,32.37
+1998,Connecticut,CT,9,Christopher J. Dodd,democrat,628306,964457,65.15
+1998,Florida,FL,12,Bob Graham,democrat,2436407,3900162,62.47
+1998,Florida,FL,12,Charlie Crist,republican,1463755,3900162,37.53
+1998,Georgia,GA,13,Michael J. Coles,democrat,791904,1753953,45.15
+1998,Georgia,GA,13,Paul Coverdell,republican,918540,1753953,52.37
+1998,Hawaii,HI,15,Daniel K. Inouye,democrat,315252,398124,79.18
+1998,Hawaii,HI,15,Crystal Young,republican,70964,398124,17.82
+1998,Idaho,ID,16,Mike Crapo,republican,262966,378174,69.54
+1998,Idaho,ID,16,Bill Mauk,democrat,107375,378174,28.39
+1998,Illinois,IL,17,Peter G. Fitzgerald,republican,1709041,3394521,50.35
+1998,Illinois,IL,17,Carol Moseley-Braun,democrat,1610496,3394521,47.44
+1998,Indiana,IN,18,Evan Bayh,democrat,1012244,1588617,63.72
+1998,Indiana,IN,18,Paul Helmke,republican,552732,1588617,34.79
+1998,Iowa,IA,19,Charles E. Grassley,republican,648480,947907,68.41
+1998,Iowa,IA,19,David Osterberg,democrat,289049,947907,30.49
+1998,Kansas,KS,20,Sam Brownback,republican,474639,727236,65.27
+1998,Kansas,KS,20,"Paul Feleciano, Jr.",democrat,229718,727236,31.59
+1998,Kentucky,KY,21,Scotty Baesler,democrat,563051,1145414,49.16
+1998,Kentucky,KY,21,Jim Bunning,republican,569817,1145414,49.75
+1998,Louisiana,LA,22,"Sam Houston Melton, Jr.",democrat,9893,969165,1.02
+1998,Louisiana,LA,22,John B. Breaux,democrat,620502,969165,64.02
+1998,Louisiana,LA,22,"""Jim"" Donelon",republican,306616,969165,31.64
+1998,Louisiana,LA,22,Darryl Paul Ward,republican,7964,969165,0.82
+1998,Maryland,MD,24,Barbara A. Mikulski,democrat,1062810,1507447,70.50
+1998,Maryland,MD,24,Ross Z. Pierpont,republican,444637,1507447,29.50
+1998,Missouri,MO,29,Jeremiah W. (Jay) Nixon,democrat,690208,1576857,43.77
+1998,Missouri,MO,29,Christopher S. Bond,republican,830625,1576857,52.68
+1998,Nevada,NV,32,John E. Ensign,republican,208220,435864,47.77
+1998,Nevada,NV,32,Harry Reid,democrat,208621,435864,47.86
+1998,New Hampshire,NH,33,George Condodemetraky,democrat,88883,314696,28.24
+1998,New Hampshire,NH,33,Judd Gregg,republican,213477,314696,67.84
+1998,New York,NY,36,Charles E. Schumer,democrat,2386314,4989877,47.82
+1998,New York,NY,36,Alfonse D'Amato,republican,1680203,4989877,33.67
+1998,North Carolina,NC,37,Lauch Faircloth,republican,945943,2012143,47.01
+1998,North Carolina,NC,37,John Edwards,democrat,1029237,2012143,51.15
+1998,North Dakota,ND,38,Donna Nalewaja,republican,75013,213358,35.16
+1998,North Dakota,ND,38,Byron L. Dorgan,democrat,134747,213358,63.16
+1998,Ohio,OH,39,George V. Voinovich,republican,1922087,3404351,56.46
+1998,Ohio,OH,39,Mary O. Boyle,democrat,1482054,3404351,43.53
+1998,Oklahoma,OK,40,Don Nickles,republican,570682,859713,66.38
+1998,Oklahoma,OK,40,Don E. Carroll,democrat,268898,859713,31.28
+1998,Oregon,OR,41,John Lim,republican,377739,1117747,33.79
+1998,Oregon,OR,41,Ron Wyden,democrat,682425,1117747,61.05
+1998,Pennsylvania,PA,42,Bill Lloyd,democrat,1028839,2957499,34.79
+1998,Pennsylvania,PA,42,Arlen Specter,republican,1814180,2957499,61.34
+1998,South Carolina,SC,45,Bob Inglis,republican,488238,1069063,45.67
+1998,South Carolina,SC,45,Ernest F. Hollings,democrat,563377,1069063,52.70
+1998,South Dakota,SD,46,Tom Daschle,democrat,162884,262111,62.14
+1998,South Dakota,SD,46,Ron Schmidt,republican,95431,262111,36.41
+1998,Utah,UT,49,Scott Leckman,democrat,163172,494909,32.97
+1998,Utah,UT,49,Robert F. Bennett,republican,316652,494909,63.98
+1998,Vermont,VT,50,Patrick J. Leahy,democrat,154567,214036,72.22
+1998,Vermont,VT,50,Fred H. Tuttle,republican,48051,214036,22.45
+1998,Washington,WA,53,Patty Murray,democrat,1103184,1888561,58.41
+1998,Washington,WA,53,Linda Smith,republican,785377,1888561,41.59
+1998,Wisconsin,WI,55,Mark W. Neumann,republican,852272,1760836,48.40
+1998,Wisconsin,WI,55,Russell D. Feingold,democrat,890059,1760836,50.55
+2000,Arizona,AZ,4,Jon Kyl,republican,1108196,1397076,79.32
+2000,California,CA,6,Tom Campbell,republican,3886853,10623608,36.59
+2000,California,CA,6,Dianne Feinstein,democrat,5932522,10623608,55.84
+2000,Connecticut,CT,9,Joseph I. Lieberman,democrat,828902,1311261,63.21
+2000,Connecticut,CT,9,Phil Giordano,republican,448077,1311261,34.17
+2000,Delaware,DE,10,Thomas R. Carper,democrat,181566,326993,55.53
+2000,Delaware,DE,10,"William V. Roth, Jr.",republican,142891,326993,43.70
+2000,Florida,FL,12,Bill Nelson,democrat,2989487,5856731,51.04
+2000,Florida,FL,12,Bill McCollum,republican,2705348,5856731,46.19
+2000,Hawaii,HI,15,John Carroll,republican,84701,345623,24.51
+2000,Hawaii,HI,15,Daniel K. Akaka,democrat,251215,345623,72.68
+2000,Indiana,IN,18,Richard G. Lugar,republican,1427944,2145209,66.56
+2000,Indiana,IN,18,David L. Johnson,democrat,683273,2145209,31.85
+2000,Maine,ME,23,Mark W. Lawrence,democrat,197183,634872,31.06
+2000,Maine,ME,23,Olympia J. Snowe,republican,437689,634872,68.94
+2000,Maryland,MD,24,Paul H. Rappaport,republican,715178,1946898,36.73
+2000,Maryland,MD,24,Paul S. Sarbanes,democrat,1230013,1946898,63.18
+2000,Massachusetts,MA,25,Edward M. Kennedy,democrat,1889494,2734048,69.11
+2000,Massachusetts,MA,25,Jack E. Robinson III,republican,334341,2734048,12.23
+2000,Michigan,MI,26,Debbie Stabenow,democrat,2061952,4167685,49.47
+2000,Michigan,MI,26,Spencer Abraham,republican,1994693,4167685,47.86
+2000,Minnesota,MN,27,Rod Grams,republican,1047474,2419520,43.29
+2000,Mississippi,MS,28,Trent Lott,republican,654941,994144,65.88
+2000,Mississippi,MS,28,"Troy D. Brown, Sr.",democrat,314090,994144,31.59
+2000,Missouri,MO,29,John Ashcroft,republican,1142852,2361586,48.39
+2000,Missouri,MO,29,Mel Carnahan,democrat,1191812,2361586,50.47
+2000,Montana,MT,30,Brian Schweitzer,democrat,194430,411601,47.24
+2000,Montana,MT,30,Conrad Burns,republican,208082,411601,50.55
+2000,Nebraska,NE,31,Don Stenberg,republican,337977,692350,48.82
+2000,Nebraska,NE,31,Ben Nelson,democrat,353093,692350,51.00
+2000,Nevada,NV,32,John Ensign,republican,330687,600776,55.04
+2000,Nevada,NV,32,Ed Bernstein,democrat,238260,600776,39.66
+2000,New Jersey,NJ,34,Bob Franks,republican,1420267,3015662,47.10
+2000,New Jersey,NJ,34,Jon S. Corzine,democrat,1511237,3015662,50.11
+2000,New Mexico,NM,35,Bill Redmond,republican,225517,589526,38.25
+2000,New Mexico,NM,35,Jeff Bingaman,democrat,363744,589526,61.70
+2000,New York,NY,36,Rick Lazio,republican,2724589,6959662,39.15
+2000,New York,NY,36,Hillary Rodham Clinton,democrat,3562415,6959662,51.19
+2000,North Dakota,ND,38,Duane Sand,republican,111069,287539,38.63
+2000,Ohio,OH,39,Ted Celeste,democrat,1595066,4448801,35.85
+2000,Ohio,OH,39,Mike DeWine,republican,2665512,4448801,59.92
+2000,Pennsylvania,PA,42,Ron Klink,democrat,2154908,4735116,45.51
+2000,Pennsylvania,PA,42,Rick Santorum,republican,2481962,4735116,52.42
+2000,Rhode Island,RI,44,Robert A. Weygand,democrat,161023,391353,41.15
+2000,Rhode Island,RI,44,Lincoln D. Chafee,republican,222588,391353,56.88
+2000,Tennessee,TN,47,Jeff Clark,democrat,621152,1928613,32.21
+2000,Tennessee,TN,47,Bill Frist,republican,1255444,1928613,65.10
+2000,Texas,TX,48,Gene Kelly,democrat,2025024,6267964,32.31
+2000,Texas,TX,48,Kay Bailey Hutchison,republican,4078954,6267964,65.08
+2000,Utah,UT,49,Scott N. Howell,democrat,242569,769704,31.51
+2000,Utah,UT,49,Orrin G. Hatch,republican,504803,769704,65.58
+2000,Vermont,VT,50,Ed Flanagan,democrat,73352,288500,25.43
+2000,Vermont,VT,50,James M. Jeffords,republican,189133,288500,65.56
+2000,Virginia,VA,51,Charles S. Robb,democrat,1296093,2718301,47.68
+2000,Virginia,VA,51,George F. Allen,republican,1420460,2718301,52.26
+2000,Washington,WA,53,Slade Gorton,republican,1197208,2461379,48.64
+2000,Washington,WA,53,Maria Cantwell,democrat,1199437,2461379,48.73
+2000,West Virginia,WV,54,Robert C. Byrd,democrat,469215,603477,77.75
+2000,West Virginia,WV,54,David T. Gallaher,republican,121635,603477,20.16
+2000,Wisconsin,WI,55,Herb Kohl,democrat,1563238,2540083,61.54
+2000,Wisconsin,WI,55,John Gillespie,republican,940744,2540083,37.04
+2000,Wyoming,WY,56,Craig Thomas,republican,157622,213659,73.77
+2000,Wyoming,WY,56,Mel Logan,democrat,47087,213659,22.04
+2002,Alabama,AL,1,Jeff Sessions,republican,792561,1353023,58.58
+2002,Alabama,AL,1,Susan Parker,democrat,538878,1353023,39.83
+2002,Alaska,AK,2,Ted Stevens,republican,179438,229548,78.17
+2002,Alaska,AK,2,Frank Vondersaar,democrat,24133,229548,10.51
+2002,Arkansas,AR,5,Tim Hutchinson,republican,370735,804121,46.10
+2002,Arkansas,AR,5,Mark Pryor,democrat,433386,804121,53.90
+2002,Colorado,CO,8,Wayne Allard,republican,717893,1416082,50.70
+2002,Colorado,CO,8,Tom Strickland,democrat,648130,1416082,45.77
+2002,Delaware,DE,10,Joseph R. Biden Jr.,democrat,135253,232314,58.22
+2002,Delaware,DE,10,Raymond J. Clatworthy,republican,94793,232314,40.80
+2002,Georgia,GA,13,Saxby Chambliss,republican,1071352,2031604,52.73
+2002,Georgia,GA,13,Max Cleland,democrat,932422,2031604,45.90
+2002,Idaho,ID,16,Larry E. Craig,republican,266215,408544,65.16
+2002,Idaho,ID,16,Alan Blinken,democrat,132975,408544,32.55
+2002,Illinois,IL,17,Jim Durkin,republican,1325703,3486851,38.02
+2002,Illinois,IL,17,Richard J. Durbin,democrat,2103766,3486851,60.33
+2002,Iowa,IA,19,Greg Ganske,republican,447892,1023075,43.78
+2002,Iowa,IA,19,Tom Harkin,democrat,554278,1023075,54.18
+2002,Kansas,KS,20,Pat Roberts,republican,641075,776850,82.52
+2002,Kentucky,KY,21,Mitch McConnell,republican,731679,1131313,64.68
+2002,Kentucky,KY,21,Lois Combs Weinberg,democrat,399634,1131313,35.32
+2002,Louisiana,LA,22,"""Tony"" Perkins",republican,119776,2481629,4.83
+2002,Louisiana,LA,22,John Cooksey,republican,171752,2481629,6.92
+2002,Louisiana,LA,22,Mary L. Landrieu,democrat,638654,2481629,25.74
+2002,Louisiana,LA,22,Raymond Brown,democrat,23553,2481629,0.95
+2002,Louisiana,LA,22,Suzanne Haik Terrell,republican,596642,2481629,24.04
+2002,Louisiana,LA,22,Suzanne Haik Terrell,republican,339506,2481629,13.68
+2002,Louisiana,LA,22,Ernest Edward Skillman Jr.,republican,1668,2481629,0.07
+2002,Louisiana,LA,22,Mary L. Landrieu,democrat,573347,2481629,23.10
+2002,Maine,ME,23,Susan M. Collins,republican,295041,504899,58.44
+2002,Maine,ME,23,Chellie Pingree,democrat,209858,504899,41.56
+2002,Massachusetts,MA,25,John F. Kerry,democrat,1605976,2220301,72.33
+2002,Michigan,MI,26,Carl Levin,democrat,1896614,3129287,60.61
+2002,Michigan,MI,26,Andrew Raczkowski,republican,1185545,3129287,37.89
+2002,Minnesota,MN,27,Norm Coleman,republican,1116697,2254639,49.53
+2002,Minnesota,MN,27,Walter F. Mondale,democrat,1067246,2254639,47.34
+2002,Mississippi,MS,28,Thad Cochran,republican,533269,630495,84.58
+2002,Missouri,MO,29,Jean Carnahan,democrat,913778,1877620,48.67
+2002,Missouri,MO,29,Jim Talent,republican,935032,1877620,49.80
+2002,Montana,MT,30,Max Baucus,democrat,204853,326537,62.74
+2002,Montana,MT,30,Mike Taylor,republican,103611,326537,31.73
+2002,Nebraska,NE,31,Charlie A. Matulka,democrat,70290,480217,14.64
+2002,Nebraska,NE,31,Chuck Hagel,republican,397438,480217,82.76
+2002,New Hampshire,NH,33,Jeanne Shaheen,democrat,207478,447135,46.40
+2002,New Hampshire,NH,33,John E. Sununu,republican,227229,447135,50.82
+2002,New Jersey,NJ,34,Douglas R. Forrester,republican,928439,2112604,43.95
+2002,New Jersey,NJ,34,Frank R. Lautenberg,democrat,1138193,2112604,53.88
+2002,New Mexico,NM,35,Gloria Tristani,democrat,168863,483056,34.96
+2002,New Mexico,NM,35,Pete V. Domenici,republican,314193,483056,65.04
+2002,North Carolina,NC,37,Erskine B. Bowles,democrat,1047983,2331181,44.96
+2002,North Carolina,NC,37,Elizabeth H. Dole,republican,1248664,2331181,53.56
+2002,Oklahoma,OK,40,James M. Inhofe,republican,583579,1018424,57.30
+2002,Oklahoma,OK,40,David Walters,democrat,369789,1018424,36.31
+2002,Oregon,OR,41,Gordon Smith,republican,712287,1267221,56.21
+2002,Oregon,OR,41,Bill Bradbury,democrat,501898,1267221,39.61
+2002,Rhode Island,RI,44,Jack Reed,democrat,253774,323582,78.43
+2002,Rhode Island,RI,44,Robert G. Tingle,republican,69808,323582,21.57
+2002,South Carolina,SC,45,Lindsey O. Graham,republican,600010,1102912,54.40
+2002,South Carolina,SC,45,Alex Sanders,democrat,487359,1102912,44.19
+2002,South Dakota,SD,46,Tim Johnson,democrat,167481,337501,49.62
+2002,South Dakota,SD,46,John Thune,republican,166949,337501,49.47
+2002,Tennessee,TN,47,Bob Clement,democrat,728232,1642432,44.34
+2002,Tennessee,TN,47,Lamar Alexander,republican,891498,1642432,54.28
+2002,Texas,TX,48,John Cornyn,republican,2496243,4514012,55.30
+2002,Texas,TX,48,Ron Kirk,democrat,1955758,4514012,43.33
+2002,Virginia,VA,51,John W. Warner,republican,1229894,1489422,82.58
+2002,West Virginia,WV,54,Jay Wolfe,republican,160902,436183,36.89
+2002,West Virginia,WV,54,John D. Rockefeller IV,democrat,275281,436183,63.11
+2002,Wyoming,WY,56,Joyce Jansa Corcoran,democrat,49570,183280,27.05
+2002,Wyoming,WY,56,Michael B. Enzi,republican,133710,183280,72.95
+2004,Alabama,AL,1,Richard C. Shelby,republican,1242200,1839066,67.55
+2004,Alabama,AL,1,Wayne Sowell,democrat,595018,1839066,32.35
+2004,Alaska,AK,2,Tony Knowles,democrat,140424,308315,45.55
+2004,Alaska,AK,2,Lisa Murkowski,republican,149773,308315,48.58
+2004,Arizona,AZ,4,Stuart Starky,democrat,404507,1961677,20.62
+2004,Arizona,AZ,4,John McCain,republican,1505372,1961677,76.74
+2004,Arkansas,AR,5,Blanche L. Lincoln,democrat,580973,1039349,55.90
+2004,Arkansas,AR,5,Jim Holt,republican,458036,1039349,44.07
+2004,California,CA,6,Barbara Boxer,democrat,6955728,12053295,57.71
+2004,California,CA,6,Bill Jones,republican,4555922,12053295,37.80
+2004,Colorado,CO,8,Ken Salazar,democrat,1081188,2107472,51.30
+2004,Colorado,CO,8,Pete Coors,republican,980668,2107472,46.53
+2004,Connecticut,CT,9,Jack C. Orchulli,republican,457749,1424726,32.13
+2004,Connecticut,CT,9,Christopher J. Dodd,democrat,945347,1424726,66.35
+2004,Florida,FL,12,Mel Martinez,republican,3672864,7429894,49.43
+2004,Florida,FL,12,Betty Castor,democrat,3590201,7429894,48.32
+2004,Georgia,GA,13,Johnny Isakson,republican,1864202,3220981,57.88
+2004,Georgia,GA,13,Denise L. Majette,democrat,1287690,3220981,39.98
+2004,Hawaii,HI,15,Daniel K. Inouye,democrat,313629,415347,75.51
+2004,Hawaii,HI,15,Cam Cavasso,republican,87172,415347,20.99
+2004,Idaho,ID,16,Mike Crapo,republican,499796,503932,99.18
+2004,Illinois,IL,17,Alan Keyes,republican,1390690,5141520,27.05
+2004,Illinois,IL,17,Barack Obama,democrat,3597456,5141520,69.97
+2004,Indiana,IN,18,Marvin Scott,republican,903913,2428233,37.23
+2004,Indiana,IN,18,Evan Bayh,democrat,1496976,2428233,61.65
+2004,Iowa,IA,19,Arthur Small,democrat,412365,1479228,27.88
+2004,Iowa,IA,19,Charles E. Grassley,republican,1038175,1479228,70.18
+2004,Kansas,KS,20,Lee Jones,democrat,310337,1129022,27.49
+2004,Kansas,KS,20,Sam Brownback,republican,780863,1129022,69.16
+2004,Kentucky,KY,21,Daniel Mongiardo,democrat,850855,1724362,49.34
+2004,Kentucky,KY,21,Jim Bunning,republican,873507,1724362,50.66
+2004,Louisiana,LA,22,John Kennedy,democrat,275821,1848056,14.92
+2004,Louisiana,LA,22,"Sam Houston Melton, Jr.",democrat,12289,1848056,0.66
+2004,Louisiana,LA,22,Christopher John,democrat,542150,1848056,29.34
+2004,Louisiana,LA,22,David Vitter,republican,943014,1848056,51.03
+2004,Louisiana,LA,22,Arthur A. Morrell,democrat,47222,1848056,2.56
+2004,Maryland,MD,24,Barbara A. Mikulski,democrat,1504691,2321931,64.80
+2004,Maryland,MD,24,E. J. Pipkin,republican,783055,2321931,33.72
+2004,Missouri,MO,29,Nancy Farmer,democrat,1158261,2706402,42.80
+2004,Missouri,MO,29,Christopher S. Bond,republican,1518089,2706402,56.09
+2004,Nevada,NV,32,Richard Ziser,republican,284640,810068,35.14
+2004,Nevada,NV,32,Harry Reid,democrat,494805,810068,61.08
+2004,New Hampshire,NH,33,Doris R. Haddock,democrat,221549,657086,33.72
+2004,New Hampshire,NH,33,Judd Gregg,republican,434847,657086,66.18
+2004,New York,NY,36,Howard Mills,republican,1625069,7447818,21.82
+2004,New York,NY,36,Charles E. Schumer,democrat,4384907,7447818,58.88
+2004,North Carolina,NC,37,Erskine Bowles,democrat,1632527,3472082,47.02
+2004,North Carolina,NC,37,Richard Burr,republican,1791450,3472082,51.60
+2004,North Dakota,ND,38,Byron L. Dorgan,democrat,212143,310696,68.28
+2004,North Dakota,ND,38,Mike Liffrig,republican,98553,310696,31.72
+2004,Ohio,OH,39,Eric D. Fingerhut,democrat,1961171,5425823,36.15
+2004,Ohio,OH,39,George V. Voinovich,republican,3464356,5425823,63.85
+2004,Oklahoma,OK,40,Brad Carson,democrat,596750,1446846,41.24
+2004,Oklahoma,OK,40,Tom Coburn,republican,763433,1446846,52.77
+2004,Oregon,OR,41,Al King,republican,565254,1780550,31.75
+2004,Oregon,OR,41,Ron Wyden,democrat,1128728,1780550,63.39
+2004,Pennsylvania,PA,42,Arlen Specter,republican,2925080,5559105,52.62
+2004,Pennsylvania,PA,42,Joseph M. Hoeffel,democrat,2334126,5559105,41.99
+2004,South Carolina,SC,45,Jim DeMint,republican,857167,1597221,53.67
+2004,South Carolina,SC,45,Inez Tenenbaum,democrat,704384,1597221,44.10
+2004,South Dakota,SD,46,Tom Daschle,democrat,193340,391188,49.42
+2004,South Dakota,SD,46,John Thune,republican,197848,391188,50.58
+2004,Utah,UT,49,R. Paul Van Dam,democrat,258955,911726,28.40
+2004,Utah,UT,49,Robert F. Bennett,republican,626640,911726,68.73
+2004,Vermont,VT,50,Jack McMullen,republican,75398,307208,24.54
+2004,Vermont,VT,50,Patrick J. Leahy,democrat,216972,307208,70.63
+2004,Washington,WA,53,Patty Murray,democrat,1549708,2818651,54.98
+2004,Washington,WA,53,George R. Nethercutt,republican,1204584,2818651,42.74
+2004,Wisconsin,WI,55,Russel D. Feingold,democrat,1632697,2949743,55.35
+2004,Wisconsin,WI,55,Tim Michels,republican,1301183,2949743,44.11
+2006,Arizona,AZ,4,Jim Pederson,democrat,664141,1526782,43.50
+2006,Arizona,AZ,4,Jon Kyl,republican,814398,1526782,53.34
+2006,California,CA,6,Dianne Feinstein,democrat,5076289,8541476,59.43
+2006,California,CA,6,"Richard ""Dick"" Mountjoy",republican,2990822,8541476,35.02
+2006,Connecticut,CT,9,Alan Schlesinger,republican,109198,1134777,9.62
+2006,Connecticut,CT,9,Ned Lamont,democrat,450844,1134777,39.73
+2006,Delaware,DE,10,Jan Ting,republican,69734,242972,28.70
+2006,Delaware,DE,10,Thomas R. Carper,democrat,170567,242972,70.20
+2006,Florida,FL,12,Bill Nelson,democrat,2890548,4793534,60.30
+2006,Florida,FL,12,Katherine Harris,republican,1826127,4793534,38.10
+2006,Hawaii,HI,15,Cynthia Thielen,republican,126097,342842,36.78
+2006,Hawaii,HI,15,Daniel K. Akaka,democrat,210330,342842,61.35
+2006,Indiana,IN,18,Richard G. Lugar,republican,1171553,1341111,87.36
+2006,Maine,ME,23,Olympia J. Snowe,republican,405596,545128,74.40
+2006,Maine,ME,23,Jean M. Hay Bright,democrat,113131,545128,20.75
+2006,Maryland,MD,24,Michael S. Steele,republican,787182,1781139,44.20
+2006,Maryland,MD,24,Benjamin L. Cardin,democrat,965477,1781139,54.21
+2006,Massachusetts,MA,25,Edward M. Kennedy,democrat,1500738,2243835,66.88
+2006,Massachusetts,MA,25,Kenneth G. Chase,republican,661532,2243835,29.48
+2006,Michigan,MI,26,Debbie Stabenow,democrat,2151278,3780142,56.91
+2006,Michigan,MI,26,Michael Bouchard,republican,1559597,3780142,41.26
+2006,Minnesota,MN,27,Mark R. Kennedy,republican,835653,2202772,37.94
+2006,Mississippi,MS,28,Trent Lott,republican,388399,610921,63.58
+2006,Mississippi,MS,28,Erik R. Fleming,democrat,213000,610921,34.87
+2006,Missouri,MO,29,James M. Talent,republican,1006941,2128459,47.31
+2006,Missouri,MO,29,Claire McCaskill,democrat,1055255,2128459,49.58
+2006,Montana,MT,30,Conrad Burns,republican,196283,406505,48.29
+2006,Montana,MT,30,Jon Tester,democrat,199845,406505,49.16
+2006,Nebraska,NE,31,Pete Ricketts,republican,213928,592316,36.12
+2006,Nebraska,NE,31,E. Benjamin Nelson,democrat,378388,592316,63.88
+2006,Nevada,NV,32,John Ensign,republican,322501,582572,55.36
+2006,Nevada,NV,32,Jack Carter,democrat,238796,582572,40.99
+2006,New Jersey,NJ,34,"Thomas H. Kean, Jr.",republican,41998,101973,41.19
+2006,New Jersey,NJ,34,Robert Menendez,democrat,58333,101973,57.20
+2006,New Mexico,NM,35,Allen W. McCulloch,republican,163826,558550,29.33
+2006,New Mexico,NM,35,Jeff Bingaman,democrat,394365,558550,70.61
+2006,New York,NY,36,John Spencer,republican,1212902,4700632,25.80
+2006,New York,NY,36,Hillary Rodham Clinton,democrat,2698931,4700632,57.42
+2006,North Dakota,ND,38,Dwight Grotberg,republican,64417,218152,29.53
+2006,North Dakota,ND,38,Kent Conrad,democrat,150146,218152,68.83
+2006,Ohio,OH,39,Mike DeWine,republican,1761037,4019236,43.82
+2006,Ohio,OH,39,Sherrod Brown,democrat,2257369,4019236,56.16
+2006,Pennsylvania,PA,42,"Bob Casey, Jr.",democrat,2392984,4081043,58.64
+2006,Pennsylvania,PA,42,Rick Santorum,republican,1684778,4081043,41.28
+2006,Rhode Island,RI,44,Lincoln Chafee,republican,178950,384993,46.48
+2006,Rhode Island,RI,44,Sheldon Whitehouse,democrat,206043,384993,53.52
+2006,Tennessee,TN,47,"Harold E. Ford, Jr.",democrat,879976,1833695,47.99
+2006,Tennessee,TN,47,Bob Corker,republican,929911,1833695,50.71
+2006,Texas,TX,48,Barbara Ann Radnofsky,democrat,1555202,4314663,36.04
+2006,Texas,TX,48,Kay Bailey Hutchison,republican,2661789,4314663,61.69
+2006,Utah,UT,49,Orrin G. Hatch,republican,356238,571252,62.36
+2006,Utah,UT,49,Pete Ashdown,democrat,177459,571252,31.06
+2006,Vermont,VT,50,Rich Tarrant,republican,84924,262419,32.36
+2006,Virginia,VA,51,"James H. ""Jim"" Webb, Jr.",democrat,1175606,2370445,49.59
+2006,Virginia,VA,51,George Allen,republican,1166277,2370445,49.20
+2006,Washington,WA,53,Mike McGavick,republican,832106,2083734,39.93
+2006,Washington,WA,53,Maria Cantwell,democrat,1184659,2083734,56.85
+2006,West Virginia,WV,54,Robert C. Byrd,democrat,159154,206562,77.05
+2006,West Virginia,WV,54,John R. Raese,republican,47408,206562,22.95
+2006,Wisconsin,WI,55,Herb Kohl,democrat,1439214,2138297,67.31
+2006,Wisconsin,WI,55,Robert Gerald Lorge,republican,630299,2138297,29.48
+2006,Wyoming,WY,56,Dale Groutage,democrat,57671,196215,29.39
+2006,Wyoming,WY,56,Craig Thomas,republican,135174,196215,68.89
+2008,Alabama,AL,1,Vivian Davis Figures,democrat,752391,2060191,36.52
+2008,Alabama,AL,1,Jeff Sessions,republican,1305383,2060191,63.36
+2008,Alaska,AK,2,Ted Stevens,republican,147814,317723,46.52
+2008,Alaska,AK,2,Mark Begich,democrat,151767,317723,47.77
+2008,Arkansas,AR,5,Mark L. Pryor,democrat,804678,1011754,79.53
+2008,Colorado,CO,8,Bob Schaffer,republican,990755,2331621,42.49
+2008,Colorado,CO,8,Mark Udall,democrat,1230994,2331621,52.80
+2008,Delaware,DE,10,Joseph R. Biden Jr.,democrat,257539,398134,64.69
+2008,Delaware,DE,10,Christine O'Donnell,republican,140595,398134,35.31
+2008,Georgia,GA,13,Saxby Chambliss,republican,1228033,2137956,57.44
+2008,Georgia,GA,13,Jim Martin,democrat,909923,2137956,42.56
+2008,Georgia,GA,13,Jim Martin,democrat,1757393,3752485,46.83
+2008,Georgia,GA,13,Saxby Chambliss,republican,1867097,3752485,49.76
+2008,Idaho,ID,16,Jim Risch,republican,371744,644780,57.65
+2008,Idaho,ID,16,Larry LaRocco,democrat,219903,644780,34.11
+2008,Illinois,IL,17,Steve Sauerberg,republican,1520621,5329884,28.53
+2008,Illinois,IL,17,Richard J. Durbin,democrat,3615844,5329884,67.84
+2008,Iowa,IA,19,Tom Harkin,democrat,941665,1502918,62.66
+2008,Iowa,IA,19,Christopher Reed,republican,560006,1502918,37.26
+2008,Kansas,KS,20,Pat Roberts,republican,727121,1210690,60.06
+2008,Kansas,KS,20,Jim Slattery,democrat,441399,1210690,36.46
+2008,Kentucky,KY,21,Mitch McConnell,republican,953816,1800821,52.97
+2008,Kentucky,KY,21,Bruce Lunsford,democrat,847005,1800821,47.03
+2008,Louisiana,LA,22,Mary L. Landrieu,democrat,988298,1896574,52.11
+2008,Louisiana,LA,22,John Kennedy,republican,867177,1896574,45.72
+2008,Maine,ME,23,Susan M. Collins,republican,444300,724430,61.33
+2008,Maine,ME,23,Thomas H. Allen,democrat,279510,724430,38.58
+2008,Massachusetts,MA,25,John F. Kerry,democrat,1971974,3102995,63.55
+2008,Massachusetts,MA,25,Jeffrey K. Beatty,republican,926044,3102995,29.84
+2008,Michigan,MI,26,Jack Hoogendyk,republican,1641070,4848620,33.85
+2008,Michigan,MI,26,Carl Levin,democrat,3038386,4848620,62.66
+2008,Minnesota,MN,27,Norm Coleman,republican,1212317,2887646,41.98
+2008,Minnesota,MN,27,Al Franken,democrat,1212629,2887646,41.99
+2008,Mississippi,MS,28,Roger F. Wicker,republican,683409,1243473,54.96
+2008,Mississippi,MS,28,Thad Cochran,republican,766111,1247026,61.44
+2008,Mississippi,MS,28,Erik Fleming,democrat,480915,1247026,38.56
+2008,Montana,MT,30,Bob Kelleher,republican,129369,477658,27.08
+2008,Montana,MT,30,Max Baucus,democrat,348289,477658,72.92
+2008,Nebraska,NE,31,Scott Kleeb,democrat,317456,792511,40.06
+2008,Nebraska,NE,31,Mike Johanns,republican,455854,792511,57.52
+2008,New Hampshire,NH,33,John E. Sununu,republican,314403,694787,45.25
+2008,New Hampshire,NH,33,Jeanne Shaheen,democrat,358438,694787,51.59
+2008,New Jersey,NJ,34,Frank R. Lautenberg,democrat,1951218,3482445,56.03
+2008,New Jersey,NJ,34,Dick Zimmer,republican,1461025,3482445,41.95
+2008,New Mexico,NM,35,Tom Udall,democrat,505128,823650,61.33
+2008,New Mexico,NM,35,Steve Pearce,republican,318522,823650,38.67
+2008,North Carolina,NC,37,Kay Hagan,democrat,2249311,4271970,52.65
+2008,North Carolina,NC,37,Elizabeth Dole,republican,1887510,4271970,44.18
+2008,Oklahoma,OK,40,James M. Inhofe,republican,763375,1346819,56.68
+2008,Oklahoma,OK,40,Andrew Rice,democrat,527736,1346819,39.18
+2008,Oregon,OR,41,Jeff Merkley,democrat,864392,1767504,48.90
+2008,Oregon,OR,41,Gordon H. Smith,republican,805159,1767504,45.55
+2008,Rhode Island,RI,44,Jack Reed,democrat,320644,438812,73.07
+2008,Rhode Island,RI,44,Robert G. Tingle,republican,116174,438812,26.47
+2008,South Carolina,SC,45,Bob Conley,democrat,790621,1871431,42.25
+2008,South Carolina,SC,45,Lindsey Graham,republican,1076534,1871431,57.52
+2008,South Dakota,SD,46,Joel Dykstra,republican,142784,380673,37.51
+2008,South Dakota,SD,46,Tim Johnson,democrat,237889,380673,62.49
+2008,Tennessee,TN,47,Lamar Alexander,republican,1579477,2424585,65.14
+2008,Tennessee,TN,47,Robert D. Tuke,democrat,767236,2424585,31.64
+2008,Texas,TX,48,John Cornyn,republican,4337469,7912075,54.82
+2008,Texas,TX,48,"Richard J. ""Rick"" Noriega",democrat,3389365,7912075,42.84
+2008,Virginia,VA,51,"James S. ""Jim"" Gilmore III",republican,1228830,3643294,33.73
+2008,Virginia,VA,51,Mark R. Warner,democrat,2369327,3643294,65.03
+2008,West Virginia,WV,54,Jay Wolfe,republican,254629,702308,36.26
+2008,West Virginia,WV,54,John D. Rockefeller IV,democrat,447560,702308,63.73
+2008,Wyoming,WY,56,Chris Rothfuss,democrat,60631,250007,24.25
+2008,Wyoming,WY,56,John Barrasso,republican,183063,249619,73.34
+2008,Wyoming,WY,56,Michael B. Enzi,republican,189046,250007,75.62
+2008,Wyoming,WY,56,Nick Carter,democrat,66202,249619,26.52
+2010,Alabama,AL,1,William G. Barnes,democrat,515619,1485499,34.71
+2010,Alabama,AL,1,Richard C. Shelby,republican,968181,1485499,65.18
+2010,Alaska,AK,2,Joe Miller,republican,90839,255503,35.55
+2010,Alaska,AK,2,Scott T. McAdams,democrat,60045,255503,23.50
+2010,Arizona,AZ,4,John McCain,republican,1005615,1708484,58.86
+2010,Arizona,AZ,4,Rodney Glassman,democrat,592011,1708484,34.65
+2010,Arkansas,AR,5,John Boozman,republican,451618,779957,57.90
+2010,Arkansas,AR,5,Blanche L. Lincoln,democrat,288156,779957,36.95
+2010,California,CA,6,Barbara Boxer,democrat,5218441,10000160,52.18
+2010,California,CA,6,Carly Fiorina,republican,4217366,10000160,42.17
+2010,Colorado,CO,8,Ken Buck,republican,822731,1772286,46.42
+2010,Colorado,CO,8,Michael F. Bennet,democrat,851590,1772286,48.05
+2010,Connecticut,CT,9,Richard Blumenthal,democrat,605204,1153115,52.48
+2010,Connecticut,CT,9,Linda E. McMahon,republican,498341,1153115,43.22
+2010,Delaware,DE,10,Christine O'Donnell,republican,123053,307402,40.03
+2010,Delaware,DE,10,Christopher A. Coons,democrat,174012,307402,56.61
+2010,Florida,FL,12,Marco Rubio,republican,2645743,5411106,48.89
+2010,Florida,FL,12,Kendrick B. Meek,democrat,1092936,5411106,20.20
+2010,Georgia,GA,13,"Michael ""Mike"" Thurmond",democrat,996516,2555258,39.00
+2010,Georgia,GA,13,Johnny Isakson,republican,1489904,2555258,58.31
+2010,Hawaii,HI,15,Cam Cavasso,republican,79939,370583,21.57
+2010,Hawaii,HI,15,Daniel K. Inouye,democrat,277228,370583,74.81
+2010,Idaho,ID,16,P. Tom Sullivan,democrat,112057,449530,24.93
+2010,Idaho,ID,16,Mike Crapo,republican,319953,449530,71.18
+2010,Illinois,IL,17,"Alexander ""Alexi"" Giannoulias",democrat,1719478,3704473,46.42
+2010,Illinois,IL,17,Mark Steven Kirk,republican,1778698,3704473,48.01
+2010,Indiana,IN,18,Brad Ellsworth,democrat,697775,1744481,40.00
+2010,Indiana,IN,18,Dan Coats,republican,952116,1744481,54.58
+2010,Iowa,IA,19,Roxanne Conlin,democrat,371686,1116063,33.30
+2010,Iowa,IA,19,Chuck Grassley,republican,718215,1116063,64.35
+2010,Kansas,KS,20,Lisa Johnston,democrat,220971,837692,26.38
+2010,Kansas,KS,20,Jerry Moran,republican,587175,837692,70.09
+2010,Kentucky,KY,21,Jack Conway,democrat,600052,1356096,44.25
+2010,Kentucky,KY,21,Rand Paul,republican,755706,1356096,55.73
+2010,Louisiana,LA,22,David Vitter,republican,715415,1264994,56.55
+2010,Louisiana,LA,22,"""Charlie"" Melancon",democrat,476572,1264994,37.67
+2010,Maryland,MD,24,Eric Wargotz,republican,655666,1833858,35.75
+2010,Maryland,MD,24,"James T. Lynch, Jr.",democrat,84,1833858,0.00
+2010,Maryland,MD,24,Barbara Mikulski,democrat,1140531,1833858,62.19
+2010,Missouri,MO,29,Robin Carnahan,democrat,789736,1943899,40.63
+2010,Missouri,MO,29,Roy Blunt,republican,1054160,1943899,54.23
+2010,Nevada,NV,32,Harry Reid,democrat,362785,721404,50.29
+2010,Nevada,NV,32,Sharron Angle,republican,321361,721404,44.55
+2010,New Hampshire,NH,33,Kelly Ayotte,republican,273218,454710,60.09
+2010,New Hampshire,NH,33,Paul W. Hodes,democrat,167545,454710,36.85
+2010,New York,NY,36,Kirsten E. Gillibrand,democrat,2837684,4757635,59.64
+2010,New York,NY,36,Jay Townsend,republican,1239605,4763899,26.02
+2010,New York,NY,36,Joseph J. DioGuardi,republican,1338308,4757635,28.13
+2010,New York,NY,36,Charles E. Schumer,democrat,3047880,4763899,63.98
+2010,North Carolina,NC,37,Elaine Marshall,democrat,1145074,2660079,43.05
+2010,North Carolina,NC,37,Richard Burr,republican,1458046,2660079,54.81
+2010,North Dakota,ND,38,John Hoeven,republican,181689,238534,76.17
+2010,Ohio,OH,39,Lee Fisher,democrat,1503297,3815098,39.40
+2010,Ohio,OH,39,Rob Portman,republican,2168742,3815098,56.85
+2010,Oklahoma,OK,40,Thomas A. Coburn,republican,718482,1017151,70.64
+2010,Oklahoma,OK,40,Jim Rogers,democrat,265814,1017151,26.13
+2010,Oregon,OR,41,Jim Huffman,republican,566199,1442588,39.25
+2010,Oregon,OR,41,Ron Wyden,democrat,825507,1442588,57.22
+2010,Pennsylvania,PA,42,Pat Toomey,republican,2028945,3977661,51.01
+2010,Pennsylvania,PA,42,Joe Sestak,democrat,1948716,3977661,48.99
+2010,South Carolina,SC,45,Alvin M. Greene,democrat,364598,1318794,27.65
+2010,South Carolina,SC,45,Jim DeMint,republican,810771,1318794,61.48
+2010,South Dakota,SD,46,John Thune,republican,227947,227947,100.00
+2010,Utah,UT,49,Mike Lee,republican,360403,585230,61.58
+2010,Utah,UT,49,Sam F. Granato,democrat,191732,585230,32.76
+2010,Vermont,VT,50,Len Britton,republican,72699,235178,30.91
+2010,Vermont,VT,50,Patrick J. Leahy,democrat,151281,235178,64.33
+2010,Washington,WA,53,Patty Murray,democrat,1314930,2511094,52.36
+2010,Washington,WA,53,Dino Rossi,republican,1196164,2511094,47.64
+2010,West Virginia,WV,54,Joe Manchin III,democrat,283358,529948,53.47
+2010,West Virginia,WV,54,John R. Raese,republican,230013,529948,43.40
+2010,Wisconsin,WI,55,Russell D. Feingold,democrat,1020958,2171331,47.02
+2010,Wisconsin,WI,55,"Ernest J. Pagels, Jr.",republican,134,2171331,0.01
+2010,Wisconsin,WI,55,Ron Johnson,republican,1125999,2171331,51.86
+2012,Arizona,AZ,4,Jeff Flake,republican,1104457,2243422,49.23
+2012,Arizona,AZ,4,Richard Carmona,democrat,1036542,2243422,46.20
+2012,California,CA,6,Dianne Feinstein,democrat,7864624,12578511,62.52
+2012,California,CA,6,Elizabeth Emken,republican,4713887,12578511,37.48
+2012,Connecticut,CT,9,Christopher S. Murphy,democrat,792983,1511764,52.45
+2012,Connecticut,CT,9,Linda E. McMahon,republican,604569,1511764,39.99
+2012,Delaware,DE,10,Thomas R. Carper,democrat,265415,399606,66.42
+2012,Delaware,DE,10,Kevin Wade,republican,115700,399606,28.95
+2012,Florida,FL,12,Bill Nelson,democrat,4523451,8189946,55.23
+2012,Florida,FL,12,Connie Mack,republican,3458267,8189946,42.23
+2012,Hawaii,HI,15,Linda Lingle,republican,160994,437159,36.83
+2012,Hawaii,HI,15,Mazie K. Hirono,democrat,269489,437159,61.65
+2012,Indiana,IN,18,Richard E. Mourdock,republican,1133621,2560102,44.28
+2012,Indiana,IN,18,Joe Donnelly,democrat,1281181,2560102,50.04
+2012,Maine,ME,23,Cynthia Ann Dill,democrat,92900,724720,12.82
+2012,Maine,ME,23,"Charles E. Summers, Jr.",republican,215399,724720,29.72
+2012,Maryland,MD,24,Benjamin L. Cardin,democrat,1474028,2633234,55.98
+2012,Maryland,MD,24,Daniel John Bongino,republican,693291,2633234,26.33
+2012,Massachusetts,MA,25,Scott P. Brown,republican,1458048,3184196,45.79
+2012,Massachusetts,MA,25,Elizabeth A. Warren,democrat,1696346,3184196,53.27
+2012,Michigan,MI,26,Debbie Stabenow,democrat,2735826,4652918,58.80
+2012,Michigan,MI,26,Pete Hoekstra,republican,1767386,4652918,37.98
+2012,Minnesota,MN,27,Kurt Bills,republican,867974,2843207,30.53
+2012,Minnesota,MN,27,Amy Klobuchar,democrat,1854595,2843207,65.23
+2012,Mississippi,MS,28,"Albert N. Gore, Jr.",democrat,503467,1241568,40.55
+2012,Mississippi,MS,28,Roger F. Wicker,republican,709626,1241568,57.16
+2012,Missouri,MO,29,W. Todd Akin,republican,1066159,2725793,39.11
+2012,Missouri,MO,29,Claire McCaskill,democrat,1494125,2725793,54.81
+2012,Montana,MT,30,Jon Tester,democrat,236123,486066,48.58
+2012,Montana,MT,30,Denny Rehberg,republican,218051,486066,44.86
+2012,Nebraska,NE,31,Bob Kerrey,democrat,332979,788572,42.23
+2012,Nebraska,NE,31,Deb Fischer,republican,455593,788572,57.77
+2012,Nevada,NV,32,Dean Heller,republican,457656,997805,45.87
+2012,Nevada,NV,32,Shelley Berkley,democrat,446080,997805,44.71
+2012,New Jersey,NJ,34,Robert Menendez,democrat,1987680,3376649,58.87
+2012,New Jersey,NJ,34,Joe Kyrillos,republican,1329534,3376649,39.37
+2012,New Mexico,NM,35,Martin Heinrich,democrat,395717,775793,51.01
+2012,New Mexico,NM,35,Heather A. Wilson,republican,351260,775793,45.28
+2012,New York,NY,36,Wendy Long,republican,1514647,7116628,21.28
+2012,New York,NY,36,Kirsten E. Gillibrand,democrat,4420043,7116628,62.11
+2012,North Dakota,ND,38,Rick Berg,republican,158401,321144,49.32
+2012,North Dakota,ND,38,Heidi Heitkamp,democrat,161337,321144,50.24
+2012,Ohio,OH,39,Josh Mandel,republican,2435712,5449018,44.70
+2012,Ohio,OH,39,Sherrod Brown,democrat,2762690,5449018,50.70
+2012,Pennsylvania,PA,42,Tom Smith,republican,2509132,5627422,44.59
+2012,Pennsylvania,PA,42,"Robert P. Casey, Jr.",democrat,3021364,5627422,53.69
+2012,Rhode Island,RI,44,Sheldon Whitehouse,democrat,271034,418189,64.81
+2012,Rhode Island,RI,44,Benjamin Barrett Hinckley III,republican,146222,418189,34.97
+2012,Tennessee,TN,47,Bob Corker,republican,1506443,2321477,64.89
+2012,Tennessee,TN,47,Mark E. Clayton,democrat,705882,2321477,30.41
+2012,Texas,TX,48,Ted Cruz,republican,4440137,7864822,56.46
+2012,Texas,TX,48,Paul Sadler,democrat,3194927,7864822,40.62
+2012,Utah,UT,49,Orrin G. Hatch,republican,657608,1006901,65.31
+2012,Utah,UT,49,Scott Howell,democrat,301873,1006901,29.98
+2012,Vermont,VT,50,John MacGovern,republican,72898,292762,24.90
+2012,Virginia,VA,51,George F. Allen,republican,1785542,3802196,46.96
+2012,Virginia,VA,51,Timothy M. Kaine,democrat,2010067,3802196,52.87
+2012,Washington,WA,53,Maria Cantwell,democrat,1855493,3069417,60.45
+2012,Washington,WA,53,Michael Baumgartner,republican,1213924,3069417,39.55
+2012,West Virginia,WV,54,Joe Manchin III,democrat,399898,660202,60.57
+2012,West Virginia,WV,54,John R. Raese,republican,240787,660202,36.47
+2012,Wisconsin,WI,55,Tammy Baldwin,democrat,1547104,3009411,51.41
+2012,Wisconsin,WI,55,Tommy G. Thompson,republican,1380126,3009411,45.86
+2012,Wyoming,WY,56,John Barrasso,republican,185250,250700,73.89
+2012,Wyoming,WY,56,Tim Chesnut,democrat,53019,250700,21.15
+2014,Alabama,AL,1,Jeff Sessions,republican,795606,818090,97.25
+2014,Alaska,AK,2,Mark Begich,democrat,129431,282400,45.83
+2014,Alaska,AK,2,Dan Sullivan,republican,135445,282400,47.96
+2014,Arkansas,AR,5,Tom Cotton,republican,478819,847505,56.50
+2014,Arkansas,AR,5,Mark L. Pryor,democrat,334174,847505,39.43
+2014,Colorado,CO,8,Cory Gardner,republican,983891,2041058,48.20
+2014,Colorado,CO,8,Mark Udall,democrat,944203,2041058,46.26
+2014,Delaware,DE,10,Kevin Wade,republican,98823,234038,42.23
+2014,Delaware,DE,10,Christopher A. Coons,democrat,130655,234038,55.83
+2014,Georgia,GA,13,David A. Perdue,republican,1358088,2567805,52.89
+2014,Georgia,GA,13,M. Michelle Nunn,democrat,1160811,2567805,45.21
+2014,Hawaii,HI,15,Cam Cavasso,republican,98006,369703,26.51
+2014,Hawaii,HI,15,Brian Schatz,democrat,246827,369703,66.76
+2014,Idaho,ID,16,Nels Mitchell,democrat,151574,437170,34.67
+2014,Idaho,ID,16,James E. Risch,republican,285596,437170,65.33
+2014,Illinois,IL,17,Richard J. Durbin,democrat,1929637,3603519,53.55
+2014,Illinois,IL,17,"James D. ""Jim"" Oberweis",republican,1538522,3603519,42.69
+2014,Iowa,IA,19,Joni Ernst,republican,588575,1129700,52.10
+2014,Iowa,IA,19,Bruce Braley,democrat,494370,1129700,43.76
+2014,Kansas,KS,20,Pat Roberts,republican,460350,866191,53.15
+2014,Kentucky,KY,21,Alison Lundergan Grimes,democrat,584698,1435868,40.72
+2014,Kentucky,KY,21,Mich McConnell,republican,806787,1435868,56.19
+2014,Louisiana,LA,22,Wayne Ables,democrat,11323,3523183,0.32
+2014,Louisiana,LA,22,Vallian Senegal,democrat,3835,3523183,0.11
+2014,Louisiana,LA,22,William P. Waymire Jr.,democrat,4673,3523183,0.13
+2014,Louisiana,LA,22,Bill Cassidy,republican,1712379,3523183,48.60
+2014,Louisiana,LA,22,Mary L. Landrieu,democrat,1561210,3523183,44.31
+2014,Louisiana,LA,22,Thomas Clements,republican,14173,3523183,0.40
+2014,Louisiana,LA,22,"""Rob"" Maness",republican,202556,3523183,5.75
+2014,Maine,ME,23,Susan M. Collins,republican,413505,616996,67.02
+2014,Maine,ME,23,Shenna Bellows,democrat,190254,616996,30.84
+2014,Massachusetts,MA,25,Brian J. Herr,republican,791950,2186789,36.22
+2014,Massachusetts,MA,25,Edward J. Markey,democrat,1289944,2186789,58.99
+2014,Michigan,MI,26,Terri Lynn Land,republican,1290199,3121771,41.33
+2014,Michigan,MI,26,Gary C. Peters,democrat,1704936,3121771,54.61
+2014,Minnesota,MN,27,Mike McFadden,republican,850227,1981528,42.91
+2014,Minnesota,MN,27,Al Franken,democrat,1053205,1981528,53.15
+2014,Mississippi,MS,28,Travis W. Childers,democrat,239439,631858,37.89
+2014,Mississippi,MS,28,Thad Cochran,republican,378481,631858,59.90
+2014,Montana,MT,30,Steve Daines,republican,213709,369826,57.79
+2014,Montana,MT,30,Amanda Curtis,democrat,148184,369826,40.07
+2014,Nebraska,NE,31,Dave Domina,democrat,170127,540337,31.49
+2014,Nebraska,NE,31,Ben Sasse,republican,347636,540337,64.34
+2014,New Hampshire,NH,33,Jeanne Shaheen,democrat,251184,488159,51.46
+2014,New Hampshire,NH,33,Scott P. Brown,republican,235347,488159,48.21
+2014,New Jersey,NJ,34,Cory A. Booker,democrat,1043866,1869535,55.84
+2014,New Jersey,NJ,34,Jeff Bell,republican,791297,1869535,42.33
+2014,New Mexico,NM,35,Allen E. Weh,republican,229097,515506,44.44
+2014,New Mexico,NM,35,Tom Udall,democrat,286409,515506,55.56
+2014,North Carolina,NC,37,Kay R. Hagan,democrat,1377651,2915281,47.26
+2014,North Carolina,NC,37,Thom Tillis,republican,1423259,2915281,48.82
+2014,Oklahoma,OK,40,Connie Johnson,democrat,237923,820890,28.98
+2014,Oklahoma,OK,40,Matt Silverstein,democrat,234307,820733,28.55
+2014,Oklahoma,OK,40,James M. Inhofe,republican,558166,820733,68.01
+2014,Oklahoma,OK,40,James Lankford,republican,557002,820890,67.85
+2014,Oregon,OR,41,Jeff Merkley,democrat,814537,1461618,55.73
+2014,Oregon,OR,41,Monica Wehby,republican,538847,1461618,36.87
+2014,Rhode Island,RI,44,Jack Reed,democrat,223675,316898,70.58
+2014,Rhode Island,RI,44,Mark S. Zaccaria,republican,92684,316898,29.25
+2014,South Carolina,SC,45,Brad Hutto,democrat,456726,1240075,36.83
+2014,South Carolina,SC,45,Lindsey Graham,republican,672941,1240075,54.27
+2014,South Carolina,SC,45,Joyce Dickerson,democrat,459583,1238982,37.09
+2014,South Carolina,SC,45,Tim Scott,republican,757215,1238982,61.12
+2014,South Dakota,SD,46,Mike Rounds,republican,140741,279412,50.37
+2014,South Dakota,SD,46,Rick Weiland,democrat,82456,279412,29.51
+2014,Tennessee,TN,47,Gordon Ball,democrat,437848,1374065,31.87
+2014,Tennessee,TN,47,Lamar Alexander,republican,850087,1374065,61.87
+2014,Texas,TX,48,John Cornyn,republican,2861531,4648358,61.56
+2014,Texas,TX,48,David M. Alameel,democrat,1597387,4648358,34.36
+2014,Virginia,VA,51,Ed. W. Gillespie,republican,1055940,2184473,48.34
+2014,Virginia,VA,51,Mark R. Warner,democrat,1073667,2184473,49.15
+2014,West Virginia,WV,54,Natalie Tennant,democrat,156360,453689,34.46
+2014,West Virginia,WV,54,Shelley Moore Capito,republican,281820,453689,62.12
+2014,Wyoming,WY,56,Michael B. Enzi,republican,121554,171153,71.02
+2014,Wyoming,WY,56,Charlie Hardy,democrat,29377,171153,17.16
+2016,Alabama,AL,1,Ron Crumpton,democrat,748709,2087444,35.87
+2016,Alabama,AL,1,Richard C. Shelby,republican,1335104,2087444,63.96
+2016,Alaska,AK,2,Ray Metcalfe,democrat,36200,311441,11.62
+2016,Alaska,AK,2,Lisa Murkowski,republican,138149,311441,44.36
+2016,Arizona,AZ,4,Ann Kirkpatrick,democrat,1031245,2530730,40.75
+2016,Arizona,AZ,4,Sydney Dudikoff,republican,494,2530730,0.02
+2016,Arizona,AZ,4,John McCain,republican,1359267,2530730,53.71
+2016,Arkansas,AR,5,John Boozman,republican,661984,1107522,59.77
+2016,Arkansas,AR,5,Conner Eldridge,democrat,400602,1107522,36.17
+2016,California,CA,6,Loretta Sanchez,democrat,4701417,12244170,38.40
+2016,California,CA,6,Kamala D. Harris,democrat,7542753,12244170,61.60
+2016,Colorado,CO,8,Michael F. Bennet,democrat,1370710,2743023,49.97
+2016,Colorado,CO,8,Darryl Glenn,republican,1215318,2743023,44.31
+2016,Connecticut,CT,9,Richard Blumenthal,democrat,920766,1596276,57.68
+2016,Connecticut,CT,9,Dan Carter,republican,552621,1596276,34.62
+2016,Florida,FL,12,Patrick Murphy,democrat,4122088,9301820,44.31
+2016,Florida,FL,12,Marco Rubio,republican,4835191,9301820,51.98
+2016,Georgia,GA,13,Jim Barksdale,democrat,1599726,3898605,41.03
+2016,Georgia,GA,13,Johnny Isakson,republican,2135806,3898605,54.78
+2016,Hawaii,HI,15,Brian Schatz,democrat,306604,437664,70.05
+2016,Hawaii,HI,15,John Carroll,republican,92653,437664,21.17
+2016,Idaho,ID,16,Mike Crapo,republican,449017,678943,66.13
+2016,Idaho,ID,16,Jerry Sturgill,democrat,188249,678943,27.73
+2016,Illinois,IL,17,Mark Kirk,republican,2184692,5491878,39.78
+2016,Illinois,IL,17,Tammy Duckworth,democrat,3012940,5491878,54.86
+2016,Indiana,IN,18,Evan Bayh,democrat,1158947,2732546,42.41
+2016,Indiana,IN,18,Todd C. Young,republican,1423991,2732546,52.11
+2016,Iowa,IA,19,Chuck Grassley,republican,926007,1541036,60.09
+2016,Iowa,IA,19,Patty Judge,democrat,549460,1541036,35.66
+2016,Kansas,KS,20,Patrick Wiesner,democrat,379740,1177922,32.24
+2016,Kansas,KS,20,Jerry Moran,republican,732376,1177922,62.18
+2016,Kentucky,KY,21,Rand Paul,republican,1090177,1903465,57.27
+2016,Kentucky,KY,21,Jim Gray,democrat,813246,1903465,42.72
+2016,Louisiana,LA,22,"Charles W. Boustany, Jr.",republican,298008,1997218,14.92
+2016,Louisiana,LA,22,Derrick Edwards,democrat,51774,1997218,2.59
+2016,Louisiana,LA,22,"M. V. ""Vinny""Mendoza",democrat,4927,1997218,0.25
+2016,Louisiana,LA,22,John Fleming,republican,204026,1997218,10.22
+2016,Louisiana,LA,22,Caroline Fayard,democrat,240917,1997218,12.06
+2016,Louisiana,LA,22,Peter Williams,democrat,6855,1997218,0.34
+2016,Louisiana,LA,22,"""Rob"" Maness",republican,90856,1997218,4.55
+2016,Louisiana,LA,22,Joshua Pellerin,democrat,7395,1997218,0.37
+2016,Louisiana,LA,22,John Kennedy,republican,536191,1997218,26.85
+2016,Louisiana,LA,22,Gary Landrieu,democrat,45587,1997218,2.28
+2016,Louisiana,LA,22,Foster Campbell,democrat,347816,1997218,17.42
+2016,Louisiana,LA,22,Abhay Patel,republican,1576,1997218,0.08
+2016,Louisiana,LA,22,"""Joseph"" Cao",republican,21019,1997218,1.05
+2016,Louisiana,LA,22,David Duke,republican,58606,1997218,2.93
+2016,Louisiana,LA,22,"Donald ""Crawdaddy"" Crawford",republican,25523,1997218,1.28
+2016,Louisiana,LA,22,Charles Marsala,republican,3684,1997218,0.18
+2016,Maryland,MD,24,Chris Van Hollen,democrat,1659907,2726170,60.89
+2016,Maryland,MD,24,Kathy Szeliga,republican,972557,2726170,35.67
+2016,Missouri,MO,29,Roy Blunt,republican,1378458,2802641,49.18
+2016,Missouri,MO,29,Jason Kander,democrat,1300200,2802641,46.39
+2016,Nevada,NV,32,Joseph J. Heck,republican,495079,1108294,44.67
+2016,Nevada,NV,32,Catherine Cortez Masto,democrat,521994,1108294,47.10
+2016,New Hampshire,NH,33,Kelly Ayotte,republican,353632,739140,47.84
+2016,New Hampshire,NH,33,Maggie Hassan,democrat,354649,739140,47.98
+2016,New York,NY,36,Wendy Long,republican,1723927,7800725,22.10
+2016,New York,NY,36,Charles E. Schumer,democrat,4784220,7800725,61.33
+2016,North Carolina,NC,37,Deborah K. Ross,democrat,2128165,4691133,45.37
+2016,North Carolina,NC,37,Richard Burr,republican,2395376,4691133,51.06
+2016,North Dakota,ND,38,John Hoeven,republican,268788,342501,78.48
+2016,North Dakota,ND,38,Eliot Glassheim,democrat,58116,342501,16.97
+2016,Ohio,OH,39,Ted Strickland,democrat,1996908,5374164,37.16
+2016,Ohio,OH,39,Rob Portman,republican,3118567,5374164,58.03
+2016,Oklahoma,OK,40,Mike Workman,democrat,355911,1448047,24.58
+2016,Oklahoma,OK,40,James Lankford,republican,980892,1448047,67.74
+2016,Oregon,OR,41,Ron Wyden,democrat,1105119,1952478,56.60
+2016,Oregon,OR,41,Mark Callahan,republican,651106,1952478,33.35
+2016,Pennsylvania,PA,42,Katie McGinty,democrat,2865012,6051856,47.34
+2016,Pennsylvania,PA,42,Patrick J. Toomey,republican,2951702,6051856,48.77
+2016,South Carolina,SC,45,Thomas Dixon,democrat,704540,2049893,34.37
+2016,South Carolina,SC,45,Tim Scott,republican,1241609,2049893,60.57
+2016,South Dakota,SD,46,John R. Thune,republican,265516,369656,71.83
+2016,South Dakota,SD,46,Jay Williams,democrat,104140,369656,28.17
+2016,Utah,UT,49,Mike Lee,republican,760220,1115583,68.15
+2016,Utah,UT,49,Misty K. Snow,democrat,301858,1115583,27.06
+2016,Vermont,VT,50,Scott Milne,republican,103637,320467,32.34
+2016,Vermont,VT,50,Patrick J. Leahy,democrat,192243,320467,59.99
+2016,Washington,WA,53,Chris Vance,republican,1329338,3243317,40.99
+2016,Washington,WA,53,Patty Murray,democrat,1913979,3243317,59.01
+2016,Wisconsin,WI,55,Russ Feingold,democrat,1380335,2948741,46.81
+2016,Wisconsin,WI,55,Ron Johnson,republican,1479471,2948741,50.17
+2018,Arizona,AZ,4,Martha McSally,republican,1135200,2384308,47.61
+2018,Arizona,AZ,4,Kyrsten Sinema,democrat,1191100,2384308,49.96
+2018,California,CA,6,Dianne Feinstein,democrat,6019422,11113364,54.16
+2018,California,CA,6,Kevin De Leon,democrat,5093942,11113364,45.84
+2018,Connecticut,CT,9,Christopher S Murphy,democrat,787685,1386840,56.80
+2018,Connecticut,CT,9,Matthew Corey,republican,545717,1386840,39.35
+2018,Delaware,DE,10,Thomas R Carper,democrat,217385,362592,59.95
+2018,Delaware,DE,10,Robert B Arlett,republican,137127,362592,37.82
+2018,Florida,FL,12,Rick Scott,republican,4099505,8190005,50.05
+2018,Florida,FL,12,Bill Nelson,democrat,4089472,8190005,49.93
+2018,Hawaii,HI,15,Mazie K. Hirono,democrat,276316,388351,71.15
+2018,Hawaii,HI,15,Ron Curtis,republican,112035,388351,28.85
+2018,Indiana,IN,18,Mike Braun,republican,1158000,2282565,50.73
+2018,Indiana,IN,18,Joe Donnelly,democrat,1023553,2282565,44.84
+2018,Maine,ME,23,Eric L. Brakey,republican,223502,634409,35.23
+2018,Maine,ME,23,Zak Ringelstein,democrat,66268,634409,10.45
+2018,Maryland,MD,24,Tony Campbell,republican,697017,2299889,30.31
+2018,Maryland,MD,24,Ben Cardin,democrat,1491614,2299889,64.86
+2018,Massachusetts,MA,25,Elizabeth A. Warren,democrat,1633371,2707090,60.34
+2018,Massachusetts,MA,25,Geoff Diehl,republican,979210,2707090,36.17
+2018,Michigan,MI,26,John James,republican,1938818,4237271,45.76
+2018,Michigan,MI,26,Debbie Stabenow,democrat,2214478,4237271,52.26
+2018,Minnesota,MN,27,Jim Newberger,republican,940437,5184235,18.14
+2018,Minnesota,MN,27,Karin Housley,republican,1095777,5184235,21.14
+2018,Mississippi,MS,28,David Baria,democrat,369567,1843803,20.04
+2018,Mississippi,MS,28,Roger F. Wicker,republican,547619,1843803,29.70
+2018,Mississippi,MS,28,Cindy Hyde-Smith,republican,486769,1843803,26.40
+2018,Mississippi,MS,28,Mike Espy,democrat,420819,1843803,22.82
+2018,Missouri,MO,29,Josh Hawley,republican,1254927,2442289,51.38
+2018,Missouri,MO,29,Claire McCaskill,democrat,1112935,2442289,45.57
+2018,Montana,MT,30,Jon Tester,democrat,253876,504384,50.33
+2018,Montana,MT,30,Matt Rosendale,republican,235963,504384,46.78
+2018,Nebraska,NE,31,Deb Fischer,republican,403151,698883,57.69
+2018,Nebraska,NE,31,Jane Raybould,democrat,269917,698883,38.62
+2018,Nevada,NV,32,Jacky Rosen,democrat,490071,972132,50.41
+2018,Nevada,NV,32,Dean Heller,republican,441202,972132,45.38
+2018,New Jersey,NJ,34,Robert Menendez,democrat,1711654,3169310,54.01
+2018,New Jersey,NJ,34,Bob Hugin,republican,1357355,3169310,42.83
+2018,New Mexico,NM,35,Martin T Heinrich,democrat,376998,697012,54.09
+2018,New Mexico,NM,35,Mick Rich,republican,212813,697012,30.53
+2018,New York,NY,36,Kirsten E. Gillibrand,democrat,3755489,6055151,62.02
+2018,New York,NY,36,Chele Chiavacci Farley,republican,1730439,6055151,28.58
+2018,North Dakota,ND,38,Kevin Cramer,republican,179720,326138,55.11
+2018,Ohio,OH,39,Sherrod Brown,democrat,2355923,4410898,53.41
+2018,Ohio,OH,39,Jim Renacci,republican,2053963,4410898,46.57
+2018,Pennsylvania,PA,42,Robert P Casey Jr,democrat,2777680,4994643,55.61
+2018,Pennsylvania,PA,42,Louis J. Barletta,republican,2134848,4994643,42.74
+2018,Rhode Island,RI,44,Sheldon Whitehouse,democrat,231477,376738,61.44
+2018,Rhode Island,RI,44,"Robert G. Flanders, Jr.",republican,144421,376738,38.33
+2018,Tennessee,TN,47,Marsha Blackburn,republican,1227483,2243740,54.71
+2018,Tennessee,TN,47,Phil Bredesen,democrat,985450,2243740,43.92
+2018,Texas,TX,48,Ted Cruz,republican,4260553,8371655,50.89
+2018,Texas,TX,48,Beto O'Rourke,democrat,4045632,8371655,48.33
+2018,Utah,UT,49,Mitt Romney,republican,665215,1062845,62.59
+2018,Utah,UT,49,Jenny Wilson,democrat,328541,1062845,30.91
+2018,Vermont,VT,50,Lawrence Zupan,republican,74663,272624,27.39
+2018,Virginia,VA,51,Corey A. Stewart,republican,1374313,3351373,41.01
+2018,Virginia,VA,51,Timothy M. Kaine,democrat,1910370,3351373,57.00
+2018,Washington,WA,53,Maria Cantwell,democrat,1803364,3086168,58.43
+2018,Washington,WA,53,Susan Hutchison,republican,1282804,3086168,41.57
+2018,West Virginia,WV,54,Joe Manchin,democrat,288808,582911,49.55
+2018,West Virginia,WV,54,Patrick Morrisey,republican,269872,582911,46.30
+2018,Wisconsin,WI,55,Tammy Baldwin,democrat,1472914,2657841,55.42
+2018,Wisconsin,WI,55,Leah Vukmir,republican,1184885,2657841,44.58
+2018,Wyoming,WY,56,John Barrasso,republican,136210,203420,66.96
+2018,Wyoming,WY,56,Gary Trauner,democrat,61227,203420,30.10
