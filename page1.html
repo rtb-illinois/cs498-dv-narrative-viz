@@ -8,7 +8,7 @@
     <h1>Page 1</h1>
     <p>Hello, page 1</p>
 
-    <svg width=300 height=300>
+    <svg width=500 height=500>
     </svg>
     <script>
         d3.csv('./data/president.csv').then(function(csv_data) {
@@ -19,14 +19,13 @@
                 .entries(csv_data);
             var dem_data = data.filter(d=>d.key=="democrat");
             var rep_data = data.filter(d=>d.key=="republican");
-            console.log(JSON.stringify(rep_data));
-            var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range([0, 200]);
+            var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range([0, 400]);
             xAxis.tickFormat(d3.timeFormat("%Y"));
             d3.select("svg")
               .append("g")
-                .attr("transform", "translate(50, 250)")
+                .attr("transform", "translate(50, 450)")
               .call(d3.axisBottom(xAxis));
-            var yAxis = d3.scaleLinear().domain([0, 100]).range([200, 0]);
+            var yAxis = d3.scaleLinear().domain([0, 100]).range([400, 0]);
             d3.select("svg")
               .append("g")
                 .attr("transform", "translate(50, 50)")
@@ -42,6 +41,14 @@
               .attr("stroke", function(d) {if (d.key == "democrat") { return "blue"; } else { return "red";} })
               .attr("stroke-width", 1.5)
               .attr("d", function(d) { return line(d.values); });
+            d3.select("svg")
+              .append("text")
+              .attr("x", (400 / 2))
+              .attr("y", 0 - (50 / 2))
+              .attr("text-anchor", "middle")
+              .style("font-size", "16px")
+              .style("text-decoration", "underline")
+              .text("Presidential Election Voting");
         }).catch(function(error) {
             console.log("Caught an error");
         });
