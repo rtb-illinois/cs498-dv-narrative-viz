@@ -19,16 +19,16 @@
                 .entries(csv_data);
             var dem_data = data.filter(d=>d.key=="democrat");
             var rep_data = data.filter(d=>d.key=="republican");
-            var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range(25, 275);
+            var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range([0, 200]);
             xAxis.tickFormat(d3.timeFormat("%Y"));
             d3.select("svg")
               .append("g")
-                .attr("transform", "translate(25, 275)")
+                .attr("transform", "translate(50, 250)")
               .call(d3.axisBottom(xAxis));
-            var yAxis = d3.scaleLinear().domain([0, 100]).range(275, 25);
+            var yAxis = d3.scaleLinear().domain([0, 100]).range([200, 0]);
             d3.select("svg")
               .append("g")
-                .attr("transform", "translate(25, 0)")
+                .attr("transform", "translate(50, 50)")
               .call(d3.axisLeft(yAxis));
         });
     </script>
