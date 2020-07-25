@@ -37,7 +37,7 @@
               .attr("fill", "none")
               .attr("stroke", "red")
               .attr("stroke-width", 1.5)
-              .attr("d", d3.line().x(function(d) { return d.key; }).y(function(d) { return d.value; }));
+              .attr("d", d3.line().x(function(d) { return parseInt(d.key); }).y(function(d) { return d.value; }));
         }).catch(function(error) {
             console.log("Caught an error");
         });
