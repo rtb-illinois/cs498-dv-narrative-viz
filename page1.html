@@ -42,10 +42,10 @@
               .attr("stroke-width", 1.5)
               .attr("d", function(d) { return line(d.values); });
             d3.select("svg")
+              .append("g").attr("transform", "translate(50,50)")
               .append("text")
               .attr("x", (400 / 2))
               .attr("y", 0 - (50 / 2))
-              .attr("text-anchor", "middle")
               .style("font-size", "16px")
               .style("text-decoration", "underline")
               .text("Presidential Election Voting");
