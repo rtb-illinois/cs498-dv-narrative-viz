@@ -1,10 +1,36 @@
 <!doctype html>
 <html>
+  <script src='https://d3js.org/d3.v5.min.js'></script>
   <head>
     <title>My Site</title>
   </head>
   <body>
     <h1>Page 1</h1>
     <p>Hello, page 1</p>
+
+    <svg width=300 height=300>
+    </svg>
+    <script>
+        d3.csv('./data/president.csv', function(csv_data) {
+            var data = d3.nest()
+                .key(function(d) { return d.party; })
+                .key(function(d) { return d.year; })
+                .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
+                .entries(csv_data);
+            var dem_data = data.filter(d=>d.key=="democrat");
+            var rep_data = data.filter(d=>d.key=="republican");
+            var xAxis = d3.scaleTime().domain([new Data("1976-01-01"), new Date("2020-01-01")]).range(25, 275);
+            xAxis.tickFormat(d3.timeFormat("%Y"));
+            d3.select("svg")
+              .append("g")
+                .attr("transform", "translate(25, 275)")
+              .call(d3.axisBottom(xAxis));
+            var yAxis = d3.scaleLinear().domain([0, 100]).range(275, 25);
+            d3.select("svg")
+              .append("g")
+                .attr("transform", "translate(25, 0)")
+              .call(d3.axisLeft(yAxis));
+        }
+    </script>
   </body>
 </html>
