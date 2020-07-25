@@ -39,7 +39,7 @@
               .append("g").attr("transform", "translate(50,50)")
               .append("path")
               .attr("fill", "none")
-              .attr("stroke", "red")
+              .attr("stroke", function(d) {if (d.key == "democrat") { return "blue"; } else { return "red";} })
               .attr("stroke-width", 1.5)
               .attr("d", function(d) { return line(d.values); });
         }).catch(function(error) {
