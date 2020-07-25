@@ -19,7 +19,7 @@
                 .entries(csv_data);
             var dem_data = data.filter(d=>d.key=="democrat");
             var rep_data = data.filter(d=>d.key=="republican");
-            var xAxis = d3.scaleTime().domain([new Data("1976-01-01"), new Date("2020-01-01")]).range(25, 275);
+            var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range(25, 275);
             xAxis.tickFormat(d3.timeFormat("%Y"));
             d3.select("svg")
               .append("g")
