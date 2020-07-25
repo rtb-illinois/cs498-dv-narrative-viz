@@ -11,7 +11,7 @@
     <svg width=300 height=300>
     </svg>
     <script>
-        d3.csv('./data/president.csv', function(csv_data) {
+        d3.csv('./data/president.csv').then(function(csv_data) {
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
@@ -38,6 +38,8 @@
               .attr("stroke", "red")
               .attr("stroke-width", 1.5)
               .attr("d", d3.line().x(function(d) { return d.key; }).y(function(d) { return d.values; }));
+        }).catch(function(error) {
+            console.log("Caught an error");
         });
     </script>
   </body>
