@@ -32,12 +32,13 @@
                 .attr("transform", "translate(50, 50)")
               .call(d3.axisLeft(yAxis));
             d3.select("svg")
+              .append("g").attr("transform", "translate(50,50)")
               .append("path")
               .datum(rep_data.values)
               .attr("fill", "none")
               .attr("stroke", "red")
               .attr("stroke-width", 1.5)
-              .attr("d", d3.line().x(function(d) { return d.key; }).y(function(d) { return d.value; }));
+              .attr("d", d3.line().x(function(d) { return xAxis(new Date(d.key)); }).y(function(d) { return yAxis(d.value); }));
         }).catch(function(error) {
             console.log("Caught an error");
         });
