@@ -71,6 +71,9 @@
               .attr("x", -200)
               .attr("y", -35)
               .text("Percent Vote");
+        }).catch(function(error) {
+            console.log("Caught an error");
+        });
 
         d3.csv('./data/house.csv').then(function(csv_data) {
             var data = d3.nest()
@@ -130,6 +133,9 @@
               .attr("x", -200)
               .attr("y", -35)
               .text("Percent Vote");
+        }).catch(function(error) {
+            console.log("Caught an error");
+        });
 
         d3.csv('./data/senate.csv').then(function(csv_data) {
             var data = d3.nest()
@@ -189,7 +195,6 @@
               .attr("x", -200)
               .attr("y", -35)
               .text("Percent Vote");
-
         }).catch(function(error) {
             console.log("Caught an error");
         });
