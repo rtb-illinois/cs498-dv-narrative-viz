@@ -20,6 +20,13 @@
                 .entries(csv_data);
             var dem_data = data.filter(d=>d.key=="democrat");
             var rep_data = data.filter(d=>d.key=="republican");
+
+            d3.select("#president")
+              .append("rect")
+              .attr("width", "100%")
+              .attr("height", "100%")
+              .attr("fill", "lightgray")
+
             var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range([0, 400]);
             xAxis.tickFormat(d3.timeFormat("%Y"));
             d3.select("#president")
