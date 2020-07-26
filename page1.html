@@ -45,7 +45,7 @@
               .append("g").attr("transform", "translate(50,50)")
               .append("text")
               .attr("x", 200)
-              .attr("y", 25)
+              .attr("y", -25)
               .style("font-size", "16px")
               .style("text-decoration", "underline")
               .text("Presidential Election Voting");
@@ -58,8 +58,8 @@
             d3.select("svg")
               .append("g").attr("transform", "translate(50,50)")
               .append("text")
-              .attr("y", 200)
               .attr("transform", "rotate(-90)")
+              .attr("y", 200)
               .text("Percent Vote");
         }).catch(function(error) {
             console.log("Caught an error");
