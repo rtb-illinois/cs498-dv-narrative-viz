@@ -1,12 +1,48 @@
 <!doctype html>
 <html>
   <script src='https://d3js.org/d3.v5.min.js'></script>
+  <style>
+    .pageheader {
+      background: navy;
+      color: white;
+      font-size: 15px;
+    }
+    .pagetitle {
+      text-align: center;
+      font-size: 25px;
+    }
+    .pagedescription {
+      width: 60%;
+      text-align: justify;
+      font-size: 14px;
+    }
+
+  </style>
+
   <head>
-    <title>My Site</title>
+    <title>USA Election Trends</title>
   </head>
+
   <body>
-    <h1>Page 1</h1>
-    <p>Hello, page 1</p>
+
+
+    <div class="pagetitle">
+      <h1>Overview</h1>
+    </div>
+
+    <div class="pagedescription">
+      <p>
+        This visualization explores trends in voting in elections for the US
+        Presidency, US House of Representatives, and US Senate, focusing on the
+        two primary political parties in the US, namely the Republican party
+        and the Democratic Party. Throughout the visualization, the color blue
+        is representative of the Democratic Party and the color red is
+        representative of the Republican Party. Note that the percentages
+        presented here are relative to the total number of voters, but not all
+        votes were for candidates from one of the two major parties, so the
+        percentages may not add up to 100% for all elections.
+      </p>
+    </div>
 
     <svg width=500 height=500 id="president"/>
     <svg width=500 height=500 id="house"/>
