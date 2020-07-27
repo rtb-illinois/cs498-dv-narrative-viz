@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <script src='https://d3js.org/d3.v5.min.js'></script>
+  <style>
+    .svg-container {
+      display: inline-block;
+      position: relative;
+      width: 33%;
+      height: auto;
+      padding-bottom: 100%;
+      vertical-align: top;
+      overflow: hidden;
+    }
+    .svg-content {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .pageheader {
+      height: 50px;
+      background: navy;
+      color: white;
+      font-size: 15px;
+    }
+    .pagetitle {
+      text-align: center;
+      font-size: 25px;
+    }
+    .pagedescription {
+      margin: 0 auto;
+      width: 60%;
+      text-align: justify;
+      font-size: 14px;
+    }
+    .pagecenter {
+      text-align: center;
+    }
+    .pagecontent {
+      display: inline-block;
+      margin: 0 auto;
+      width: 80%;
+      font-size: 14px;
+    }
+    .pagebuttoncontent {
+      display: inline-block;
+      margin: 0 auto;
+      width: 80%;
+      height: 100px;
+      font-size: 14px;
+    }
+    .pagebutton {
+      display: inline-block;
+      position: relative;
+      width: 33%;
+      padding-bottom: 100%;
+      vertical-align: top;
+      overflow: hidden;
+      text-align: center;
+    }
+    .button {
+      background-color: #1c87c9;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    .button:hover span {
+      padding-right: 25px;
+    }
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+
+  </style>
+
+  <head>
+    <title>USA Election Trends</title>
+  </head>
+
+  <body>
+
+    <div class="pageheader">
+      <p style="float:left; vertical-align: middle; display: inline;">USA Election Trends</p>
+      <div class="pagebutton">
+        <a href="overview" class="button"><span>Return to Overview</span></a>
+      </div>
+      <p style="float:right; vertical-align: middle; display: inline;">Created by Ryan Baker (NetID: rtb2)</p>
+    </div>
+
+    <div class="pagetitle">
+      <h1>US Senate Voting Summary</h1>
+    </div>
+
+    <div class="pagedescription">
+      <p>
+      </p>
+
+      <p>
+      </p>
+    </div>
+
+  </body>
+</html>
