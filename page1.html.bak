@@ -2,20 +2,6 @@
 <html>
   <script src='https://d3js.org/d3.v5.min.js'></script>
   <style>
-    .svg-container {
-      display: inline-block;
-      position: relative;
-      width: 100%;
-      padding-bottom: 100%;
-      vertical-align: top;
-      overflow: hidden;
-    }
-    .svg-content {
-      display: inline-block;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
     .pageheader {
       background: navy;
       color: white;
@@ -70,28 +56,10 @@
       </p>
     </div>
 
-    <div id="container" class="svg-container">
-    </div>
-
+    <svg width=500 height=500 id="president"/>
+    <svg width=500 height=500 id="house"/>
+    <svg width=500 height=500 id="senate"/>
     <script>
-        d3.select("div#container")
-          .append("svg")
-          .attr("preserveAspectRatio", "xMinyMin meet")
-          .attr("viewBox", "0 0 500 500")
-          .attr("id", "president")
-          .classed("svg-content", true);
-        d3.select("div#container")
-          .append("svg")
-          .attr("preserveAspectRatio", "xMinyMin meet")
-          .attr("viewBox", "0 0 500 500")
-          .attr("id", "house")
-          .classed("svg-content", true);
-        d3.select("div#container")
-          .append("svg")
-          .attr("preserveAspectRatio", "xMinyMin meet")
-          .attr("viewBox", "0 0 500 500")
-          .attr("id", "senate")
-          .classed("svg-content", true);
         //// US Presidency
         d3.csv('./data/president.csv').then(function(csv_data) {
             var data = d3.nest()
