@@ -70,23 +70,24 @@
       </p>
     </div>
 
-    <div id="container" class="svg-container">
-    </div>
+    <div id="container1" class="svg-container"/>
+    <div id="container2" class="svg-container"/>
+    <div id="container3" class="svg-container"/>
 
     <script>
-        d3.select("div#container")
+        d3.select("div#container1")
           .append("svg")
           .attr("preserveAspectRatio", "xMinyMin meet")
           .attr("viewBox", "0 0 500 500")
           .attr("id", "president")
           .classed("svg-content", true);
-        d3.select("div#container")
+        d3.select("div#container2")
           .append("svg")
           .attr("preserveAspectRatio", "xMinyMin meet")
           .attr("viewBox", "0 0 500 500")
           .attr("id", "house")
           .classed("svg-content", true);
-        d3.select("div#container")
+        d3.select("div#container3")
           .append("svg")
           .attr("preserveAspectRatio", "xMinyMin meet")
           .attr("viewBox", "0 0 500 500")
