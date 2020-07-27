@@ -32,13 +32,15 @@
       text-align: justify;
       font-size: 14px;
     }
-    .pagecenter {
-      text-align: center;
-    }
     .pagecontent {
-      display: inline-block;
-      height: auto;
+      margin: 0 auto;
       width: 80%;
+      font-size: 14px;
+    }
+    .pagebuttoncontent {
+      margin: 0 auto;
+      width: 80%;
+      height: 100px;
       font-size: 14px;
     }
     .pagebutton {
@@ -61,6 +63,27 @@
       font-size: 20px;
       margin: 4px 2px;
       cursor: pointer;
+    }
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    .button:hover span {
+      padding-right: 25px;
+    }
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
     }
 
 
@@ -102,32 +125,28 @@
       </p>
     </div>
 
-    <div class="pagecenter">
-      <div class="pagecontent">
-        <div id="container1" class="svg-container">
-        </div>
+    <div class="pagebuttoncontent">
+      <div id="container1" class="pagebutton">
+        <a href="page2" class="button"><span>US Presidency Story</span></a>
+      </div>
 
-        <div id="container2" class="svg-container">
-        </div>
+      <div id="container2" class="pagebutton">
+        <a href="page3" class="button"><span>US House Story</span></a>
+      </div>
 
-        <div id="container3" class="svg-container">
-        </div>
+      <div id="container3" class="pagebutton">
+        <a href="page4" class="button"><span>US Senate Story</span></a>
       </div>
     </div>
 
-    <div class="pagecenter">
-      <div class="pagecontent">
-        <div id="container1" class="pagebutton">
-          <a href="page2" class="button">US Presidency Story</a>
-        </div>
+    <div class="pagecontent">
+      <div id="container1" class="svg-container">
+      </div>
 
-        <div id="container2" class="pagebutton">
-          <a href="page3" class="button">US House Story</a>
-        </div>
+      <div id="container2" class="svg-container">
+      </div>
 
-        <div id="container3" class="pagebutton">
-          <a href="page4" class="button">US Senate Story</a>
-        </div>
+      <div id="container3" class="svg-container">
       </div>
     </div>
 
