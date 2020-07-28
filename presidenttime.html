@@ -100,7 +100,7 @@
     <title>USA Election Trends</title>
   </head>
 
-  <body>
+  <body onload='init()'>
 
     <div class="pageheader">
       <p style="float:left; vertical-align: middle; display: inline;">USA Election Trends</p>
@@ -153,20 +153,22 @@
     </div>
 
     <script>
-        var values = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
-        var slider = document.getElementById("timeslider");
-        var span = document.getElementById("timespan");
-        slider.oninput = function() {
-            span.innerHTML = values[this.value];
-        }
-        d3.select("div#container1")
-          .append("svg")
-          .attr("preserveAspectRatio", "xMinyMin meet")
-          .attr("viewBox", "0 0 500 500")
-          .attr("id", "president")
-          .classed("svg-content", true);
-        //// US Presidency
-        d3.csv('./data/president.csv').then(function(csv_data) {
+        async function init() {
+            d3.select("div#container1")
+              .append("svg")
+              .attr("preserveAspectRatio", "xMinyMin meet")
+              .attr("viewBox", "0 0 500 500")
+              .attr("id", "president")
+              .classed("svg-content", true);
+
+            var values = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+            var slider = document.getElementById("timeslider");
+            var span = document.getElementById("timespan");
+            slider.oninput = function() {
+                span.innerHTML = values[this.value];
+            }
+
+            var csv_data = await d3.csv('./data/president.csv');
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
@@ -224,10 +226,7 @@
               .attr("x", -200)
               .attr("y", -35)
               .text("Percent Vote");
-        }).catch(function(error) {
-            console.log("Caught an error");
-        });
-
+        }
     </script>
   </body>
 </html>
