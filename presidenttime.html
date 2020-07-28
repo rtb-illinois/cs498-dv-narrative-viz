@@ -137,6 +137,15 @@
     </div>
 
     <div class="pagecenter">
+      <div class="pagebuttoncontent">
+        <div class="pagebutton">
+          <input id="timeslider" type="range" min="0" max="10" value="0">
+          <span id="timespan">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagecenter">
       <div class="pagecontent">
         <div id="container1" class="svg-container">
         </div>
@@ -144,6 +153,10 @@
     </div>
 
     <script>
+        var values = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+        $('#timeslider').change(function() {
+            $('#timespan').text(values[this.value]);
+        });
         d3.select("div#container1")
           .append("svg")
           .attr("preserveAspectRatio", "xMinyMin meet")
