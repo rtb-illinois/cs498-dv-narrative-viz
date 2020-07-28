@@ -150,6 +150,13 @@
           <input id="timeslider" type="range" min="0" max="10" value="0">
           <span id="timespan">1976</span>
         </div>
+        <div class="pagebutton">
+          <span >Select One Political Party:</span>
+          <span >   Republican:</span>
+          <input type="checkbox" id="republican">
+          <span >   Democratic:</span>
+          <input type="checkbox" id="democratic">
+        </div>
       </div>
     </div>
 
@@ -189,6 +196,11 @@
             var span = document.getElementById("timespan");
             slider.min = 0;
             slider.max = unique_years.length - 1;
+            var check_republican = document.getElementByID("republican");
+            var check_democratic = document.getElementByID("democratic");
+            var party = "republican";
+            check_republican.checked = true;
+            check_democratic.checked = false;
 
             function create_graph(year) {
                 d3.select("#president").selectAll("*").remove()
@@ -276,7 +288,28 @@
                 current_year = unique_years[this.value];
                 span.innerHTML = current_year;
                 create_graph(current_year);
+            };
 
+            check_republican.onchange = function() {
+                if (check_republican.checked) {
+                    party = "republican";
+                    check_democratic.checked = false;
+                } else {
+                    party = "democrat";
+                    check_democratic.checked = true;
+                }
+                console.log(party);
+            };
+
+            check_democratic.onchange = function() {
+                if (check_democratic.checked) {
+                    party = "democrat";
+                    check_republican.checked = false;
+                } else {
+                    party = "republican";
+                    check_republican.checked = true;
+                }
+                console.log(party);
             };
 
         }
