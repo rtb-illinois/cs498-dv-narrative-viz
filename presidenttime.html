@@ -161,33 +161,29 @@
               .attr("id", "president")
               .classed("svg-content", true);
 
-            var values = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
-            var slider = document.getElementById("timeslider");
-            var span = document.getElementById("timespan");
-            slider.oninput = function() {
-                span.innerHTML = values[this.value];
-            }
-
             var csv_data = await d3.csv('./data/president.csv');
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-            console.log(typeof csv_data)
-            var years = []
+
+            var years = [];
             csv_data.forEach(function(d,i) {
                 console.log(d)
                 years.push(d.year);
-            })
-            console.log(years)
-            var year_set = new Set(years)
-            console.log(year_set)
-            var unique_years = [...new Set(years)]
-            console.log(unique_years)
+            });
+            var unique_years = [...new Set(years)];
+            var slider = document.getElementById("timeslider");
+            var span = document.getElementById("timespan");
+            slider.min = 0;
+            slider.max = unique_years.length - 1;
+            slider.oninput = function() {
+                span.innerHTML = unique_years[this.value];
+            };
+
             var dem_data = data.filter(d=>d.key=="democrat");
             var rep_data = data.filter(d=>d.key=="republican");
-            console.log(JSON.stringify(rep_data))
 
             d3.select("#president")
               .append("rect")
