@@ -174,12 +174,12 @@
                 .key(function(d) { return d.year; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-            console.log(JSON.stringify(csv_data))
+            console.log(typeof csv_data)
             var years = []
-            for (entry in csv_data){
-                console.log(entry)
-                years.push(entry.year);
-            }
+            csv_data.forEach(function(d,i) {
+                console.log(d)
+                years.push(d.year);
+            })
             console.log(years)
             var year_set = new Set(years)
             console.log(year_set)
