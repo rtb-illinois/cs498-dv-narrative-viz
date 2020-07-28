@@ -140,7 +140,7 @@
       <div class="pagebuttoncontent">
         <div class="pagebutton">
           <input id="timeslider" type="range" min="0" max="10" value="0">
-          <span id="timespan">0</span>
+          <span id="timespan">1976</span>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@
             d3.select("div#container1")
               .append("svg")
               .attr("preserveAspectRatio", "xMinyMin meet")
-              .attr("viewBox", "0 0 500 500")
+              .attr("viewBox", "0 0 1000 500")
               .attr("id", "president")
               .classed("svg-content", true);
 
@@ -168,8 +168,6 @@
                 .key(function(d) { return d.state; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-
-            console.log(JSON.stringify(data));
 
             var years = [];
             var states = [];
@@ -190,12 +188,8 @@
                 d3.select("#president").selectAll("*").remove()
 
                 //var dem_data = data.filter(d=>d.key=="democrat");
-                console.log(typeof data);
                 var rep_data = data.find(d=>d.key=="republican").values;
-                console.log(typeof rep_data);
                 var year_data = rep_data.find(d=>d.key==current_year).values;
-                console.log(typeof year_data);
-                console.log(JSON.stringify(year_data));
 
                 d3.select("#president")
                   .append("rect")
@@ -203,7 +197,7 @@
                   .attr("height", "100%")
                   .attr("fill", "lightgray")
 
-                var xAxis = d3.scaleBand().domain(unique_states).range([0, 400]).paddingInner(0.05);
+                var xAxis = d3.scaleBand().domain(unique_states).range([0, 900]).paddingInner(0.05);
                 d3.select("#president")
                   .append("g")
                     .attr("transform", "translate(50, 450)")
@@ -227,7 +221,7 @@
                 d3.select("#president")
                   .append("g").attr("transform", "translate(50,50)")
                   .append("text")
-                  .attr("x", 150)
+                  .attr("x", 450)
                   .attr("y", -25)
                   .style("font-size", "16px")
                   .style("text-decoration", "underline")
@@ -235,7 +229,7 @@
                 d3.select("#president")
                   .append("g").attr("transform", "translate(50,50)")
                   .append("text")
-                  .attr("x", 200)
+                  .attr("x", 450)
                   .attr("y", 440)
                   .text("Year");
                 d3.select("#president")
@@ -246,7 +240,6 @@
                   .attr("y", -35)
                   .text("Percent Vote");
             };
-            slider.value = 0;
 
         }
     </script>
