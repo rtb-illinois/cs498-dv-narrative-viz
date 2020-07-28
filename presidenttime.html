@@ -174,7 +174,12 @@
                 .key(function(d) { return d.year; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-            console.log(JSON.stringify(csv_data))
+            var years = []
+            for (entry in csv_data){
+                years.push(entry.year);
+            }
+            var unique_years = [...new Set(years)]
+            console.log(unique_years)
             var dem_data = data.filter(d=>d.key=="democrat");
             var rep_data = data.filter(d=>d.key=="republican");
 
