@@ -176,8 +176,12 @@
                 .entries(csv_data);
             var years = []
             for (entry in csv_data){
+                console.log(entry)
                 years.push(entry.year);
             }
+            console.log(years)
+            var year_set = new Set(years)
+            console.log(year_set)
             var unique_years = [...new Set(years)]
             console.log(unique_years)
             var dem_data = data.filter(d=>d.key=="democrat");
