@@ -197,12 +197,23 @@
             d3.select("#president")
               .append("g")
                 .attr("transform", "translate(50, 750)")
+                .style("font", "16px")
               .call(d3.axisBottom(xAxis));
             var yAxis = d3.scaleLinear().domain([0, 100]).range([700, 0]);
             d3.select("#president")
               .append("g")
                 .attr("transform", "translate(50, 50)")
+                .style("font", "16px")
               .call(d3.axisLeft(yAxis));
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "black")
+              .style("stroke-dasharray", "5,5")
+              .attr("x1", 0)
+              .attr("x2", 900)
+              .attr("y1", yAxis(50.0))
+              .attr("y2", yAxis(50.0))
             d3.select("#president")
               .selectAll("bar")
               .data(year_data)
@@ -219,7 +230,7 @@
               .append("text")
               .attr("x", 450)
               .attr("y", -25)
-              .style("font-size", "16px")
+              .style("font-size", "24px")
               .style("text-decoration", "underline")
               .text("Presidential Election Voting");
             d3.select("#president")
@@ -227,6 +238,7 @@
               .append("text")
               .attr("x", 450)
               .attr("y", 740)
+              .style("font-size", "24px")
               .text("Year");
             d3.select("#president")
               .append("g").attr("transform", "translate(50,50)")
@@ -234,6 +246,7 @@
               .attr("transform", "rotate(-90)")
               .attr("x", -200)
               .attr("y", -35)
+              .style("font-size", "24px")
               .text("Percent Vote");
 
             slider.oninput = function() {
@@ -262,6 +275,15 @@
                   .append("g")
                     .attr("transform", "translate(50, 50)")
                   .call(d3.axisLeft(yAxis));
+                d3.select("#president")
+                  .append("g").attr("transform", "translate(50, 50)")
+                  .append("line")
+                  .style("stroke", "black")
+                  .style("stroke-dasharray", "5,5")
+                  .attr("x1", 0)
+                  .attr("x2", 900)
+                  .attr("y1", yAxis(50.0))
+                  .attr("y2", yAxis(50.0))
                 d3.select("#president")
                   .selectAll("bar")
                   .data(year_data)
