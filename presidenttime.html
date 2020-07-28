@@ -165,74 +165,85 @@
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
+                .key(function(d) { return d.state; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
 
+            console.log(JSON.stringify(data));
+
             var years = [];
+            var states = [];
             csv_data.forEach(function(d,i) {
                 years.push(d.year);
+                states.push(d.state);
             });
             var unique_years = [...new Set(years)];
+            var unique_states = [...new Set(states)];
             var slider = document.getElementById("timeslider");
             var span = document.getElementById("timespan");
             slider.min = 0;
             slider.max = unique_years.length - 1;
             slider.oninput = function() {
-                span.innerHTML = unique_years[this.value];
+                current_year = unique_years[this.value];
+                span.innerHTML = current_year;
+
+                d3.select("#president").selectAll("*").remove()
+
+                //var dem_data = data.filter(d=>d.key=="democrat");
+                var rep_data = data.filter(d=>d.key=="republican").values;
+                var year_data = rep_data.filter(d=>d.key==current_year).values;
+
+                d3.select("#president")
+                  .append("rect")
+                  .attr("width", "100%")
+                  .attr("height", "100%")
+                  .attr("fill", "lightgray")
+
+                var xAxis = d3.scaleOrdinal().domain(unique_states).rangeRoundBands([0, 400], 0.05);
+                d3.select("#president")
+                  .append("g")
+                    .attr("transform", "translate(50, 450)")
+                  .call(d3.axisBottom(xAxis));
+                var yAxis = d3.scaleLinear().domain([0, 100]).range([400, 0]);
+                d3.select("#president")
+                  .append("g")
+                    .attr("transform", "translate(50, 50)")
+                  .call(d3.axisLeft(yAxis));
+                d3.select("#president")
+                  .selectAll("bar")
+                  .data(year_data)
+                  .enter()
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("rect")
+                  .attr("fill", "red")
+                  .attr("x", function(d) { return xAxis(d.key); })
+                  .attr("width", xAxis.rangeBand())
+                  .attr("y", function(d) { return yAxis(d.value); })
+                  .attr("height", function(d) { return height - yAxis(d.value); })
+                d3.select("#president")
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("text")
+                  .attr("x", 150)
+                  .attr("y", -25)
+                  .style("font-size", "16px")
+                  .style("text-decoration", "underline")
+                  .text("Presidential Election Voting");
+                d3.select("#president")
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("text")
+                  .attr("x", 200)
+                  .attr("y", 440)
+                  .text("Year");
+                d3.select("#president")
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("x", -200)
+                  .attr("y", -35)
+                  .text("Percent Vote");
             };
+            slider.value = 0;
 
-            var dem_data = data.filter(d=>d.key=="democrat");
-            var rep_data = data.filter(d=>d.key=="republican");
-
-            d3.select("#president")
-              .append("rect")
-              .attr("width", "100%")
-              .attr("height", "100%")
-              .attr("fill", "lightgray")
-
-            var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range([0, 400]);
-            xAxis.tickFormat(d3.timeFormat("%Y"));
-            d3.select("#president")
-              .append("g")
-                .attr("transform", "translate(50, 450)")
-              .call(d3.axisBottom(xAxis));
-            var yAxis = d3.scaleLinear().domain([0, 100]).range([400, 0]);
-            d3.select("#president")
-              .append("g")
-                .attr("transform", "translate(50, 50)")
-              .call(d3.axisLeft(yAxis));
-            const line = d3.line().x(function(d) { return xAxis(new Date(d.key)); }).y(function(d) { return yAxis(d.value); });
-            d3.select("#president")
-              .selectAll("lines")
-              .data(data)
-              .enter()
-              .append("g").attr("transform", "translate(50,50)")
-              .append("path")
-              .attr("fill", "none")
-              .attr("stroke", function(d) {if (d.key == "democrat") { return "blue"; } else { return "red";} })
-              .attr("stroke-width", 1.5)
-              .attr("d", function(d) { return line(d.values); });
-            d3.select("#president")
-              .append("g").attr("transform", "translate(50,50)")
-              .append("text")
-              .attr("x", 150)
-              .attr("y", -25)
-              .style("font-size", "16px")
-              .style("text-decoration", "underline")
-              .text("Presidential Election Voting");
-            d3.select("#president")
-              .append("g").attr("transform", "translate(50,50)")
-              .append("text")
-              .attr("x", 200)
-              .attr("y", 440)
-              .text("Year");
-            d3.select("#president")
-              .append("g").attr("transform", "translate(50,50)")
-              .append("text")
-              .attr("transform", "rotate(-90)")
-              .attr("x", -200)
-              .attr("y", -35)
-              .text("Percent Vote");
         }
     </script>
   </body>
