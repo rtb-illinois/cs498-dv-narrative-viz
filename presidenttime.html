@@ -190,7 +190,9 @@
                 d3.select("#president").selectAll("*").remove()
 
                 //var dem_data = data.filter(d=>d.key=="democrat");
+                console.log(typeof data)
                 var rep_data = data.filter(d=>d.key=="republican").values;
+                console.log(typeof rep_data)
                 var year_data = rep_data.filter(d=>d.key==current_year).values;
 
                 d3.select("#president")
