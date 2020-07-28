@@ -223,7 +223,7 @@
                   .attr("x", function(d) { return xAxis(d.key); })
                   .attr("width", xAxis.bandwidth())
                   .attr("y", function(d) { return yAxis(d.value); })
-                  .attr("height", function(d) { return height - yAxis(d.value); })
+                  .attr("height", function(d) { return 400 - yAxis(d.value); })
                 d3.select("#president")
                   .append("g").attr("transform", "translate(50,50)")
                   .append("text")
