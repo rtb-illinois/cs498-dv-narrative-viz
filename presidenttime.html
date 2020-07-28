@@ -154,9 +154,11 @@
 
     <script>
         var values = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
-        $('#timeslider').change(function() {
-            $('#timespan').text(values[this.value]);
-        });
+        var slider = document.getElementById("timeslider");
+        var span = document.getElementById("timespan");
+        slider.oninput = function() {
+            span.innerHTML = values[this.value];
+        }
         d3.select("div#container1")
           .append("svg")
           .attr("preserveAspectRatio", "xMinyMin meet")
