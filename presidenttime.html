@@ -203,7 +203,7 @@
             var xAxis = d3.scaleBand().domain(unique_states).range([0, 900]).paddingInner(0.05);
             d3.select("#president")
               .append("g")
-                .attr("transform", "translate(50, 750)")
+                .attr("transform", "translate(50, 550)")
                 .style("font", "16px")
               .call(d3.axisBottom(xAxis));
             var yAxis = d3.scaleLinear().domain([0, 100]).range([500, 0]);
@@ -284,7 +284,7 @@
                 var xAxis = d3.scaleBand().domain(unique_states).range([0, 900]).paddingInner(0.05);
                 d3.select("#president")
                   .append("g")
-                    .attr("transform", "translate(50, 750)")
+                    .attr("transform", "translate(50, 550)")
                   .call(d3.axisBottom(xAxis));
                 var yAxis = d3.scaleLinear().domain([0, 100]).range([500, 0]);
                 d3.select("#president")
