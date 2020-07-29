@@ -259,7 +259,7 @@
               .append("g").attr("transform", "translate(50, 50")
               .append("rect")
               .attr("x", 250)
-              .attr("y", 115)
+              .attr("y", 130)
               .attr("rx", 15)
               .attr("ry", 15)
               .attr("width", 225)
@@ -269,31 +269,31 @@
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
               .attr("x", 260)
-              .attr("y", 130)
+              .attr("y", 145)
               .text("A candidate does not need to win the");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
               .attr("x", 260)
-              .attr("y", 145)
+              .attr("y", 160)
               .text("popular vote in order to become the");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
               .attr("x", 260)
-              .attr("y", 160)
+              .attr("y", 175)
               .text("president, such as in 2016 with");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
               .attr("x", 260)
-              .attr("y", 175)
+              .attr("y", 190)
               .text("Trump winning the election despite");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
               .attr("x", 260)
-              .attr("y", 190)
+              .attr("y", 205)
               .text("losing the popular vote.");
         }).catch(function(error) {
             console.log("Caught an error");
@@ -366,6 +366,16 @@
               .attr("x", -200)
               .attr("y", -35)
               .text("Percent Vote");
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("rect")
+              .attr("x", 75)
+              .attr("y", 260)
+              .attr("rx", 15)
+              .attr("ry", 15)
+              .attr("width", 225)
+              .attr("height", 90)
+              .attr("fill", "lightgoldenrodyellow")
         }).catch(function(error) {
             console.log("Caught an error");
         });
@@ -437,6 +447,16 @@
               .attr("x", -200)
               .attr("y", -35)
               .text("Percent Vote");
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("rect")
+              .attr("x", 250)
+              .attr("y", 130)
+              .attr("rx", 15)
+              .attr("ry", 15)
+              .attr("width", 225)
+              .attr("height", 90)
+              .attr("fill", "lightgoldenrodyellow")
         }).catch(function(error) {
             console.log("Caught an error");
         });
