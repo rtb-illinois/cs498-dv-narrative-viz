@@ -268,6 +268,8 @@
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
+              .attr("x", 210)
+              .attr("y", 110)
               .text("test text for length to see how it does");
         }).catch(function(error) {
             console.log("Caught an error");
