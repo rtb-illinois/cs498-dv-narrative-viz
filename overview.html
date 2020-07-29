@@ -265,8 +265,10 @@
               .attr("width", 225)
               .attr("height", 100)
               .attr("fill", "lightgoldenrodyellow")
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
               .append("text")
-              .text("test text");
+              .text("test text for length to see how it does");
         }).catch(function(error) {
             console.log("Caught an error");
         });
