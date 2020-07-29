@@ -191,7 +191,9 @@
                 states.push(d.state_po);
             });
             var unique_years = [...new Set(years)];
+            unique_years.sort();
             var unique_states = [...new Set(states)];
+            unique_states.sort();
             var slider = document.getElementById("timeslider");
             var span = document.getElementById("timespan");
             slider.min = 0;
