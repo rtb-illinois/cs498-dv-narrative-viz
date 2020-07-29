@@ -5,7 +5,7 @@
     .svg-container {
       display: inline-block;
       position: relative;
-      width: 33%;
+      width: 80%;
       height: auto;
       padding-bottom: 100%;
       vertical-align: top;
@@ -22,7 +22,7 @@
       background: navy;
       color: white;
       font-size: 15px;
-      text-align: center;
+      text-align: center
     }
     .pagetitle {
       text-align: center;
@@ -41,6 +41,13 @@
       display: inline-block;
       margin: 0 auto;
       width: 80%;
+      font-size: 14px;
+    }
+    .pageslidercontent {
+      display: inline-block;
+      margin: 0 auto;
+      width: 80%;
+      height: 40px;
       font-size: 14px;
     }
     .pagebuttoncontent {
@@ -100,7 +107,7 @@
     <title>USA Election Trends</title>
   </head>
 
-  <body>
+  <body onload='init()'>
 
     <div class="pageheader">
       <p style="float:left; vertical-align: middle; display: inline;">USA Election Trends</p>
@@ -114,7 +121,7 @@
     </div>
 
     <div class="pagetitle">
-      <h1>US House Voting Over Time</h1>
+      <h2>US House Voting Over Time</h2>
     </div>
 
     <div class="pagedescription">
@@ -137,6 +144,23 @@
     </div>
 
     <div class="pagecenter">
+      <div class="pageslidercontent">
+        <div class="pagebutton">
+          <span >Select Year:</span>
+          <input id="timeslider" type="range" min="0" max="10" value="0">
+          <span id="timespan">1976</span>
+        </div>
+        <div class="pagebutton">
+          <span >Select Party:</span>
+          <span >&nbsp;&nbsp;&nbsp;Republican:</span>
+          <input type="checkbox" id="republican">
+          <span >&nbsp;&nbsp;&nbsp;Democratic:</span>
+          <input type="checkbox" id="democratic">
+        </div>
+      </div>
+    </div>
+
+    <div class="pagecenter">
       <div class="pagecontent">
         <div id="container1" class="svg-container">
         </div>
@@ -144,75 +168,157 @@
     </div>
 
     <script>
-        d3.select("div#container1")
-          .append("svg")
-          .attr("preserveAspectRatio", "xMinyMin meet")
-          .attr("viewBox", "0 0 500 500")
-          .attr("id", "house")
-          .classed("svg-content", true);
-        //// US Presidency
-        d3.csv('./data/house.csv').then(function(csv_data) {
+        async function init() {
+            d3.select("div#container1")
+              .append("svg")
+              .attr("preserveAspectRatio", "xMinyMin meet")
+              .attr("viewBox", "0 0 1000 600")
+              .attr("id", "house")
+              .classed("svg-content", true);
+
+            var csv_data = await d3.csv('./data/house.csv');
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
+                .key(function(d) { return d.state_po; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-            var dem_data = data.filter(d=>d.key=="democrat");
-            var rep_data = data.filter(d=>d.key=="republican");
 
-            d3.select("#house")
-              .append("rect")
-              .attr("width", "100%")
-              .attr("height", "100%")
-              .attr("fill", "lightgray")
+            var years = [];
+            var states = [];
+            csv_data.forEach(function(d,i) {
+                years.push(d.year);
+                states.push(d.state_po);
+            });
+            var unique_years = [...new Set(years)];
+            var unique_states = [...new Set(states)];
+            var slider = document.getElementById("timeslider");
+            var span = document.getElementById("timespan");
+            slider.min = 0;
+            slider.max = unique_years.length - 1;
+            var check_republican = document.getElementById("republican");
+            var check_democratic = document.getElementById("democratic");
+            var party = "republican";
+            check_republican.checked = true;
+            check_democratic.checked = false;
 
-            var xAxis = d3.scaleTime().domain([new Date("1976-01-01"), new Date("2020-01-01")]).range([0, 400]);
-            xAxis.tickFormat(d3.timeFormat("%Y"));
-            d3.select("#house")
-              .append("g")
-                .attr("transform", "translate(50, 450)")
-              .call(d3.axisBottom(xAxis));
-            var yAxis = d3.scaleLinear().domain([0, 100]).range([400, 0]);
-            d3.select("#house")
-              .append("g")
-                .attr("transform", "translate(50, 50)")
-              .call(d3.axisLeft(yAxis));
-            const line = d3.line().x(function(d) { return xAxis(new Date(d.key)); }).y(function(d) { return yAxis(d.value); });
-            d3.select("#house")
-              .selectAll("lines")
-              .data(data)
-              .enter()
-              .append("g").attr("transform", "translate(50,50)")
-              .append("path")
-              .attr("fill", "none")
-              .attr("stroke", function(d) {if (d.key == "democrat") { return "blue"; } else { return "red";} })
-              .attr("stroke-width", 1.5)
-              .attr("d", function(d) { return line(d.values); });
-            d3.select("#house")
-              .append("g").attr("transform", "translate(50,50)")
-              .append("text")
-              .attr("x", 150)
-              .attr("y", -25)
-              .style("font-size", "16px")
-              .style("text-decoration", "underline")
-              .text("US House Election Voting");
-            d3.select("#house")
-              .append("g").attr("transform", "translate(50,50)")
-              .append("text")
-              .attr("x", 200)
-              .attr("y", 440)
-              .text("Year");
-            d3.select("#house")
-              .append("g").attr("transform", "translate(50,50)")
-              .append("text")
-              .attr("transform", "rotate(-90)")
-              .attr("x", -200)
-              .attr("y", -35)
-              .text("Percent Vote");
-        }).catch(function(error) {
-            console.log("Caught an error");
-        });
+            function create_graph(year, party) {
+                d3.select("#house").selectAll("*").remove()
 
+                var party_data = data.find(d=>d.key==party).values;
+                var year_data = party_data.find(d=>d.key==year).values;
+                var y_axis_label = "Percent Republican Vote";
+                var bar_color = "red";
+                if (party == "democrat") {
+                    y_axis_label = "Percent Democratic Vote";
+                    bar_color = "blue";
+                }
+
+                d3.select("#house")
+                  .append("rect")
+                  .attr("width", "100%")
+                  .attr("height", "100%")
+                  .attr("fill", "lightgray")
+
+                var xAxis = d3.scaleBand().domain(unique_states).range([0, 900]).paddingInner(0.05);
+                d3.select("#house")
+                  .append("g")
+                    .attr("transform", "translate(50, 550)")
+                    .style("font", "16px")
+                  .call(d3.axisBottom(xAxis));
+                var yAxis = d3.scaleLinear().domain([0, 100]).range([500, 0]);
+                d3.select("#house")
+                  .append("g")
+                    .attr("transform", "translate(50, 50)")
+                    .style("font", "16px")
+                  .call(d3.axisLeft(yAxis));
+                d3.select("#house")
+                  .append("g").attr("transform", "translate(50, 50)")
+                  .append("line")
+                  .style("stroke", "black")
+                  .style("stroke-dasharray", "5,5")
+                  .attr("x1", 0)
+                  .attr("x2", 900)
+                  .attr("y1", yAxis(50.0))
+                  .attr("y2", yAxis(50.0))
+                d3.select("#house")
+                  .selectAll("bar")
+                  .data(year_data)
+                  .enter()
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("rect")
+                  .attr("fill", bar_color)
+                  .attr("x", function(d) { return xAxis(d.key); })
+                  .attr("width", xAxis.bandwidth())
+                  .attr("y", function(d) { return yAxis(d.value); })
+                  .attr("height", function(d) { return 500 - yAxis(d.value); })
+                d3.select("#house")
+                  .append("g").attr("transform", "translate(50, 50)")
+                  .append("line")
+                  .style("stroke", "black")
+                  .style("stroke-dasharray", "5,5")
+                  .attr("x1", 0)
+                  .attr("x2", 900)
+                  .attr("y1", yAxis(50.0))
+                  .attr("y2", yAxis(50.0));
+                d3.select("#house")
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("text")
+                  .attr("x", 300)
+                  .attr("y", -25)
+                  .style("font-size", "24px")
+                  .style("text-decoration", "underline")
+                  .text("US House Election Voting");
+                d3.select("#house")
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("text")
+                  .attr("x", 450)
+                  .attr("y", 540)
+                  .style("font-size", "24px")
+                  .text("State");
+                d3.select("#house")
+                  .append("g").attr("transform", "translate(50,50)")
+                  .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("x", -350)
+                  .attr("y", -25)
+                  .style("font-size", "24px")
+                  .text(y_axis_label);
+            }
+
+            var current_year = unique_years[0];
+            span.innerHTML = current_year;
+            create_graph(current_year, party);
+
+            slider.oninput = function() {
+                current_year = unique_years[this.value];
+                span.innerHTML = current_year;
+                create_graph(current_year, party);
+            };
+
+            check_republican.onchange = function() {
+                if (check_republican.checked) {
+                    party = "republican";
+                    check_democratic.checked = false;
+                } else {
+                    party = "democrat";
+                    check_democratic.checked = true;
+                }
+                create_graph(current_year, party);
+            };
+
+            check_democratic.onchange = function() {
+                if (check_democratic.checked) {
+                    party = "democrat";
+                    check_republican.checked = false;
+                } else {
+                    party = "republican";
+                    check_republican.checked = true;
+                }
+                create_graph(current_year, party);
+            };
+
+        }
     </script>
   </body>
 </html>
