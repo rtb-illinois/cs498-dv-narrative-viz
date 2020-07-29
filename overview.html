@@ -168,6 +168,10 @@
       </div>
     </div>
 
+    <div id="presidentannotation" />
+    <div id="senateannotation" />
+    <div id="houseannotation" />
+
     <script>
         d3.select("div#container1")
           .append("svg")
@@ -255,6 +259,11 @@
               .attr("x", -200)
               .attr("y", -35)
               .text("Percent Vote");
+            d3.select("#presidentannotation")
+              .style("opacity", 1)
+              .style("left", "250px")
+              .style("top", "250px")
+              .html("Test Tooltip");
         }).catch(function(error) {
             console.log("Caught an error");
         });
