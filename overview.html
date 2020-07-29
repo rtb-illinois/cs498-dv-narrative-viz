@@ -258,43 +258,43 @@
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("rect")
-              .attr("x", 200)
-              .attr("y", 100)
+              .attr("x", 250)
+              .attr("y", 115)
               .attr("rx", 15)
               .attr("ry", 15)
               .attr("width", 225)
-              .attr("height", 100)
+              .attr("height", 90)
               .attr("fill", "lightgoldenrodyellow")
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
-              .attr("x", 210)
-              .attr("y", 115)
+              .attr("x", 260)
+              .attr("y", 130)
               .text("A candidate does not need to win the");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
-              .attr("x", 210)
-              .attr("y", 130)
+              .attr("x", 260)
+              .attr("y", 145)
               .text("popular vote in order to become the");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
-              .attr("x", 210)
-              .attr("y", 145)
-              .text("president, such as in 2016 with Trump");
-            d3.select("#president")
-              .append("g").attr("transform", "translate(50, 50")
-              .append("text")
-              .attr("x", 210)
+              .attr("x", 260)
               .attr("y", 160)
-              .text("winning the election but losing the");
+              .text("president, such as in 2016 with");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
-              .attr("x", 210)
+              .attr("x", 260)
               .attr("y", 175)
-              .text("popular vote.");
+              .text("Trump winning the election despite");
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 260)
+              .attr("y", 190)
+              .text("losing the popular vote.");
         }).catch(function(error) {
             console.log("Caught an error");
         });
