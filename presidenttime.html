@@ -151,10 +151,10 @@
           <span id="timespan">1976</span>
         </div>
         <div class="pagebutton">
-          <span >Select One Political Party:</span>
-          <span >   Republican:</span>
+          <span >Select Party:</span>
+          <span >&nbsp;&nbsp;&nbsp;Republican:</span>
           <input type="checkbox" id="republican">
-          <span >   Democratic:</span>
+          <span >&nbsp;&nbsp;&nbsp;Democratic:</span>
           <input type="checkbox" id="democratic">
         </div>
       </div>
@@ -196,8 +196,8 @@
             var span = document.getElementById("timespan");
             slider.min = 0;
             slider.max = unique_years.length - 1;
-            var check_republican = document.getElementByID("republican");
-            var check_democratic = document.getElementByID("democratic");
+            var check_republican = document.getElementById("republican");
+            var check_democratic = document.getElementById("democratic");
             var party = "republican";
             check_republican.checked = true;
             check_democratic.checked = false;
