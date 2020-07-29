@@ -138,7 +138,7 @@
           <a href="overview" class="button"><span>Previous: Overview</span></a>
         </div>
         <div class="pagebutton">
-          <a href="presidentstate" class="button"><span>Next: US Presidency State Detail</span></a>
+          <a href="presidentsummary" class="button"><span>Next: US Presidency Voting Summary</span></a>
         </div>
       </div>
     </div>
@@ -234,15 +234,6 @@
                     .attr("transform", "translate(50, 50)")
                     .style("font", "16px")
                   .call(d3.axisLeft(yAxis));
-                d3.select("#president")
-                  .append("g").attr("transform", "translate(50, 50)")
-                  .append("line")
-                  .style("stroke", "black")
-                  .style("stroke-dasharray", "5,5")
-                  .attr("x1", 0)
-                  .attr("x2", 900)
-                  .attr("y1", yAxis(50.0))
-                  .attr("y2", yAxis(50.0))
                 d3.select("#president")
                   .selectAll("bar")
                   .data(year_data)

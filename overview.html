@@ -226,6 +226,15 @@
               .attr("stroke-width", 1.5)
               .attr("d", function(d) { return line(d.values); });
             d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "black")
+              .style("stroke-dasharray", "5,5")
+              .attr("x1", 0)
+              .attr("x2", 400)
+              .attr("y1", yAxis(50.0))
+              .attr("y2", yAxis(50.0));
+            d3.select("#president")
               .append("g").attr("transform", "translate(50,50)")
               .append("text")
               .attr("x", 150)
@@ -288,6 +297,15 @@
               .attr("stroke-width", 1.5)
               .attr("d", function(d) { return line(d.values); });
             d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "black")
+              .style("stroke-dasharray", "5,5")
+              .attr("x1", 0)
+              .attr("x2", 400)
+              .attr("y1", yAxis(50.0))
+              .attr("y2", yAxis(50.0));
+            d3.select("#house")
               .append("g").attr("transform", "translate(50,50)")
               .append("text")
               .attr("x", 150)
@@ -349,6 +367,15 @@
               .attr("stroke", function(d) {if (d.key == "democrat") { return "blue"; } else { return "red";} })
               .attr("stroke-width", 1.5)
               .attr("d", function(d) { return line(d.values); });
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "black")
+              .style("stroke-dasharray", "5,5")
+              .attr("x1", 0)
+              .attr("x2", 400)
+              .attr("y1", yAxis(50.0))
+              .attr("y2", yAxis(50.0));
             d3.select("#senate")
               .append("g").attr("transform", "translate(50,50)")
               .append("text")
