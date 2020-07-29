@@ -262,9 +262,11 @@
               .attr("y", 100)
               .attr("rx", 15)
               .attr("ry", 15)
-              .attr("width", 100)
+              .attr("width", 225)
               .attr("height", 100)
-              .attr("fill", "yellow");
+              .attr("fill", "lightgoldenrodyellow")
+              .append("text")
+              .text("test text");
         }).catch(function(error) {
             console.log("Caught an error");
         });
