@@ -269,8 +269,32 @@
               .append("g").attr("transform", "translate(50, 50")
               .append("text")
               .attr("x", 210)
-              .attr("y", 110)
-              .text("test text for length to see how it does");
+              .attr("y", 115)
+              .text("A candidate does not need to win the");
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 210)
+              .attr("y", 130)
+              .text("popular vote in order to become the");
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 210)
+              .attr("y", 145)
+              .text("president, such as in 2016 with Trump");
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 210)
+              .attr("y", 160)
+              .text("winning the election but losing the");
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 210)
+              .attr("y", 175)
+              .text("popular vote.");
         }).catch(function(error) {
             console.log("Caught an error");
         });
