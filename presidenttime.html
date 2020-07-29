@@ -202,11 +202,17 @@
             check_republican.checked = true;
             check_democratic.checked = false;
 
-            function create_graph(year) {
+            function create_graph(year, party) {
                 d3.select("#president").selectAll("*").remove()
 
-                var rep_data = data.find(d=>d.key=="republican").values;
-                var year_data = rep_data.find(d=>d.key==year).values;
+                var party_data = data.find(d=>d.key==party).values;
+                var year_data = party_data.find(d=>d.key==year).values;
+                var y_axis_label = "Percent Republican Vote";
+                var bar_color = "red";
+                if (party == "democrat") {
+                    y_axis_label = "Percent Democratic Vote";
+                    bar_color = "blue";
+                }
 
                 d3.select("#president")
                   .append("rect")
@@ -241,7 +247,7 @@
                   .enter()
                   .append("g").attr("transform", "translate(50,50)")
                   .append("rect")
-                  .attr("fill", "red")
+                  .attr("fill", bar_color)
                   .attr("x", function(d) { return xAxis(d.key); })
                   .attr("width", xAxis.bandwidth())
                   .attr("y", function(d) { return yAxis(d.value); })
@@ -277,17 +283,17 @@
                   .attr("x", -350)
                   .attr("y", -25)
                   .style("font-size", "24px")
-                  .text("Percent Republican Vote");
+                  .text(y_axis_label);
             }
 
-            start_year = unique_years[0];
-            span.innerHTML = start_year;
-            create_graph(start_year);
+            var current_year = unique_years[0];
+            span.innerHTML = current_year;
+            create_graph(current_year, party);
 
             slider.oninput = function() {
                 current_year = unique_years[this.value];
                 span.innerHTML = current_year;
-                create_graph(current_year);
+                create_graph(current_year, party);
             };
 
             check_republican.onchange = function() {
@@ -298,7 +304,7 @@
                     party = "democrat";
                     check_democratic.checked = true;
                 }
-                console.log(party);
+                create_graph(current_year, party);
             };
 
             check_democratic.onchange = function() {
@@ -309,7 +315,7 @@
                     party = "republican";
                     check_republican.checked = true;
                 }
-                console.log(party);
+                create_graph(current_year, party);
             };
 
         }
