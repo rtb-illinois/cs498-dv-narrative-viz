@@ -181,7 +181,7 @@
               .attr("id", "president")
               .classed("svg-content", true);
 
-            var csv_data = await d3.csv('./data/president.csv');
+            var csv_data = await d3.csv('./data/1976-2016-president.csv');
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })

@@ -135,7 +135,12 @@
         categories: US Presidency, US House, and US Senate. Each of the scenes
         in those drill down stories has a link back to this page so that you can
         quickly navigate back and forth between the different drill down stories.
+      </p>
 
+      <p>
+        The data for this visualization comes from the datasets "US President 1976 - 2016,"
+        "US House 1976 - 2018," and "US Senate 1976 - 2018." These are all hosted with the
+        MIT Election Lab at https://electionlab.mit.edu/data.
       </p>
     </div>
 
@@ -188,7 +193,7 @@
           .attr("id", "senate")
           .classed("svg-content", true);
         //// US Presidency
-        d3.csv('./data/president.csv').then(function(csv_data) {
+        d3.csv('./data/1976-2016-president.csv').then(function(csv_data) {
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
@@ -321,7 +326,7 @@
             console.log("Caught an error");
         });
 
-        d3.csv('./data/house.csv').then(function(csv_data) {
+        d3.csv('./data/1976-2018-house2.csv').then(function(csv_data) {
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
@@ -454,7 +459,7 @@
             console.log("Caught an error");
         });
 
-        d3.csv('./data/senate.csv').then(function(csv_data) {
+        d3.csv('./data/1976-2018-senate.csv').then(function(csv_data) {
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })

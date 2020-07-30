@@ -181,7 +181,7 @@
               .attr("id", "house")
               .classed("svg-content", true);
 
-            var csv_data = await d3.csv('./data/house.csv');
+            var csv_data = await d3.csv('./data/1976-2018-house2.csv');
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })

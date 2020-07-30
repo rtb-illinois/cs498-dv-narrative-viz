@@ -181,7 +181,7 @@
               .attr("id", "senate")
               .classed("svg-content", true);
 
-            var csv_data = await d3.csv('./data/senate.csv');
+            var csv_data = await d3.csv('./data/1976-2018-senate.csv');
             var data = d3.nest()
                 .key(function(d) { return d.party; })
                 .key(function(d) { return d.year; })
