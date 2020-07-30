@@ -370,12 +370,42 @@
               .append("g").attr("transform", "translate(50, 50")
               .append("rect")
               .attr("x", 75)
-              .attr("y", 260)
+              .attr("y", 300)
               .attr("rx", 15)
               .attr("ry", 15)
               .attr("width", 225)
               .attr("height", 90)
               .attr("fill", "lightgoldenrodyellow")
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 85)
+              .attr("y", 315)
+              .text("Elections for the US House happen");
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 85)
+              .attr("y", 330)
+              .text("every two years, more often than for");
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 85)
+              .attr("y", 345)
+              .text("the Senate or Presidency. The voting");
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 85)
+              .attr("y", 360)
+              .text("is generally tight between the two");
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 85)
+              .attr("y", 375)
+              .text("parties.");
         }).catch(function(error) {
             console.log("Caught an error");
         });
@@ -457,6 +487,36 @@
               .attr("width", 225)
               .attr("height", 90)
               .attr("fill", "lightgoldenrodyellow")
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 260)
+              .attr("y", 145)
+              .text("Elections for the US Senate only");
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 260)
+              .attr("y", 160)
+              .text("happen every six years. The");
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 260)
+              .attr("y", 175)
+              .text("democratic party has generally");
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 260)
+              .attr("y", 190)
+              .text("won elections for senators in");
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 260)
+              .attr("y", 205)
+              .text("between 1976 and now.");
         }).catch(function(error) {
             console.log("Caught an error");
         });
