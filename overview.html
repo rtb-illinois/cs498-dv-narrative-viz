@@ -256,7 +256,6 @@
               .attr("y", -35)
               .text("Percent Vote");
             d3.select("#president")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("rect")
               .attr("x", 250)
               .attr("y", 130)
@@ -266,31 +265,26 @@
               .attr("height", 90)
               .attr("fill", "lightgoldenrodyellow")
             d3.select("#president")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 145)
               .text("A candidate does not need to win the");
             d3.select("#president")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 160)
               .text("popular vote in order to become the");
             d3.select("#president")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 175)
               .text("president, such as in 2016 with");
             d3.select("#president")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 190)
               .text("Trump winning the election despite");
             d3.select("#president")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 205)
@@ -316,14 +310,14 @@
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50)")
               .append("text")
-              .attr("x", 140)
-              .attr("y", yAxis(5.0))
+              .attr("x", 130)
+              .attr("y", yAxis(4.0))
               .text("Democratic");
             d3.select("#president")
               .append("g").attr("transform", "translate(50, 50)")
               .append("text")
-              .attr("x", 280)
-              .attr("y", yAxis(5.0))
+              .attr("x", 270)
+              .attr("y", yAxis(4.0))
               .text("Republican");
         }).catch(function(error) {
             console.log("Caught an error");
@@ -397,7 +391,6 @@
               .attr("y", -35)
               .text("Percent Vote");
             d3.select("#house")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("rect")
               .attr("x", 75)
               .attr("y", 300)
@@ -407,35 +400,60 @@
               .attr("height", 90)
               .attr("fill", "lightgoldenrodyellow")
             d3.select("#house")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 85)
               .attr("y", 315)
               .text("Elections for the US House happen");
             d3.select("#house")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 85)
               .attr("y", 330)
               .text("every two years, more often than for");
             d3.select("#house")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 85)
               .attr("y", 345)
               .text("the Senate or Presidency. The voting");
             d3.select("#house")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 85)
               .attr("y", 360)
               .text("is generally tight between the two");
             d3.select("#house")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 85)
               .attr("y", 375)
               .text("parties.");
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "blue")
+              .style("stroke-width", 2)
+              .attr("x1", 100)
+              .attr("x2", 120)
+              .attr("y1", yAxis(5.0))
+              .attr("y2", yAxis(5.0));
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "red")
+              .style("stroke-width", 2)
+              .attr("x1", 240)
+              .attr("x2", 260)
+              .attr("y1", yAxis(5.0))
+              .attr("y2", yAxis(5.0));
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("text")
+              .attr("x", 130)
+              .attr("y", yAxis(4.0))
+              .text("Democratic");
+            d3.select("#house")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("text")
+              .attr("x", 270)
+              .attr("y", yAxis(4.0))
+              .text("Republican");
         }).catch(function(error) {
             console.log("Caught an error");
         });
@@ -508,7 +526,6 @@
               .attr("y", -35)
               .text("Percent Vote");
             d3.select("#senate")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("rect")
               .attr("x", 250)
               .attr("y", 130)
@@ -518,35 +535,60 @@
               .attr("height", 90)
               .attr("fill", "lightgoldenrodyellow")
             d3.select("#senate")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 145)
               .text("Elections for the US Senate only");
             d3.select("#senate")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 160)
               .text("happen every six years. The");
             d3.select("#senate")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 175)
               .text("democratic party has generally");
             d3.select("#senate")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 190)
               .text("won elections for senators in");
             d3.select("#senate")
-              .append("g").attr("transform", "translate(50, 50)")
               .append("text")
               .attr("x", 260)
               .attr("y", 205)
               .text("between 1976 and now.");
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "blue")
+              .style("stroke-width", 2)
+              .attr("x1", 100)
+              .attr("x2", 120)
+              .attr("y1", yAxis(5.0))
+              .attr("y2", yAxis(5.0));
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "red")
+              .style("stroke-width", 2)
+              .attr("x1", 240)
+              .attr("x2", 260)
+              .attr("y1", yAxis(5.0))
+              .attr("y2", yAxis(5.0));
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("text")
+              .attr("x", 130)
+              .attr("y", yAxis(4.0))
+              .text("Democratic");
+            d3.select("#senate")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("text")
+              .attr("x", 270)
+              .attr("y", yAxis(4.0))
+              .text("Republican");
         }).catch(function(error) {
             console.log("Caught an error");
         });
