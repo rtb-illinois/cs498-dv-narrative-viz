@@ -277,6 +277,22 @@
                   .attr("y", -25)
                   .style("font-size", "24px")
                   .text(y_axis_label);
+                d3.select("#house")
+                  .append("g").attr("transform", "translate(50, 50")
+                  .append("rect")
+                  .attr("x", 100)
+                  .attr("y", 50)
+                  .attr("rx", 15)
+                  .attr("ry", 15)
+                  .attr("width", 800)
+                  .attr("height", 30)
+                  .attr("fill", "lightgoldenrodyellow")
+                d3.select("#house")
+                  .append("g").attr("transform", "translate(50, 50")
+                  .append("text")
+                  .attr("x", 110)
+                  .attr("y", 65)
+                  .text("US House elections seem to be more consistent in most states than for other elections, perhaps because they occur at smaller geographic scales.");
             }
 
             var current_year = unique_years[0];
