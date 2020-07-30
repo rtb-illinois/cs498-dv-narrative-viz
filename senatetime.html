@@ -280,49 +280,43 @@
                 d3.select("#senate")
                   .append("g").attr("transform", "translate(50, 50")
                   .append("rect")
-                  .attr("x", 570)
+                  .attr("x", 575)
                   .attr("y", 50)
                   .attr("rx", 15)
                   .attr("ry", 15)
-                  .attr("width", 225)
-                  .attr("height", 105)
+                  .attr("width", 180)
+                  .attr("height", 90)
                   .attr("fill", "lightgoldenrodyellow")
                 d3.select("#senate")
                   .append("g").attr("transform", "translate(50, 50")
                   .append("text")
-                  .attr("x", 580)
+                  .attr("x", 585)
                   .attr("y", 65)
-                  .text("Because senate elections only occur");
+                  .text("Senate elections only occur every");
                 d3.select("#senate")
                   .append("g").attr("transform", "translate(50, 50")
                   .append("text")
-                  .attr("x", 580)
+                  .attr("x", 585)
                   .attr("y", 80)
-                  .text("every 6 years, some states may");
+                  .text("6 years, so some states may not");
                 d3.select("#senate")
                   .append("g").attr("transform", "translate(50, 50")
                   .append("text")
-                  .attr("x", 580)
+                  .attr("x", 585)
                   .attr("y", 95)
                   .text("have elections in a year when");
                 d3.select("#senate")
                   .append("g").attr("transform", "translate(50, 50")
                   .append("text")
-                  .attr("x", 580)
+                  .attr("x", 585)
                   .attr("y", 110)
-                  .text("another state doesn't. States with");
+                  .text("another state does. States with");
                 d3.select("#senate")
                   .append("g").attr("transform", "translate(50, 50")
                   .append("text")
-                  .attr("x", 580)
+                  .attr("x", 585)
                   .attr("y", 125)
-                  .text("no mark in the chart had no");
-                d3.select("#senate")
-                  .append("g").attr("transform", "translate(50, 50")
-                  .append("text")
-                  .attr("x", 580)
-                  .attr("y", 140)
-                  .text("election in the given year.");
+                  .text("no bar had no election that year.");
             }
 
             var current_year = unique_years[0];
