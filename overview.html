@@ -295,6 +295,34 @@
               .attr("x", 260)
               .attr("y", 205)
               .text("losing the popular vote.");
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "blue")
+              .attr("x1", 100)
+              .attr("x2", 120)
+              .attr("y1", yAxis(5.0))
+              .attr("y2", yAxis(5.0));
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50)")
+              .append("line")
+              .style("stroke", "red")
+              .attr("x1", 300)
+              .attr("x2", 320)
+              .attr("y1", yAxis(5.0))
+              .attr("y2", yAxis(5.0));
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 140)
+              .attr("y", yAxis(5.0))
+              .text("Democratic");
+            d3.select("#president")
+              .append("g").attr("transform", "translate(50, 50")
+              .append("text")
+              .attr("x", 340)
+              .attr("y", yAxis(5.0))
+              .text("Republican");
         }).catch(function(error) {
             console.log("Caught an error");
         });
