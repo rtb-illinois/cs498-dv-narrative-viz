@@ -194,8 +194,6 @@
                 .key(function(d) { return d.year; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-            var dem_data = data.filter(d=>d.key=="democrat");
-            var rep_data = data.filter(d=>d.key=="republican");
 
             d3.select("#president")
               .append("rect")
@@ -329,8 +327,6 @@
                 .key(function(d) { return d.year; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-            var dem_data = data.filter(d=>d.key=="democrat");
-            var rep_data = data.filter(d=>d.key=="republican");
 
             d3.select("#house")
               .append("rect")
@@ -464,8 +460,6 @@
                 .key(function(d) { return d.year; })
                 .rollup(function(v) { return 100.0 * d3.sum(v, function(d) {return d.candidatevotes}) / d3.sum(v, function(d) {return d.totalvotes;})})
                 .entries(csv_data);
-            var dem_data = data.filter(d=>d.key=="democrat");
-            var rep_data = data.filter(d=>d.key=="republican");
 
             d3.select("#senate")
               .append("rect")
